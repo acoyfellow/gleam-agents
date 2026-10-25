@@ -1,0 +1,625 @@
+.gitignore
+  s_5ddfc8f4108175::t_97ab2bde6bc043 1-11
+LICENSE
+  s_5ddfc8f4108175::t_bf5d97552e43df 1-21
+README.md
+  s_5ddfc8f4108175::t_b74a029ecde699 1-57
+bench/hard/accept/allocate-remainder.test.ts
+  s_5ddfc8f4108175::t_7a89bf907ca617 1-27
+bench/hard/accept/business-days.test.ts
+  s_5ddfc8f4108175::t_87976158dfcd83 1-27
+bench/hard/accept/cart-merge.test.ts
+  s_5ddfc8f4108175::t_e37c757b81d69f 1-25
+bench/hard/accept/catalog-search.test.ts
+  s_5ddfc8f4108175::t_a9ba9bd7b6b539 1-22
+bench/hard/accept/csv-parse.test.ts
+  s_5ddfc8f4108175::t_896cf9f79476a1 1-25
+bench/hard/accept/discount-cap.test.ts
+  s_5ddfc8f4108175::t_e1ee495536fd96 1-20
+bench/hard/accept/fixtures.ts
+  s_5ddfc8f4108175::t_9294d77da6bfd6 1-9
+bench/hard/accept/format-negative-code.test.ts
+  s_5ddfc8f4108175::t_4ddd397c780d22 1-26
+bench/hard/accept/installments.test.ts
+  s_5ddfc8f4108175::t_0e780daacef0ed 1-32
+bench/hard/accept/invoice-credit.test.ts
+  s_5ddfc8f4108175::t_0992438577d0ba 1-22
+bench/hard/accept/invoice-rounding-audit.test.ts
+  s_5ddfc8f4108175::t_6ec6a5c004cc68 1-25
+bench/hard/accept/money-words.test.ts
+  s_5ddfc8f4108175::t_382670b873e97d 1-22
+bench/hard/accept/parse-strict.test.ts
+  s_5ddfc8f4108175::t_cd6132d8514ad7 1-34
+bench/hard/accept/report-currency-mix.test.ts
+  s_5ddfc8f4108175::t_15a1f0984c9ba0 1-21
+bench/hard/accept/shipping-weight.test.ts
+  s_5ddfc8f4108175::t_75312411a1bc38 1-19
+bench/hard/accept/sku-glob.test.ts
+  s_5ddfc8f4108175::t_ae89fcf5bf0bcb 1-32
+bench/hard/accept/tax-cent-bug.test.ts
+  s_5ddfc8f4108175::t_4e795247b27b15 1-23
+bench/hard/accept/tax-inclusive.test.ts
+  s_5ddfc8f4108175::t_508a4e29591517 1-16
+bench/hard/conventions.md
+  s_5ddfc8f4108175::t_94b95d709d69ba 1-11
+bench/hard/intents.json
+  s_5ddfc8f4108175::t_7a4ed7ee413696 1-272
+bench/hard/reference/README.md
+  s_5ddfc8f4108175::t_f759952b1e22b2 1-21
+bench/hard/reference/package.json
+  s_5ddfc8f4108175::t_d5dfc35723797f 1-14
+bench/hard/reference/src/cart.ts
+  s_5ddfc8f4108175::t_b92e4b39b15902 1-54
+bench/hard/reference/src/catalog.ts
+  s_5ddfc8f4108175::t_00260d01dcd8a1 1-44
+bench/hard/reference/src/core/money.ts
+  s_5ddfc8f4108175::t_cdc58f6aafe767 1-113
+bench/hard/reference/src/credit.ts
+  s_5ddfc8f4108175::t_e325e57941492f 1-14
+bench/hard/reference/src/csv.ts
+  s_5ddfc8f4108175::t_a8bfdbe86d5543 1-32
+bench/hard/reference/src/dates.ts
+  s_5ddfc8f4108175::t_55845c58c063f1 1-22
+bench/hard/reference/src/discount.ts
+  s_5ddfc8f4108175::t_6d6ef0025581e7 1-24
+bench/hard/reference/src/glob.ts
+  s_5ddfc8f4108175::t_2dc0c7b4f07cf6 1-51
+bench/hard/reference/src/index.ts
+  s_5ddfc8f4108175::t_aafa87d39bec99 1-8
+bench/hard/reference/src/installments.ts
+  s_5ddfc8f4108175::t_30ca5342ff1e59 1-26
+bench/hard/reference/src/invoice.ts
+  s_5ddfc8f4108175::t_a69e14097e4c92 1-48
+bench/hard/reference/src/report.ts
+  s_5ddfc8f4108175::t_8bc5f874f602c1 1-18
+bench/hard/reference/src/shipping.ts
+  s_5ddfc8f4108175::t_ccae6e6d37c31d 1-19
+bench/hard/reference/src/tax.ts
+  s_5ddfc8f4108175::t_4b9ee9ce93c642 1-18
+bench/hard/reference/src/words.ts
+  s_5ddfc8f4108175::t_e6208a0942eedc 1-32
+bench/hard/reference/test/cart.test.ts
+  s_5ddfc8f4108175::t_8b3e27bc3a6a24 1-28
+bench/hard/reference/test/catalog.test.ts
+  s_5ddfc8f4108175::t_e1e117096ef84b 1-25
+bench/hard/reference/test/discount.test.ts
+  s_5ddfc8f4108175::t_5dfb2bb2e04f45 1-16
+bench/hard/reference/test/invoice.test.ts
+  s_5ddfc8f4108175::t_b6762446db3be6 1-30
+bench/hard/reference/test/money.test.ts
+  s_5ddfc8f4108175::t_1df807ee7cf797 1-55
+bench/hard/reference/test/report.test.ts
+  s_5ddfc8f4108175::t_9815991d9a7c73 1-24
+bench/hard/reference/test/shipping.test.ts
+  s_5ddfc8f4108175::t_c829e3f6fad354 1-11
+bench/hard/reference/test/tax.test.ts
+  s_5ddfc8f4108175::t_0747d3616c3ac6 1-17
+bench/hard/reference/tsconfig.json
+  s_5ddfc8f4108175::t_9527d7217369ee 1-15
+bench/hard/seed/README.md
+  s_5ddfc8f4108175::t_d5ab8d72b0240e 1-21
+bench/hard/seed/package.json
+  s_5ddfc8f4108175::t_492fde9b282281 1-14
+bench/hard/seed/src/cart.ts
+  s_5ddfc8f4108175::t_20a9f69cbcee43 1-43
+bench/hard/seed/src/catalog.ts
+  s_5ddfc8f4108175::t_4de6c3a3f8c674 1-35
+bench/hard/seed/src/core/money.ts
+  s_5ddfc8f4108175::t_f4c5ccaa4cc3d0 1-93
+bench/hard/seed/src/discount.ts
+  s_5ddfc8f4108175::t_d3a63e01c330e6 1-16
+bench/hard/seed/src/index.ts
+  s_5ddfc8f4108175::t_b1a21ea2a58708 1-8
+bench/hard/seed/src/invoice.ts
+  s_5ddfc8f4108175::t_d8f68a832918f2 1-45
+bench/hard/seed/src/report.ts
+  s_5ddfc8f4108175::t_b5cb0a1d693673 1-13
+bench/hard/seed/src/shipping.ts
+  s_5ddfc8f4108175::t_f82315da215284 1-12
+bench/hard/seed/src/tax.ts
+  s_5ddfc8f4108175::t_f208c853ea9236 1-12
+bench/hard/seed/test/cart.test.ts
+  s_5ddfc8f4108175::t_ccaccb8206d162 1-28
+bench/hard/seed/test/catalog.test.ts
+  s_5ddfc8f4108175::t_3bd7181bb8842a 1-25
+bench/hard/seed/test/discount.test.ts
+  s_5ddfc8f4108175::t_a2f9da585da54d 1-16
+bench/hard/seed/test/invoice.test.ts
+  s_5ddfc8f4108175::t_536ca256749023 1-30
+bench/hard/seed/test/money.test.ts
+  s_5ddfc8f4108175::t_d64c20748ec992 1-55
+bench/hard/seed/test/report.test.ts
+  s_5ddfc8f4108175::t_40ba0ce6ea8b0f 1-24
+bench/hard/seed/test/shipping.test.ts
+  s_5ddfc8f4108175::t_8570d9bc576ac0 1-11
+bench/hard/seed/test/tax.test.ts
+  s_5ddfc8f4108175::t_bd61e1b9bc9a96 1-17
+bench/hard/seed/tsconfig.json
+  s_5ddfc8f4108175::t_b4e4e23af82277 1-15
+catalog/haiku45-native.json
+  s_5ddfc8f4108175::t_db2bbe0f95a1ac 1-20
+catalog/haiku45-pi-mcp.json
+  s_5ddfc8f4108175::t_104bfed17f93b9 1-33
+catalog/haiku45-pi.json
+  s_5ddfc8f4108175::t_5d907148c3cdfd 1-22
+catalog/sonnet5-native.json
+  s_5ddfc8f4108175::t_ef1c4f60b8f128 1-20
+deploy/example.conf
+  s_5ddfc8f4108175::t_b32b87474895b6 1-3
+docs/catalog.md
+  s_5ddfc8f4108175::t_00eb28f4aff20b 1-80
+docs/graders.md
+  s_5ddfc8f4108175::t_00da50e44d973d 1-28
+docs/index.md
+  s_5ddfc8f4108175::t_17b87e915733e1 1-54
+docs/pi.md
+  s_5ddfc8f4108175::t_91a852a7eb134c 1-31
+docs/plans.md
+  s_5ddfc8f4108175::t_8b5fafde0d874f 1-51
+docs/roadmap.md
+  s_5ddfc8f4108175::t_71637adee08943 1-27
+docs/scope.md
+  s_5ddfc8f4108175::t_9121f8a210dd33 1-18
+evals/baseline-hard-final.json
+  s_5ddfc8f4108175::t_b5004c9ed0e27d 1-2613
+evals/hard/CLAIM.md
+  s_5ddfc8f4108175::t_9ce5611610d804 1-8
+evals/hard/plan.json
+  s_5ddfc8f4108175::t_6af8fe4bc4a18d 1-227
+evals/hard/prompts/allocate-remainder.md
+  s_5ddfc8f4108175::t_3a5e6b20940cdc 1-25
+evals/hard/prompts/business-days.md
+  s_5ddfc8f4108175::t_9a87521ff6f0fb 1-24
+evals/hard/prompts/cart-merge.md
+  s_5ddfc8f4108175::t_9131f3041eb445 1-25
+evals/hard/prompts/catalog-search.md
+  s_5ddfc8f4108175::t_b50ec91a46240c 1-25
+evals/hard/prompts/csv-parse.md
+  s_5ddfc8f4108175::t_539338aafafa83 1-25
+evals/hard/prompts/discount-cap.md
+  s_5ddfc8f4108175::t_ddae5a30e7359c 1-25
+evals/hard/prompts/format-negative-code.md
+  s_5ddfc8f4108175::t_d6be621c84aa4a 1-25
+evals/hard/prompts/installments.md
+  s_5ddfc8f4108175::t_36452330f9b3db 1-25
+evals/hard/prompts/invoice-credit.md
+  s_5ddfc8f4108175::t_c4a18c008d3c10 1-25
+evals/hard/prompts/invoice-rounding-audit.md
+  s_5ddfc8f4108175::t_ca7b4bd2136895 1-24
+evals/hard/prompts/money-words.md
+  s_5ddfc8f4108175::t_cd33cf64010bd4 1-25
+evals/hard/prompts/parse-strict.md
+  s_5ddfc8f4108175::t_416c32dcbf9573 1-25
+evals/hard/prompts/report-currency-mix.md
+  s_5ddfc8f4108175::t_1f5d87ab3a6139 1-25
+evals/hard/prompts/shipping-weight.md
+  s_5ddfc8f4108175::t_eae1cbf0fcc7a8 1-24
+evals/hard/prompts/sku-glob.md
+  s_5ddfc8f4108175::t_62c22b3b41408c 1-25
+evals/hard/prompts/tax-cent-bug.md
+  s_5ddfc8f4108175::t_29a89df41730f2 1-24
+evals/hard/prompts/tax-inclusive.md
+  s_5ddfc8f4108175::t_a5a81dc94cc637 1-25
+evals/mcp/plan.json
+  s_5ddfc8f4108175::t_6fbe32cee45324 1-16
+evals/mcp/prompts/word.md
+  s_5ddfc8f4108175::t_2f552a06d2121a 1
+evals/mcp/seed/README.md
+  s_5ddfc8f4108175::t_2d98dbbe459b1b 1
+evals/pi/plan-1.json
+  s_5ddfc8f4108175::t_119a043e8dc90a 1-19
+evals/pi/plan-scope.json
+  s_5ddfc8f4108175::t_49f909307b17b3 1-16
+evals/smoke/kv-seed/wrangler.jsonc
+  s_5ddfc8f4108175::t_e9aeb7c3cc4974 1-10
+evals/smoke/plan-kv.json
+  s_5ddfc8f4108175::t_88ed2c419074ce 1-19
+evals/smoke/plan-scope.json
+  s_5ddfc8f4108175::t_cb417d87bb0197 1-18
+evals/smoke/plan-sonnet.json
+  s_5ddfc8f4108175::t_2e417ddbc9297b 1-32
+evals/smoke/plan.json
+  s_5ddfc8f4108175::t_7ff780646e9665 1-58
+evals/smoke/prompts/catalog-search.md
+  s_5ddfc8f4108175::t_835e5adcc52d5e 1-25
+evals/smoke/prompts/kv-crud.md
+  s_5ddfc8f4108175::t_fc983192685955 1-20
+evals/smoke/prompts/report-currency-mix.md
+  s_5ddfc8f4108175::t_efd676bd7e7b9f 1-25
+evals/smoke/prompts/scope-probe.md
+  s_5ddfc8f4108175::t_be267059d17ae0 1-7
+gleam.toml
+  s_5ddfc8f4108175::t_2ec6746485eaea 1-27
+harness/mcp/fixture-server.mjs
+  s_5ddfc8f4108175::t_2dfabeedb9374e 1-30
+harness/pi/ply-workspace.ts
+  s_5ddfc8f4108175::t_d5715b64ca0778 1-93
+harness/pi/run-seat.mjs
+  s_5ddfc8f4108175::t_ac1ad6c979e872 1-129
+harness/pi/scope-guard.ts
+  s_5ddfc8f4108175::t_b441d6785106da 1-34
+manifest.toml
+  s_5ddfc8f4108175::t_47b9e1fe82e7a8 1-34
+package.json
+  s_5ddfc8f4108175::t_d71c2158b0b596 1-12
+pi/index.ts
+  s_5ddfc8f4108175::t_d59a0091fbcb9d 1-131
+proof/dns-pin.cjs
+  s_5ddfc8f4108175::t_ce0bad3d1862bc 1-4
+proof/edge-1/edge-cart.pi/ledger.jsonl
+  s_5ddfc8f4108175::t_108c8fd83343c0 1-4
+proof/edge-1/edge-cart.pi/pid
+  s_5ddfc8f4108175::t_f4068c9981401e 1
+proof/edge-1/edge.json
+  s_5ddfc8f4108175::t_07b143ffe8c6fb 1-18
+proof/edge-1/fsck.txt
+  s_5ddfc8f4108175::t_6693a6cb6a35a7 1
+proof/edge-1/local-files.txt
+  s_5ddfc8f4108175::t_be8daf72c1196b 1
+proof/edge-1/merge.json
+  s_5ddfc8f4108175::t_04063f4a396c69 1
+proof/edge-1/prompt.md
+  s_5ddfc8f4108175::t_867e16d56327c9 1-2
+proof/edge-1/receipt.json
+  s_5ddfc8f4108175::t_6a866d9cc13f23 1
+proof/edge-1/shape.json
+  s_5ddfc8f4108175::t_83d49eb46940f8 1-28
+proof/edge-probe.sh
+  s_5ddfc8f4108175::t_1bc3caee6c2950 1-69
+proof/eval/items/h-allocate-remainder.grade.txt
+  s_5ddfc8f4108175::t_2e669c372eca64 1-29
+proof/eval/items/h-allocate-remainder.json
+  s_5ddfc8f4108175::t_777c8c15fbf923 1
+proof/eval/items/h-business-days.grade.txt
+  s_5ddfc8f4108175::t_ee482b0cd80517 1
+proof/eval/items/h-business-days.json
+  s_5ddfc8f4108175::t_b27837edf5f0e1 1
+proof/eval/items/h-cart-merge.grade.txt
+  s_5ddfc8f4108175::t_01489d292672e1 1
+proof/eval/items/h-cart-merge.json
+  s_5ddfc8f4108175::t_6675e388fca61e 1
+proof/eval/items/h-catalog-search.grade.txt
+  s_5ddfc8f4108175::t_a028bd23efd231 1-28
+proof/eval/items/h-catalog-search.json
+  s_5ddfc8f4108175::t_6f266f5b750504 1
+proof/eval/items/h-csv-parse.grade.txt
+  s_5ddfc8f4108175::t_4aaa8a0c0fa521 1
+proof/eval/items/h-csv-parse.json
+  s_5ddfc8f4108175::t_b1791fc01ffe27 1
+proof/eval/items/h-discount-cap.grade.txt
+  s_5ddfc8f4108175::t_0b1353efc20695 1
+proof/eval/items/h-discount-cap.json
+  s_5ddfc8f4108175::t_c22552bd45cdd2 1
+proof/eval/items/h-format-negative-code.grade.txt
+  s_5ddfc8f4108175::t_80f48c43d44cb8 1
+proof/eval/items/h-format-negative-code.json
+  s_5ddfc8f4108175::t_b201d55f12a36f 1
+proof/eval/items/h-installments.grade.txt
+  s_5ddfc8f4108175::t_2db393184cfa70 1
+proof/eval/items/h-installments.json
+  s_5ddfc8f4108175::t_7fa03f6fbb4c9e 1
+proof/eval/items/h-invoice-credit.grade.txt
+  s_5ddfc8f4108175::t_ae5f708c7efe1a 1
+proof/eval/items/h-invoice-credit.json
+  s_5ddfc8f4108175::t_c7715cc790b0e6 1
+proof/eval/items/h-invoice-rounding-audit.grade.txt
+  s_5ddfc8f4108175::t_dc33717722e6ff 1
+proof/eval/items/h-invoice-rounding-audit.json
+  s_5ddfc8f4108175::t_5133f7609c79f1 1
+proof/eval/items/h-money-words.grade.txt
+  s_5ddfc8f4108175::t_6ecfb456385df9 1
+proof/eval/items/h-money-words.json
+  s_5ddfc8f4108175::t_aabdabcd8c3890 1
+proof/eval/items/h-parse-strict.grade.txt
+  s_5ddfc8f4108175::t_cc818d72732ec6 1
+proof/eval/items/h-parse-strict.json
+  s_5ddfc8f4108175::t_c8303711b10f1d 1
+proof/eval/items/h-report-currency-mix.grade.txt
+  s_5ddfc8f4108175::t_6b50393bc8fa45 1
+proof/eval/items/h-report-currency-mix.json
+  s_5ddfc8f4108175::t_733fa502ae8349 1
+proof/eval/items/h-shipping-weight.grade.txt
+  s_5ddfc8f4108175::t_98c98d397aea8d 1
+proof/eval/items/h-shipping-weight.json
+  s_5ddfc8f4108175::t_cb9c3ff372c6bf 1
+proof/eval/items/h-sku-glob.grade.txt
+  s_5ddfc8f4108175::t_6982a1f6d0259c 1-23
+proof/eval/items/h-sku-glob.json
+  s_5ddfc8f4108175::t_ba9a368679637d 1
+proof/eval/items/h-tax-cent-bug.grade.txt
+  s_5ddfc8f4108175::t_dd6c1e738593c3 1
+proof/eval/items/h-tax-cent-bug.json
+  s_5ddfc8f4108175::t_b854d56bf0aeed 1
+proof/eval/items/h-tax-inclusive.grade.txt
+  s_5ddfc8f4108175::t_b67b188b174d41 1
+proof/eval/items/h-tax-inclusive.json
+  s_5ddfc8f4108175::t_c37138b0de2861 1
+proof/eval/run.json
+  s_5ddfc8f4108175::t_b1196235adb443 1
+proof/eval/score.json
+  s_5ddfc8f4108175::t_8d5067cb53106e 1-236
+proof/eval/verdict.json
+  s_5ddfc8f4108175::t_7c88830ddb6f55 1-13
+proof/gate.sh
+  s_5ddfc8f4108175::t_e2d7acf1a443b9 1-30
+proof/mcp-1/items/mcp-word.json
+  s_5ddfc8f4108175::t_e58896d0c0efb2 1
+proof/mcp-1/items/mcp-word.mcp-calls.jsonl
+  s_5ddfc8f4108175::t_d875d3174ed165 1
+proof/mcp-1/items/mcp-word.pi-ledger.jsonl
+  s_5ddfc8f4108175::t_a889b162551252 1-2
+proof/mcp-1/items/mcp-word.pi-receipt.json
+  s_5ddfc8f4108175::t_418a947fbade76 1
+proof/mcp-1/run.json
+  s_5ddfc8f4108175::t_433dbc1938a816 1
+proof/mcp-1/score.json
+  s_5ddfc8f4108175::t_6d585f22c476ac 1-28
+proof/mutant-1/raw/h-allocate-remainder.err
+  s_5ddfc8f4108175::t_fe10e1c1f44af2 1-885
+proof/mutant-1/raw/h-allocate-remainder.json
+  s_5ddfc8f4108175::t_528983c0e8a22a 1
+proof/mutant-1/raw/h-business-days.err
+  s_5ddfc8f4108175::t_6c430e2b013338 1-2603
+proof/mutant-1/raw/h-business-days.json
+  s_5ddfc8f4108175::t_e31fe62cdfdc2e 1
+proof/mutant-1/raw/h-cart-merge.err
+  s_5ddfc8f4108175::t_2b0160ee61bf0d 1-1004
+proof/mutant-1/raw/h-cart-merge.json
+  s_5ddfc8f4108175::t_79b768735a6059 1
+proof/mutant-1/raw/h-catalog-search.err
+  s_5ddfc8f4108175::t_80f80d5b80ae92 1-1282
+proof/mutant-1/raw/h-catalog-search.json
+  s_5ddfc8f4108175::t_80927685bf9385 1
+proof/mutant-1/raw/h-csv-parse.err
+  s_5ddfc8f4108175::t_112f3be1ab00d7 1-6891
+proof/mutant-1/raw/h-csv-parse.json
+  s_5ddfc8f4108175::t_209096000b3a14 1
+proof/mutant-1/raw/h-discount-cap.err
+  s_5ddfc8f4108175::t_f47d4968391b1e 1-588
+proof/mutant-1/raw/h-discount-cap.json
+  s_5ddfc8f4108175::t_90d01fea78a9bc 1
+proof/mutant-1/raw/h-format-negative-code.err
+  s_5ddfc8f4108175::t_eb8439b577573b 1-915
+proof/mutant-1/raw/h-format-negative-code.json
+  s_5ddfc8f4108175::t_0fab2458b19066 1
+proof/mutant-1/raw/h-installments.err
+  s_5ddfc8f4108175::t_7ac36659b66c8a 1-561
+proof/mutant-1/raw/h-installments.json
+  s_5ddfc8f4108175::t_946b9a67590cce 1
+proof/mutant-1/raw/h-invoice-credit.err
+  s_5ddfc8f4108175::t_d50e4d0230c0ef 1-281
+proof/mutant-1/raw/h-invoice-credit.json
+  s_5ddfc8f4108175::t_27a48bf4213e7e 1
+proof/mutant-1/raw/h-invoice-rounding-audit.err
+  s_5ddfc8f4108175::t_2a4ecb85b5e588 1-855
+proof/mutant-1/raw/h-invoice-rounding-audit.json
+  s_5ddfc8f4108175::t_32b67d08f067e6 1
+proof/mutant-1/raw/h-money-words.err
+  s_5ddfc8f4108175::t_12f9f2d47dbfad 1-2614
+proof/mutant-1/raw/h-money-words.json
+  s_5ddfc8f4108175::t_b1bfd9043da921 1
+proof/mutant-1/raw/h-parse-strict.err
+  s_5ddfc8f4108175::t_5d907b85451cfd 1-1220
+proof/mutant-1/raw/h-parse-strict.json
+  s_5ddfc8f4108175::t_42ca8fcaec25e7 1
+proof/mutant-1/raw/h-report-currency-mix.err
+  s_5ddfc8f4108175::t_c040d57931ade4 1-202
+proof/mutant-1/raw/h-report-currency-mix.json
+  s_5ddfc8f4108175::t_7e91bc4faae815 1
+proof/mutant-1/raw/h-shipping-weight.err
+  s_5ddfc8f4108175::t_5c216e4e741157 1-234
+proof/mutant-1/raw/h-shipping-weight.json
+  s_5ddfc8f4108175::t_c1a94d47c668e5 1
+proof/mutant-1/raw/h-sku-glob.err
+  s_5ddfc8f4108175::t_e9550022134f89 1-5559
+proof/mutant-1/raw/h-sku-glob.json
+  s_5ddfc8f4108175::t_9e49988da371f7 1
+proof/mutant-1/raw/h-tax-cent-bug.err
+  s_5ddfc8f4108175::t_dd453a00f58d7c 1-623
+proof/mutant-1/raw/h-tax-cent-bug.json
+  s_5ddfc8f4108175::t_a27c7f8c6a5991 1
+proof/mutant-1/raw/h-tax-inclusive.err
+  s_5ddfc8f4108175::t_19de09ffeaee8d 1-266
+proof/mutant-1/raw/h-tax-inclusive.json
+  s_5ddfc8f4108175::t_296879a56363ee 1
+proof/mutant-1/verdict.json
+  s_5ddfc8f4108175::t_e1f576e438b245 1-134
+proof/mutant-judge.sh
+  s_5ddfc8f4108175::t_20b4bb72fd252e 1-18
+proof/myax-push.json
+  s_5ddfc8f4108175::t_59e38221095995 1
+proof/pi-1/items/pi-cart-merge.grade.txt
+  s_5ddfc8f4108175::t_30a562709e3e3f 1
+proof/pi-1/items/pi-cart-merge.json
+  s_5ddfc8f4108175::t_2b622ba3d9468c 1
+proof/pi-1/items/pi-cart-merge.pi-ledger.jsonl
+  s_5ddfc8f4108175::t_4f758ab5189785 1-19
+proof/pi-1/items/pi-cart-merge.pi-receipt.json
+  s_5ddfc8f4108175::t_5cd1e93a84af9d 1
+proof/pi-1/run.json
+  s_5ddfc8f4108175::t_ade0952a12dd66 1
+proof/pi-1/score.json
+  s_5ddfc8f4108175::t_b5459e53fbc12a 1-28
+proof/pi-scope-1/items/pi-scope.json
+  s_5ddfc8f4108175::t_1f2814c5645e14 1
+proof/pi-scope-1/items/pi-scope.pi-ledger.jsonl
+  s_5ddfc8f4108175::t_f2f74c59dd8b7c 1-5
+proof/pi-scope-1/items/pi-scope.pi-receipt.json
+  s_5ddfc8f4108175::t_bf75698b5b3407 1
+proof/pi-scope-1/run.json
+  s_5ddfc8f4108175::t_57ae282753fed3 1
+proof/pi-scope-1/score.json
+  s_5ddfc8f4108175::t_4c3bf23840353f 1-28
+proof/prod-auth.json
+  s_5ddfc8f4108175::t_d0efc02e3885c4 1-14
+proof/prod-login.mjs
+  s_5ddfc8f4108175::t_60960b1b6c59a0 1-22
+proof/prod-publish.ts
+  s_5ddfc8f4108175::t_698a7b78fe12d8 1-56
+proof/resume-1/first.json
+  s_5ddfc8f4108175::t_9f613aa86db9f5 1
+proof/resume-1/grade.txt
+  s_5ddfc8f4108175::t_f074bff5f01a3b 1
+proof/resume-1/resume.json
+  s_5ddfc8f4108175::t_eca7d27f0e1dfa 1-12
+proof/resume-1/second.json
+  s_5ddfc8f4108175::t_55836295465b2b 1
+proof/resume-1/session-roles.jsonl
+  s_5ddfc8f4108175::t_b0cd03ec01b26f 1-24
+proof/resume-1/shape.json
+  s_5ddfc8f4108175::t_15472afdbf24e9 1-27
+proof/resume-probe.sh
+  s_5ddfc8f4108175::t_110122fe2c8062 1-43
+proof/scope-1/items/p1-haiku-scope.json
+  s_5ddfc8f4108175::t_e03ca1ac9d2437 1
+proof/scope-1/run.json
+  s_5ddfc8f4108175::t_c5f3b857d56783 1
+proof/scope-1/score.json
+  s_5ddfc8f4108175::t_81d3c997e7baad 1-28
+proof/smoke-1/items/s1-sonnet-catalog.grade.txt
+  s_5ddfc8f4108175::t_6fe9fa041645ff 1-6
+proof/smoke-1/items/s1-sonnet-catalog.json
+  s_5ddfc8f4108175::t_d944a6d46ca389 1
+proof/smoke-1/items/s2-haiku-catalog.grade.txt
+  s_5ddfc8f4108175::t_3203d3d233c93e 1-28
+proof/smoke-1/items/s2-haiku-catalog.json
+  s_5ddfc8f4108175::t_42f285949b0a41 1
+proof/smoke-1/items/s3-haiku-report.grade.txt
+  s_5ddfc8f4108175::t_1e1f52993b56c6 1-25
+proof/smoke-1/items/s3-haiku-report.json
+  s_5ddfc8f4108175::t_5de38064f001c6 1
+proof/smoke-1/items/s4-sonnet-kv.grade.txt
+  s_5ddfc8f4108175::t_65baad20a6a377 1
+proof/smoke-1/items/s4-sonnet-kv.json
+  s_5ddfc8f4108175::t_47af21cf252e4f 1
+proof/smoke-1/run.json
+  s_5ddfc8f4108175::t_54f53852d2df96 1
+proof/smoke-1/score.json
+  s_5ddfc8f4108175::t_893ce6cd9f6b85 1-67
+proof/smoke-2/items/s1-sonnet-catalog.grade.txt
+  s_5ddfc8f4108175::t_0e423936d0ee0d 1
+proof/smoke-2/items/s1-sonnet-catalog.json
+  s_5ddfc8f4108175::t_42fced4ab54d1c 1
+proof/smoke-2/items/s4-sonnet-kv.grade.txt
+  s_5ddfc8f4108175::t_8b2896bf8d5817 1
+proof/smoke-2/items/s4-sonnet-kv.json
+  s_5ddfc8f4108175::t_3a689f1dd603e5 1
+proof/smoke-2/run.json
+  s_5ddfc8f4108175::t_c08e8ca0851370 1
+proof/smoke-2/score.json
+  s_5ddfc8f4108175::t_97927b697443d3 1-41
+proof/smoke-3/items/s4-sonnet-kv.grade.txt
+  s_5ddfc8f4108175::t_40d88b868e09df 1
+proof/smoke-3/items/s4-sonnet-kv.json
+  s_5ddfc8f4108175::t_70285fbbcc243d 1
+proof/smoke-3/run.json
+  s_5ddfc8f4108175::t_442fb32a8c17ff 1
+proof/smoke-3/score.json
+  s_5ddfc8f4108175::t_c374d20a911a78 1-28
+scripts/check-edge.sh
+  s_5ddfc8f4108175::t_8d10cd7c496c1c 1-31
+scripts/check-install.sh
+  s_5ddfc8f4108175::t_815947d5bdd669 1-18
+scripts/check-report.sh
+  s_5ddfc8f4108175::t_65aaa84bb6a146 1-14
+scripts/check-roadmap.mjs
+  s_5ddfc8f4108175::t_df666532b067d2 1-19
+scripts/mutant-verdict.mjs
+  s_5ddfc8f4108175::t_2d6a09714a52ba 1-36
+scripts/score.mjs
+  s_5ddfc8f4108175::t_35c68cb8f6b5c9 1-27
+scripts/scrub.mjs
+  s_5ddfc8f4108175::t_c4a979447e4a76 1-52
+scripts/ship.sh
+  s_5ddfc8f4108175::t_1460cbb91b5f6a 1-18
+scripts/smoke.sh
+  s_5ddfc8f4108175::t_31fa0acd843037 1-9
+scripts/stage-public.sh
+  s_5ddfc8f4108175::t_8435879c28eb79 1-10
+scripts/verdict.mjs
+  s_5ddfc8f4108175::t_4d9442a9772ae7 1-25
+src/fleet.gleam
+  s_5ddfc8f4108175::t_9aff14b8b48d94 1-244
+src/fleet/agent.gleam
+  s_5ddfc8f4108175::t_5b378291988dcd 1-348
+src/fleet/llm.gleam
+  s_5ddfc8f4108175::t_2c3a60f55d8c79 1-164
+src/fleet/pi_harness.gleam
+  s_5ddfc8f4108175::t_c1f3330a3c2804 1-171
+src/fleet/plan.gleam
+  s_5ddfc8f4108175::t_913a51ba21fbd3 1-56
+src/fleet/scope.gleam
+  s_5ddfc8f4108175::t_f435a815cd1af0 1-52
+src/fleet/shape.gleam
+  s_5ddfc8f4108175::t_5442b9fe971129 1-55
+src/fleet/shell.gleam
+  s_5ddfc8f4108175::t_985e8f9f402790 1-23
+src/fleet_ffi.erl
+  s_5ddfc8f4108175::t_aac82a3fd60ff9 1-22
+src/fleet_json_ffi.erl
+  s_5ddfc8f4108175::t_abb0b529339921 1-16
+status.json
+  s_5ddfc8f4108175::t_6c2fc74e6d3844 1-25
+test/fleet_test.gleam
+  s_5ddfc8f4108175::t_d1596bd6037c6f 1-31
+worker/.npmrc
+  s_5ddfc8f4108175::t_1ac2ca2ac6a173 1-2
+worker/bun.lock
+  s_5ddfc8f4108175::t_09fcc1cb3cb668 1-338
+worker/bunfig.toml
+  s_5ddfc8f4108175::t_a10e52923dcc49 1-5
+worker/package.json
+  s_5ddfc8f4108175::t_03b113a6d185b9 1-20
+worker/scripts/build-docs.mjs
+  s_5ddfc8f4108175::t_8476c8d6110da9 1-19
+worker/src/auth/cloudflare.ts
+  s_5ddfc8f4108175::t_2f4c449b24b460 1-218
+worker/src/auth/oauth.ts
+  s_5ddfc8f4108175::t_18b4f47a181b98 1-182
+worker/src/auth/return.ts
+  s_5ddfc8f4108175::t_04f937ca780a95 1-3
+worker/src/auth/session.ts
+  s_5ddfc8f4108175::t_b4ad41a2dbbfa3 1-115
+worker/src/crypto.ts
+  s_5ddfc8f4108175::t_3c00c7c6995968 1-30
+worker/src/docs.generated.ts
+  s_5ddfc8f4108175::t_97486f5d0157e3 1
+worker/src/index.ts
+  s_5ddfc8f4108175::t_242706de60a11f 1-157
+worker/src/objects.ts
+  s_5ddfc8f4108175::t_75d1a95d92819c 1-132
+worker/src/pages/layout.ts
+  s_5ddfc8f4108175::t_6660e4977cd38d 1-36
+worker/test/auth.test.ts
+  s_5ddfc8f4108175::t_ea82e7a4648c72 1-41
+worker/test/crypto.test.ts
+  s_5ddfc8f4108175::t_c017f3e91eb440 1-16
+worker/test/extension.test.ts
+  s_5ddfc8f4108175::t_9afbeaa04919ca 1-107
+worker/test/fake-cloudflare.ts
+  s_5ddfc8f4108175::t_649a4a3d91e021 1-27
+worker/test/flow.test.ts
+  s_5ddfc8f4108175::t_56f33e0b4fbbe7 1-237
+worker/test/local-server.ts
+  s_5ddfc8f4108175::t_c480fa3814eb41 1-24
+worker/tsconfig.json
+  s_5ddfc8f4108175::t_86ef0509729a7a 1-14
+worker/wrangler.jsonc
+  s_5ddfc8f4108175::t_1b4ce75b572194 1-16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "3d888f5c84d3c4701e98d2955d4e72e070c803a8",
+  "prompts": {},
+  "sessions": {
+    "s_5ddfc8f4108175": {
+      "agent_id": {
+        "tool": "pi",
+        "id": "01a0fc06-d951-77a8-8358-cd5dae6891bd",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Jordan Coeyman <jcoeyman@cloudflare.com>"
+    }
+  }
+}
