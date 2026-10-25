@@ -1,0 +1,234 @@
+✔ adding merges lines by SKU (1.193833ms)
+✔ carts are values (0.103583ms)
+✔ bad quantities and currencies are refused (0.19825ms)
+✔ parseCatalog reads SKU,Name,price lines (0.78075ms)
+✔ parseCatalog prices in the catalog's currency (0.068792ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.229ms)
+✔ a percent discount takes that share, rounded to cents (0.935208ms)
+✔ a fixed discount never takes more than the subtotal (0.086333ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.835125ms)
+✔ tax is on the subtotal after the discount (0.117583ms)
+✔ an empty cart cannot be invoiced (0.174625ms)
+✔ money keeps whole cents and its currency (0.786709ms)
+✔ add and subtract stay in one currency (0.1065ms)
+✔ multiply rounds halves away from zero (0.097708ms)
+✔ sum, compare and equals (0.097625ms)
+✔ format writes two decimals and the symbol (0.0825ms)
+✔ parse reads at most two decimals (0.133459ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.957875ms)
+✔ an empty report is a zero total (0.068375ms)
+✔ mixed currencies are refused (0.199375ms)
+✔ flat shipping by region (0.712667ms)
+✔ shipping by weight band (0.162833ms)
+✔ sales tax by region, rounded to cents (0.757291ms)
+✔ a region with no rate is refused (0.176167ms)
+ℹ tests 24
+ℹ suites 0
+ℹ pass 24
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 135.291333
+✔ adding merges lines by SKU (29.423458ms)
+✔ carts are values (0.097917ms)
+✔ adding merges lines by SKU (0.761208ms)
+✔ carts are values (0.075083ms)
+✔ bad quantities and currencies are refused (0.206791ms)
+✔ adding merges lines by SKU (0.756708ms)
+✔ carts are values (0.069083ms)
+✔ bad quantities and currencies are refused (0.188167ms)
+✔ bad quantities and currencies are refused (0.183542ms)
+✔ parseCatalog reads SKU,Name,price lines (0.7925ms)
+✔ parseCatalog prices in the catalog's currency (0.077375ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.223417ms)
+✔ parseCatalog reads SKU,Name,price lines (0.797375ms)
+✔ parseCatalog prices in the catalog's currency (0.0705ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.233833ms)
+✔ a percent discount takes that share, rounded to cents (13.958458ms)
+✔ a fixed discount never takes more than the subtotal (0.118583ms)
+✔ parseCatalog reads SKU,Name,price lines (1.176958ms)
+✔ parseCatalog prices in the catalog's currency (0.076541ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.330125ms)
+✔ a percent discount takes that share, rounded to cents (0.8245ms)
+✔ a fixed discount never takes more than the subtotal (0.086708ms)
+✔ a percent discount takes that share, rounded to cents (1.953ms)
+✔ a fixed discount never takes more than the subtotal (0.104625ms)
+✖ an invoice adds tax on the subtotal and flat shipping (0.438125ms)
+✖ tax is on the subtotal after the discount (0.089833ms)
+✔ an empty cart cannot be invoiced (0.189291ms)
+✔ money keeps whole cents and its currency (1.588666ms)
+✔ add and subtract stay in one currency (0.136667ms)
+✔ multiply rounds halves away from zero (0.097333ms)
+✔ sum, compare and equals (0.098791ms)
+✔ format writes two decimals and the symbol (0.083666ms)
+✔ parse reads at most two decimals (0.160209ms)
+✖ one line per invoice, then the total, amounts without a symbol (5.02125ms)
+✔ an empty report is a zero total (0.14975ms)
+✖ mixed currencies are refused (0.070791ms)
+✖ flat shipping by region (0.360625ms)
+✖ shipping by weight band (0.10925ms)
+✔ sales tax by region, rounded to cents (3.308292ms)
+✔ a region with no rate is refused (8.570083ms)
+ℹ tests 24
+ℹ suites 0
+ℹ pass 18
+ℹ fail 6
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 348.509542
+✔ an invoice adds tax on the subtotal and flat shipping (0.8975ms)
+✔ tax is on the subtotal after the discount (0.217583ms)
+✔ an empty cart cannot be invoiced (0.270792ms)
+✔ an invoice adds tax on the subtotal and flat shipping (1.6885ms)
+✔ tax is on the subtotal after the discount (0.349958ms)
+
+✖ failing tests:
+
+test at test/invoice.test.ts:11:1
+✖ an invoice adds tax on the subtotal and flat shipping (0.438125ms)
+  RangeError [Error]: shipping: no shipping to region CA
+      at shippingFor (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44993-1792920631375297000-0/src/shipping.ts:10:34)
+      at buildInvoice (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44993-1792920631375297000-0/src/invoice.ts:43:20)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44993-1792920631375297000-0/test/invoice.test.ts:12:15)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17)
+
+test at test/invoice.test.ts:21:1
+✖ tax is on the subtotal after the discount (0.089833ms)
+  RangeError [Error]: shipping: no shipping to region NY
+      at shippingFor (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44993-1792920631375297000-0/src/shipping.ts:10:34)
+      at buildInvoice (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44993-1792920631375297000-0/src/invoice.ts:43:20)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44993-1792920631375297000-0/test/invoice.test.ts:22:15)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3)
+
+test at test/report.test.ts:10:1
+✖ one line per invoice, then the total, amounts without a symbol (5.02125ms)
+  RangeError [Error]: shipping: no shipping to region OR
+      at shippingFor (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44993-1792920631375297000-0/src/shipping.ts:10:34)
+      at buildInvoice (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44993-1792920631375297000-0/src/invoice.ts:43:20)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44993-1792920631375297000-0/test/report.test.ts:11:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17)
+
+test at test/report.test.ts:20:1
+✖ mixed currencies are refused (0.070791ms)
+  RangeError [Error]: shipping: no shipping to region OR
+      at shippingFor (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44993-1792920631375297000-0/src/shipping.ts:10:34)
+      at buildInvoice (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44993-1792920631375297000-0/src/invoice.ts:43:20)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44993-1792920631375297000-0/test/report.test.ts:21:15)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/shipping.test.ts:6:1
+✖ flat shipping by region (0.360625ms)
+  RangeError [Error]: shipping: no shipping to region CA
+      at shippingFor (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44993-1792920631375297000-0/src/shipping.ts:10:34)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44993-1792920631375297000-0/test/shipping.test.ts:7:20)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17)
+
+test at test/shipping.test.ts:13:1
+✖ shipping by weight band (0.10925ms)
+  RangeError [Error]: shipping: no shipping to region CA
+      at shippingFor (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44993-1792920631375297000-0/src/shipping.ts:10:34)
+      at shippingByWeight (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44993-1792920631375297000-0/src/shipping.ts:27:24)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44993-1792920631375297000-0/test/shipping.test.ts:15:20)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3)
+✔ an empty cart cannot be invoiced (0.398583ms)
+✔ money keeps whole cents and its currency (0.770625ms)
+✔ add and subtract stay in one currency (0.109125ms)
+✔ multiply rounds halves away from zero (0.08775ms)
+✔ sum, compare and equals (0.099916ms)
+✔ format writes two decimals and the symbol (0.079583ms)
+✔ parse reads at most two decimals (0.160666ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.532292ms)
+✔ an empty report is a zero total (0.604208ms)
+✔ mixed currencies are refused (0.198ms)
+✔ flat shipping by region (0.724042ms)
+✖ shipping by weight band (0.11925ms)
+✔ sales tax by region, rounded to cents (0.641542ms)
+✔ a region with no rate is refused (0.169416ms)
+ℹ tests 24
+ℹ suites 0
+ℹ pass 23
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 351.668958
+
+✖ failing tests:
+
+test at test/shipping.test.ts:13:1
+✖ shipping by weight band (0.11925ms)
+  RangeError [Error]: shipping: weight 0 is not a non-negative whole number of grams
+      at shippingByWeight (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44993-1792920631375303000-1/src/shipping.ts:23:11)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44993-1792920631375303000-1/test/shipping.test.ts:15:20)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3)
+✔ money keeps whole cents and its currency (0.782375ms)
+✔ add and subtract stay in one currency (0.10675ms)
+✔ multiply rounds halves away from zero (0.086209ms)
+✔ sum, compare and equals (26.562334ms)
+✔ format writes two decimals and the symbol (0.114292ms)
+✔ parse reads at most two decimals (0.1745ms)
+✔ one line per invoice, then the total, amounts without a symbol (1.444292ms)
+✔ an empty report is a zero total (0.080917ms)
+✔ mixed currencies are refused (0.245458ms)
+✔ flat shipping by region (0.761084ms)
+✖ shipping by weight band (0.365459ms)
+✔ sales tax by region, rounded to cents (0.636042ms)
+✔ a region with no rate is refused (0.17ms)
+ℹ tests 24
+ℹ suites 0
+ℹ pass 23
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 355.463833
+
+✖ failing tests:
+
+test at test/shipping.test.ts:13:1
+✖ shipping by weight band (0.365459ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception (RangeError).
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44993-1792920631375311000-2/test/shipping.test.ts:34:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }

@@ -1,0 +1,28 @@
+{
+ "name": "haiku45-pi-edge",
+ "harness": "pi",
+ "model": "claude-haiku-4-5",
+ "price_per_m": {
+  "in": 1,
+  "out": 5
+ },
+ "max_turns": 30,
+ "max_tokens": 16000,
+ "max_minutes": 15,
+ "tools": [
+  "repo_list",
+  "repo_read",
+  "repo_edit"
+ ],
+ "pi": {
+  "provider": "anthropic",
+  "extensions": [
+   "$REPO/harness/pi/ply-workspace.ts"
+  ]
+ },
+ "seat_id": "edge-cart",
+ "writable": [
+  "src/cart.ts",
+  "test/cart.test.ts"
+ ]
+}

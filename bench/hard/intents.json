@@ -1,0 +1,272 @@
+{
+ "intents": [
+  {
+   "id": "allocate-remainder",
+   "title": "Split an amount by weights without losing a cent",
+   "why": "Gift splits and refunds divide one amount between several parties by weight.",
+   "footprint": [
+    "src/core/money.ts",
+    "test/money.test.ts"
+   ],
+   "acceptance": [
+    "src/core/money.ts exports allocate(m: Money, weights: number[]): Money[]",
+    "The parts always sum exactly to m, in m's currency",
+    "Leftover cents go one each to the parts with the largest fractional remainders; ties go to the earlier part",
+    "Works for negative amounts the same way, mirrored",
+    "Throws a RangeError for an empty weights list, a negative weight, or weights that sum to zero"
+   ]
+  },
+  {
+   "id": "parse-strict",
+   "title": "Parse money strings strictly",
+   "why": "Imported price lists contain messy strings; bad ones must be rejected, not guessed.",
+   "footprint": [
+    "src/core/money.ts",
+    "test/money.test.ts"
+   ],
+   "acceptance": [
+    "parse keeps its signature and accepts what it accepted before",
+    "parse also accepts a leading + sign and thousands separators in groups of exactly three digits: parse(\"1,234.50\") is money(123450)",
+    "parse rejects with a SyntaxError: empty or whitespace-only strings, \"1,23.00\", \"1,2345\", \".5\", \"5.\", \"1e3\", \"--1\", \"1.234\", and any string with inner spaces",
+    "parse(\"-0\") and parse(\"-0.00\") are money(0) with cents exactly 0, not -0",
+    "parseCatalog keeps working: a catalog price never contains a thousands separator, because the comma separates fields"
+   ]
+  },
+  {
+   "id": "format-negative-code",
+   "title": "Format negative amounts in currencies without a symbol",
+   "why": "Reports in CHF and JPY print negative amounts wrongly today.",
+   "footprint": [
+    "src/core/money.ts",
+    "test/money.test.ts"
+   ],
+   "acceptance": [
+    "format keeps its signature",
+    "For a currency with no symbol, a negative amount is written with the minus before the number: format(money(-1234, \"CHF\")) is \"-12.34 CHF\"",
+    "A currency named in a new exported MINOR_UNITS table with 0 minor units is written with no decimals: format(money(1234, \"JPY\")) is \"1234 JPY\" and format(money(-5, \"JPY\")) is \"-5 JPY\"",
+    "MINOR_UNITS lists at least JPY: 0 and KRW: 0; every other currency keeps two decimals",
+    "Existing USD, EUR and GBP output is unchanged"
+   ]
+  },
+  {
+   "id": "discount-cap",
+   "title": "Stack discounts with a cap",
+   "why": "Marketing wants a coupon and a loyalty discount on one order, but never more than half off.",
+   "footprint": [
+    "src/discount.ts",
+    "test/discount.test.ts"
+   ],
+   "acceptance": [
+    "src/discount.ts exports stackDiscounts(subtotal: Money, discounts: Discount[]): Money, the total amount off",
+    "Percent discounts apply in order, each to what is left after the previous ones, rounded half away from zero at each step",
+    "Fixed discounts apply after every percent discount, in the order given",
+    "The total off never exceeds half of the subtotal, rounded down to a whole cent, and never makes the result negative",
+    "An empty list is zero off"
+   ]
+  },
+  {
+   "id": "tax-inclusive",
+   "title": "Tax-inclusive prices",
+   "why": "Some regions show prices with tax already included; invoices must split the tax back out.",
+   "footprint": [
+    "src/tax.ts",
+    "test/tax.test.ts"
+   ],
+   "acceptance": [
+    "src/tax.ts exports taxIncluded(gross: Money, region: string): Money, the tax part of a gross price that already contains tax at the region's rate",
+    "net plus taxIncluded is exactly the gross; the tax is rounded half away from zero to a whole cent",
+    "taxIncluded(money(10725), \"CA\") is money(725)",
+    "A region with a zero rate gives zero; an unknown region throws a RangeError as taxFor does",
+    "taxIncluded(money(999), \"TX\") is money(59)"
+   ]
+  },
+  {
+   "id": "invoice-credit",
+   "title": "Credit an invoice line by line",
+   "why": "Partial returns must credit only some lines, with the right share of discount, tax and shipping.",
+   "footprint": [
+    "src/credit.ts",
+    "test/credit.test.ts"
+   ],
+   "acceptance": [
+    "src/credit.ts exports creditLines(invoice: Invoice, skus: string[]): Money, the amount to refund for returning every unit of those lines",
+    "The refund is those lines' totals, less their share of the invoice discount by line total, plus the tax on that discounted amount at the invoice's region rate",
+    "Shipping is refunded only when every line is returned",
+    "Returning every line refunds exactly the invoice total",
+    "An unknown sku throws a RangeError naming it"
+   ]
+  },
+  {
+   "id": "report-currency-mix",
+   "title": "Sales report across currencies",
+   "why": "The report throws for mixed currencies; finance wants one block per currency instead.",
+   "footprint": [
+    "src/report.ts",
+    "test/report.test.ts"
+   ],
+   "acceptance": [
+    "salesReport keeps its signature and its exact output for invoices in one currency",
+    "For mixed currencies it writes one block per currency, in the order each currency first appears, each block its invoice lines then \"TOTAL <currency> <sum>\"",
+    "Blocks are separated by one empty line",
+    "An empty list gives \"TOTAL 0.00\"",
+    "The existing test that expects a TypeError for mixed currencies describes the old behavior: change it to the new one"
+   ]
+  },
+  {
+   "id": "cart-merge",
+   "title": "Merge carts",
+   "why": "A guest cart is merged into the account cart at sign-in.",
+   "footprint": [
+    "src/cart.ts",
+    "test/cart.test.ts"
+   ],
+   "acceptance": [
+    "src/cart.ts exports mergeCarts(a: Cart, b: Cart): Cart",
+    "Lines for the same sku are combined into one line, at a's position, with the quantities added and a's product kept",
+    "Lines only in b are appended in b's order",
+    "Carts in different currencies throw a TypeError; neither input cart is changed",
+    "A merged quantity above 99 is capped at 99"
+   ]
+  },
+  {
+   "id": "shipping-weight",
+   "title": "Shipping by weight band",
+   "why": "Flat shipping loses money on heavy orders.",
+   "footprint": [
+    "src/shipping.ts",
+    "test/shipping.test.ts"
+   ],
+   "acceptance": [
+    "src/shipping.ts exports shippingByWeight(grams: number, region: string, currency?: string): Money",
+    "Up to and including 500 g costs the flat rate shippingFor gives; each started further 500 g adds 250 cents",
+    "0 grams is the flat rate; a negative or non-integer weight throws a RangeError",
+    "An unknown region throws as shippingFor does"
+   ]
+  },
+  {
+   "id": "tax-cent-bug",
+   "title": "Tax is a cent short on some orders",
+   "why": "Customers in California report that tax on some orders is one cent less than their own calculation. Find and fix the cause in the money core.",
+   "footprint": [
+    "src/core/money.ts",
+    "test/money.test.ts"
+   ],
+   "acceptance": [
+    "percentOf(money(200), 7.25) is money(15), and taxFor(money(3000), \"CA\") is money(218)",
+    "percentOf gives the exactly rounded result (halves away from zero) for every whole number of cents and every rate in TAX_RATES",
+    "percentOf keeps its signature and units: 15 still means 15 percent",
+    "A test in test/money.test.ts covers amounts that used to be a cent short"
+   ]
+  },
+  {
+   "id": "catalog-search",
+   "title": "Search the catalog",
+   "why": "The shop needs a search box over product names.",
+   "footprint": [
+    "src/catalog.ts",
+    "test/catalog.test.ts"
+   ],
+   "acceptance": [
+    "src/catalog.ts exports searchCatalog(catalog: ReadonlyMap<string, Product>, query: string): Product[]",
+    "Matches are case-insensitive and ignore accents: \"cafe\" finds \"Café\"",
+    "Every word of the query must appear in the name, in any order",
+    "Results are sorted by how early the first query word appears in the folded name, then by the folded name (lower case, accents removed), then by sku",
+    "An empty or whitespace-only query returns an empty list"
+   ]
+  },
+  {
+   "id": "invoice-rounding-audit",
+   "title": "Invoice totals that always add up",
+   "why": "Auditors found invoices whose line totals do not add up to the subtotal after discounts.",
+   "footprint": [
+    "src/invoice.ts",
+    "test/invoice.test.ts"
+   ],
+   "acceptance": [
+    "Invoice gains discountedLines: Money[], one per line: each line total less its share of the discount",
+    "The discount shares are allocated by line total and always sum exactly to the invoice discount",
+    "Leftover cents go to the lines with the largest fractional remainders; ties go to the earlier line",
+    "Every other Invoice field and buildInvoice's signature are unchanged"
+   ]
+  },
+  {
+   "id": "csv-parse",
+   "title": "Parse CSV files correctly",
+   "why": "Price-list imports break on quoted fields.",
+   "footprint": [
+    "src/csv.ts",
+    "test/csv.test.ts"
+   ],
+   "acceptance": [
+    "src/csv.ts exports parseCsv(text: string): string[][], one array of fields per record, following RFC 4180",
+    "Quoted fields may contain commas, newlines, and doubled quotes that mean one quote",
+    "Records end with LF or CRLF; a final line ending does not add an empty record; an empty input is []",
+    "Spaces are kept as they are; an empty line in the middle is a record with one empty field",
+    "Throws a SyntaxError for an unterminated quote, a quote inside an unquoted field, or text right after a closing quote"
+   ]
+  },
+  {
+   "id": "money-words",
+   "title": "Write amounts in words for checks",
+   "why": "Printed refund checks need the amount in words.",
+   "footprint": [
+    "src/words.ts",
+    "test/words.test.ts"
+   ],
+   "acceptance": [
+    "src/words.ts exports toWords(m: Money): string for USD amounts",
+    "Format: \"<dollars in words> dollar(s)\" then \" and <cents in words> cent(s)\" only when cents are not zero; singular for exactly one",
+    "Numbers use lowercase English with hyphens for 21-99 and no \"and\" inside numbers: 115 is \"one hundred fifteen\"; scales up to millions",
+    "Zero dollars is \"zero dollars\"; negative amounts start with \"minus \"",
+    "Throws a RangeError for any currency other than USD or for more than 999,999,999.99 dollars"
+   ]
+  },
+  {
+   "id": "business-days",
+   "title": "Due dates in business days",
+   "why": "Invoices are due a number of business days after issue.",
+   "footprint": [
+    "src/dates.ts",
+    "test/dates.test.ts"
+   ],
+   "acceptance": [
+    "src/dates.ts exports addBusinessDays(date: string, days: number, holidays?: string[]): string with YYYY-MM-DD dates in UTC",
+    "Saturdays, Sundays and the given holidays are not business days; negative days count backward",
+    "0 days returns the date itself when it is a business day, else the next business day",
+    "Throws a RangeError for a date that does not exist or is not YYYY-MM-DD, or for a non-integer number of days"
+   ]
+  },
+  {
+   "id": "installments",
+   "title": "Pay in installments",
+   "why": "Checkout offers monthly payments with interest.",
+   "footprint": [
+    "src/installments.ts",
+    "test/installments.test.ts"
+   ],
+   "acceptance": [
+    "src/installments.ts exports installments(total: Money, months: number, aprPercent: number): Array<{ payment, interest, principal, balance }> of Money",
+    "Monthly rate is apr/12; the standard payment is the annuity payment rounded half away from zero; with zero interest it is the total divided by months rounded down",
+    "Each month: interest is the balance times the monthly rate, rounded half away from zero; principal is payment minus interest; the last month pays the whole remaining balance plus its interest",
+    "Principals sum exactly to the total and the final balance is zero",
+    "Throws a RangeError for months that are not an integer from 1 to 360, a negative or non-finite rate, or a total that is not positive"
+   ]
+  },
+  {
+   "id": "sku-glob",
+   "title": "Match SKUs with glob patterns",
+   "why": "Promotions target SKUs by pattern.",
+   "footprint": [
+    "src/glob.ts",
+    "test/glob.test.ts"
+   ],
+   "acceptance": [
+    "src/glob.ts exports matchSku(pattern: string, sku: string): boolean, matching the whole SKU",
+    "* matches any run of characters including none, ? exactly one, [abc] and ranges [a-z] one of a set, [!...] one not in the set",
+    "] right after [ or [! is a literal; - first or last in a set is a literal; an unclosed [ is a literal [",
+    "\\\\ makes the next character literal; a trailing backslash throws a SyntaxError",
+    "Matching must stay fast for patterns with many stars: no backtracking blow-up"
+   ]
+  }
+ ]
+}

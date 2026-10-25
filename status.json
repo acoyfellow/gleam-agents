@@ -1,0 +1,25 @@
+{
+ "roadmap": {
+  "native-harness": { "verdict": "proven", "receipt": "proof/eval/" },
+  "cf-build-bench-grader": { "verdict": "proven", "receipt": "proof/smoke-3/" },
+  "scope-guard-native": { "verdict": "proven", "receipt": "proof/scope-1/" },
+  "pi-harness": { "verdict": "proven", "receipt": "proof/pi-1/" },
+  "scope-guard-pi": { "verdict": "proven", "receipt": "proof/pi-scope-1/" },
+  "mcp-in-shapes": { "verdict": "proven", "receipt": "proof/mcp-1/" },
+  "resume": { "verdict": "proven", "receipt": "proof/resume-1/" },
+  "edge-workspaces": { "verdict": "proven", "receipt": "proof/edge-1/" },
+  "mutant-judge": { "verdict": "disproven", "receipt": "proof/mutant-1/" },
+  "other-harnesses": { "verdict": "not planned", "receipt": null }
+ },
+ "prod": {
+  "site": "https://gleam-agents.coey.dev",
+  "auth": "proof/prod-auth.json",
+  "report": "https://gleam-agents.coey.dev/reports/2026-10-24-59a37162"
+ },
+ "unproven": [
+  "pi harness on all 17 bench/hard tasks (1 task ran)",
+  "resume after killing the BEAM node (pi process was killed)",
+  "many writers on one Artifacts repo (1 seat ran)",
+  "more than 1 run per row"
+ ]
+}

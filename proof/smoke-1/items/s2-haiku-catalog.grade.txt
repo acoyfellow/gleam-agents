@@ -1,0 +1,28 @@
+.X.
+
+Failed tests:
+
+✖ search: every word, any order, sorted by position then name then sku (0.590083ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    [
+  +   'P0',
+      'P1',
+  -   'P0'
+    ]
+  
+      at TestContext.<anonymous> (file://$REPO/proof/smoke-1/work/s2-haiku-catalog/test/accept/catalog-search.test.ts:16:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [ 'P0', 'P1' ],
+    expected: [ 'P1', 'P0' ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

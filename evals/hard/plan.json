@@ -1,0 +1,227 @@
+{
+  "name": "hard-17x1-haiku45",
+  "baseline": "swarm-desk Elixir native loop, evals/baseline-hard-final.json: haiku45-full 45/51 = 0.882 hidden pass, $0.153 per seat",
+  "seats": [
+    {
+      "id": "h-allocate-remainder",
+      "shape": "haiku45-native",
+      "goal": "allocate-remainder",
+      "prompt_file": "prompts/allocate-remainder.md",
+      "seed": "../../bench/hard/seed",
+      "writable": [
+        "src/",
+        "test/"
+      ],
+      "test_command": "node --test 2>&1 | tail -30",
+      "grade_command": "mkdir -p test/accept && cp \"$FLEET_ROOT\"/bench/hard/accept/allocate-remainder.test.ts \"$FLEET_ROOT\"/bench/hard/accept/fixtures.ts test/accept/ && node --test --test-reporter=dot test/accept/allocate-remainder.test.ts; e=$?; rm -rf test/accept; exit $e"
+    },
+    {
+      "id": "h-parse-strict",
+      "shape": "haiku45-native",
+      "goal": "parse-strict",
+      "prompt_file": "prompts/parse-strict.md",
+      "seed": "../../bench/hard/seed",
+      "writable": [
+        "src/",
+        "test/"
+      ],
+      "test_command": "node --test 2>&1 | tail -30",
+      "grade_command": "mkdir -p test/accept && cp \"$FLEET_ROOT\"/bench/hard/accept/parse-strict.test.ts \"$FLEET_ROOT\"/bench/hard/accept/fixtures.ts test/accept/ && node --test --test-reporter=dot test/accept/parse-strict.test.ts; e=$?; rm -rf test/accept; exit $e"
+    },
+    {
+      "id": "h-format-negative-code",
+      "shape": "haiku45-native",
+      "goal": "format-negative-code",
+      "prompt_file": "prompts/format-negative-code.md",
+      "seed": "../../bench/hard/seed",
+      "writable": [
+        "src/",
+        "test/"
+      ],
+      "test_command": "node --test 2>&1 | tail -30",
+      "grade_command": "mkdir -p test/accept && cp \"$FLEET_ROOT\"/bench/hard/accept/format-negative-code.test.ts \"$FLEET_ROOT\"/bench/hard/accept/fixtures.ts test/accept/ && node --test --test-reporter=dot test/accept/format-negative-code.test.ts; e=$?; rm -rf test/accept; exit $e"
+    },
+    {
+      "id": "h-discount-cap",
+      "shape": "haiku45-native",
+      "goal": "discount-cap",
+      "prompt_file": "prompts/discount-cap.md",
+      "seed": "../../bench/hard/seed",
+      "writable": [
+        "src/",
+        "test/"
+      ],
+      "test_command": "node --test 2>&1 | tail -30",
+      "grade_command": "mkdir -p test/accept && cp \"$FLEET_ROOT\"/bench/hard/accept/discount-cap.test.ts \"$FLEET_ROOT\"/bench/hard/accept/fixtures.ts test/accept/ && node --test --test-reporter=dot test/accept/discount-cap.test.ts; e=$?; rm -rf test/accept; exit $e"
+    },
+    {
+      "id": "h-tax-inclusive",
+      "shape": "haiku45-native",
+      "goal": "tax-inclusive",
+      "prompt_file": "prompts/tax-inclusive.md",
+      "seed": "../../bench/hard/seed",
+      "writable": [
+        "src/",
+        "test/"
+      ],
+      "test_command": "node --test 2>&1 | tail -30",
+      "grade_command": "mkdir -p test/accept && cp \"$FLEET_ROOT\"/bench/hard/accept/tax-inclusive.test.ts \"$FLEET_ROOT\"/bench/hard/accept/fixtures.ts test/accept/ && node --test --test-reporter=dot test/accept/tax-inclusive.test.ts; e=$?; rm -rf test/accept; exit $e"
+    },
+    {
+      "id": "h-invoice-credit",
+      "shape": "haiku45-native",
+      "goal": "invoice-credit",
+      "prompt_file": "prompts/invoice-credit.md",
+      "seed": "../../bench/hard/seed",
+      "writable": [
+        "src/",
+        "test/"
+      ],
+      "test_command": "node --test 2>&1 | tail -30",
+      "grade_command": "mkdir -p test/accept && cp \"$FLEET_ROOT\"/bench/hard/accept/invoice-credit.test.ts \"$FLEET_ROOT\"/bench/hard/accept/fixtures.ts test/accept/ && node --test --test-reporter=dot test/accept/invoice-credit.test.ts; e=$?; rm -rf test/accept; exit $e"
+    },
+    {
+      "id": "h-report-currency-mix",
+      "shape": "haiku45-native",
+      "goal": "report-currency-mix",
+      "prompt_file": "prompts/report-currency-mix.md",
+      "seed": "../../bench/hard/seed",
+      "writable": [
+        "src/",
+        "test/"
+      ],
+      "test_command": "node --test 2>&1 | tail -30",
+      "grade_command": "mkdir -p test/accept && cp \"$FLEET_ROOT\"/bench/hard/accept/report-currency-mix.test.ts \"$FLEET_ROOT\"/bench/hard/accept/fixtures.ts test/accept/ && node --test --test-reporter=dot test/accept/report-currency-mix.test.ts; e=$?; rm -rf test/accept; exit $e"
+    },
+    {
+      "id": "h-cart-merge",
+      "shape": "haiku45-native",
+      "goal": "cart-merge",
+      "prompt_file": "prompts/cart-merge.md",
+      "seed": "../../bench/hard/seed",
+      "writable": [
+        "src/",
+        "test/"
+      ],
+      "test_command": "node --test 2>&1 | tail -30",
+      "grade_command": "mkdir -p test/accept && cp \"$FLEET_ROOT\"/bench/hard/accept/cart-merge.test.ts \"$FLEET_ROOT\"/bench/hard/accept/fixtures.ts test/accept/ && node --test --test-reporter=dot test/accept/cart-merge.test.ts; e=$?; rm -rf test/accept; exit $e"
+    },
+    {
+      "id": "h-shipping-weight",
+      "shape": "haiku45-native",
+      "goal": "shipping-weight",
+      "prompt_file": "prompts/shipping-weight.md",
+      "seed": "../../bench/hard/seed",
+      "writable": [
+        "src/",
+        "test/"
+      ],
+      "test_command": "node --test 2>&1 | tail -30",
+      "grade_command": "mkdir -p test/accept && cp \"$FLEET_ROOT\"/bench/hard/accept/shipping-weight.test.ts \"$FLEET_ROOT\"/bench/hard/accept/fixtures.ts test/accept/ && node --test --test-reporter=dot test/accept/shipping-weight.test.ts; e=$?; rm -rf test/accept; exit $e"
+    },
+    {
+      "id": "h-tax-cent-bug",
+      "shape": "haiku45-native",
+      "goal": "tax-cent-bug",
+      "prompt_file": "prompts/tax-cent-bug.md",
+      "seed": "../../bench/hard/seed",
+      "writable": [
+        "src/",
+        "test/"
+      ],
+      "test_command": "node --test 2>&1 | tail -30",
+      "grade_command": "mkdir -p test/accept && cp \"$FLEET_ROOT\"/bench/hard/accept/tax-cent-bug.test.ts \"$FLEET_ROOT\"/bench/hard/accept/fixtures.ts test/accept/ && node --test --test-reporter=dot test/accept/tax-cent-bug.test.ts; e=$?; rm -rf test/accept; exit $e"
+    },
+    {
+      "id": "h-catalog-search",
+      "shape": "haiku45-native",
+      "goal": "catalog-search",
+      "prompt_file": "prompts/catalog-search.md",
+      "seed": "../../bench/hard/seed",
+      "writable": [
+        "src/",
+        "test/"
+      ],
+      "test_command": "node --test 2>&1 | tail -30",
+      "grade_command": "mkdir -p test/accept && cp \"$FLEET_ROOT\"/bench/hard/accept/catalog-search.test.ts \"$FLEET_ROOT\"/bench/hard/accept/fixtures.ts test/accept/ && node --test --test-reporter=dot test/accept/catalog-search.test.ts; e=$?; rm -rf test/accept; exit $e"
+    },
+    {
+      "id": "h-invoice-rounding-audit",
+      "shape": "haiku45-native",
+      "goal": "invoice-rounding-audit",
+      "prompt_file": "prompts/invoice-rounding-audit.md",
+      "seed": "../../bench/hard/seed",
+      "writable": [
+        "src/",
+        "test/"
+      ],
+      "test_command": "node --test 2>&1 | tail -30",
+      "grade_command": "mkdir -p test/accept && cp \"$FLEET_ROOT\"/bench/hard/accept/invoice-rounding-audit.test.ts \"$FLEET_ROOT\"/bench/hard/accept/fixtures.ts test/accept/ && node --test --test-reporter=dot test/accept/invoice-rounding-audit.test.ts; e=$?; rm -rf test/accept; exit $e"
+    },
+    {
+      "id": "h-csv-parse",
+      "shape": "haiku45-native",
+      "goal": "csv-parse",
+      "prompt_file": "prompts/csv-parse.md",
+      "seed": "../../bench/hard/seed",
+      "writable": [
+        "src/",
+        "test/"
+      ],
+      "test_command": "node --test 2>&1 | tail -30",
+      "grade_command": "mkdir -p test/accept && cp \"$FLEET_ROOT\"/bench/hard/accept/csv-parse.test.ts \"$FLEET_ROOT\"/bench/hard/accept/fixtures.ts test/accept/ && node --test --test-reporter=dot test/accept/csv-parse.test.ts; e=$?; rm -rf test/accept; exit $e"
+    },
+    {
+      "id": "h-money-words",
+      "shape": "haiku45-native",
+      "goal": "money-words",
+      "prompt_file": "prompts/money-words.md",
+      "seed": "../../bench/hard/seed",
+      "writable": [
+        "src/",
+        "test/"
+      ],
+      "test_command": "node --test 2>&1 | tail -30",
+      "grade_command": "mkdir -p test/accept && cp \"$FLEET_ROOT\"/bench/hard/accept/money-words.test.ts \"$FLEET_ROOT\"/bench/hard/accept/fixtures.ts test/accept/ && node --test --test-reporter=dot test/accept/money-words.test.ts; e=$?; rm -rf test/accept; exit $e"
+    },
+    {
+      "id": "h-business-days",
+      "shape": "haiku45-native",
+      "goal": "business-days",
+      "prompt_file": "prompts/business-days.md",
+      "seed": "../../bench/hard/seed",
+      "writable": [
+        "src/",
+        "test/"
+      ],
+      "test_command": "node --test 2>&1 | tail -30",
+      "grade_command": "mkdir -p test/accept && cp \"$FLEET_ROOT\"/bench/hard/accept/business-days.test.ts \"$FLEET_ROOT\"/bench/hard/accept/fixtures.ts test/accept/ && node --test --test-reporter=dot test/accept/business-days.test.ts; e=$?; rm -rf test/accept; exit $e"
+    },
+    {
+      "id": "h-installments",
+      "shape": "haiku45-native",
+      "goal": "installments",
+      "prompt_file": "prompts/installments.md",
+      "seed": "../../bench/hard/seed",
+      "writable": [
+        "src/",
+        "test/"
+      ],
+      "test_command": "node --test 2>&1 | tail -30",
+      "grade_command": "mkdir -p test/accept && cp \"$FLEET_ROOT\"/bench/hard/accept/installments.test.ts \"$FLEET_ROOT\"/bench/hard/accept/fixtures.ts test/accept/ && node --test --test-reporter=dot test/accept/installments.test.ts; e=$?; rm -rf test/accept; exit $e"
+    },
+    {
+      "id": "h-sku-glob",
+      "shape": "haiku45-native",
+      "goal": "sku-glob",
+      "prompt_file": "prompts/sku-glob.md",
+      "seed": "../../bench/hard/seed",
+      "writable": [
+        "src/",
+        "test/"
+      ],
+      "test_command": "node --test 2>&1 | tail -30",
+      "grade_command": "mkdir -p test/accept && cp \"$FLEET_ROOT\"/bench/hard/accept/sku-glob.test.ts \"$FLEET_ROOT\"/bench/hard/accept/fixtures.ts test/accept/ && node --test --test-reporter=dot test/accept/sku-glob.test.ts; e=$?; rm -rf test/accept; exit $e"
+    }
+  ]
+}

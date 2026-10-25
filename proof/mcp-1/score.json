@@ -1,0 +1,28 @@
+{
+ "plan": "mcp-in-shape-smoke",
+ "baseline": "none: capability probe. Pass = the word came from the MCP tool and the server logged the call",
+ "seats": 1,
+ "graded": 1,
+ "passed": 1,
+ "visible_passed": 1,
+ "scope_denials": 0,
+ "usd": 0.0062,
+ "wall_ms": 29887,
+ "errors": [],
+ "per_seat": [
+  {
+   "seat": "mcp-word",
+   "shape": "haiku45-pi-mcp",
+   "goal": "mcp-word",
+   "outcome": "done",
+   "turns": 3,
+   "tests_run": 0,
+   "scope_denials": 0,
+   "usd": 0.0062,
+   "ms": 29722,
+   "visible_pass": true,
+   "graded_pass": true
+  }
+ ],
+ "agrees_with_run_json": true
+}

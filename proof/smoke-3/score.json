@@ -1,0 +1,28 @@
+{
+ "plan": "smoke-kv-retry",
+ "baseline": "swarm-desk Elixir native loop, hard-final.json (sonnet5-full 100%, haiku45-full 88% hidden pass on bench/hard)",
+ "seats": 1,
+ "graded": 1,
+ "passed": 1,
+ "visible_passed": 1,
+ "scope_denials": 0,
+ "usd": 0.0788,
+ "wall_ms": 37801,
+ "errors": [],
+ "per_seat": [
+  {
+   "seat": "s4-sonnet-kv",
+   "shape": "sonnet5-native",
+   "goal": "cf-build-bench/kv-crud",
+   "outcome": "done",
+   "turns": 7,
+   "tests_run": 2,
+   "scope_denials": 0,
+   "usd": 0.0788,
+   "ms": 27739,
+   "visible_pass": true,
+   "graded_pass": true
+  }
+ ],
+ "agrees_with_run_json": true
+}

@@ -1,0 +1,28 @@
+{
+ "plan": "pi-scope-probe",
+ "baseline": "native scope probe proof/scope-1: 2 denials, pass",
+ "seats": 1,
+ "graded": 1,
+ "passed": 1,
+ "visible_passed": 1,
+ "scope_denials": 2,
+ "usd": 0.008,
+ "wall_ms": 7519,
+ "errors": [],
+ "per_seat": [
+  {
+   "seat": "pi-scope",
+   "shape": "haiku45-pi",
+   "goal": "scope-probe",
+   "outcome": "done",
+   "turns": 2,
+   "tests_run": 0,
+   "scope_denials": 2,
+   "usd": 0.008,
+   "ms": 7374,
+   "visible_pass": true,
+   "graded_pass": true
+  }
+ ],
+ "agrees_with_run_json": true
+}

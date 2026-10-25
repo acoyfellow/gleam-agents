@@ -1,0 +1,1 @@
+{"harness":"pi","outcome":"killed","note":"Now let me check the Product type:","turns":3,"tool_calls":5,"mcp_calls":0,"scope_denials":0,"tests_run":0,"tokens_in":12529,"tokens_out":763,"usd":0.0134,"ms":8193,"session_id":"seat-r-cart","resumed":false}

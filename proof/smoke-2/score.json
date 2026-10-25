@@ -1,0 +1,41 @@
+{
+ "plan": "smoke-1x-sonnet-retry",
+ "baseline": "swarm-desk Elixir native loop, hard-final.json (sonnet5-full 100%, haiku45-full 88% hidden pass on bench/hard)",
+ "seats": 2,
+ "graded": 2,
+ "passed": 1,
+ "visible_passed": 2,
+ "scope_denials": 0,
+ "usd": 0.2194,
+ "wall_ms": 31833,
+ "errors": [],
+ "per_seat": [
+  {
+   "seat": "s1-sonnet-catalog",
+   "shape": "sonnet5-native",
+   "goal": "catalog-search",
+   "outcome": "done",
+   "turns": 8,
+   "tests_run": 1,
+   "scope_denials": 0,
+   "usd": 0.1698,
+   "ms": 31372,
+   "visible_pass": true,
+   "graded_pass": true
+  },
+  {
+   "seat": "s4-sonnet-kv",
+   "shape": "sonnet5-native",
+   "goal": "cf-build-bench/kv-crud",
+   "outcome": "done",
+   "turns": 5,
+   "tests_run": 1,
+   "scope_denials": 0,
+   "usd": 0.0496,
+   "ms": 13177,
+   "visible_pass": true,
+   "graded_pass": false
+  }
+ ],
+ "agrees_with_run_json": true
+}

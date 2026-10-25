@@ -1,0 +1,623 @@
+✔ adding merges lines by SKU (0.700542ms)
+✔ carts are values (0.067416ms)
+✔ bad quantities and currencies are refused (0.18125ms)
+✔ parseCatalog reads SKU,Name,price lines (0.853959ms)
+✔ parseCatalog prices in the catalog's currency (0.105125ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.285125ms)
+✔ a percent discount takes that share, rounded to cents (0.7565ms)
+✔ a fixed discount never takes more than the subtotal (0.078917ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.745208ms)
+✔ tax is on the subtotal after the discount (0.478792ms)
+✔ an empty cart cannot be invoiced (0.161709ms)
+✔ money keeps whole cents and its currency (0.7815ms)
+✔ add and subtract stay in one currency (0.102875ms)
+✔ multiply rounds halves away from zero (0.089917ms)
+✔ sum, compare and equals (0.096875ms)
+✔ format writes two decimals and the symbol (0.079958ms)
+✔ parse reads at most two decimals (0.171083ms)
+✔ percentOf gives exactly rounded results for whole cents amounts (0.054375ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.540417ms)
+✔ an empty report is a zero total (0.055541ms)
+✔ mixed currencies are refused (0.202333ms)
+✔ flat shipping by region (0.70575ms)
+✔ sales tax by region, rounded to cents (0.739209ms)
+✔ a region with no rate is refused (0.18275ms)
+ℹ tests 24
+ℹ suites 0
+ℹ pass 24
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 129.120292
+✔ adding merges lines by SKU (0.784208ms)
+✔ carts are values (0.067ms)
+✔ bad quantities and currencies are refused (0.177291ms)
+✔ adding merges lines by SKU (0.805ms)
+✔ carts are values (0.097833ms)
+✔ bad quantities and currencies are refused (0.269083ms)
+✔ adding merges lines by SKU (0.965625ms)
+✔ carts are values (0.07975ms)
+✔ bad quantities and currencies are refused (0.190209ms)
+✔ parseCatalog reads SKU,Name,price lines (2.017ms)
+✔ parseCatalog prices in the catalog's currency (0.205417ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.326125ms)
+✔ adding merges lines by SKU (84.788875ms)
+✔ carts are values (0.148458ms)
+✔ bad quantities and currencies are refused (0.243458ms)
+✔ parseCatalog reads SKU,Name,price lines (9.771584ms)
+✔ parseCatalog prices in the catalog's currency (0.1495ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (22.651042ms)
+✔ parseCatalog reads SKU,Name,price lines (0.822166ms)
+✔ parseCatalog prices in the catalog's currency (0.069459ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.222042ms)
+✔ a percent discount takes that share, rounded to cents (0.664708ms)
+✔ a fixed discount never takes more than the subtotal (0.0725ms)
+✖ adding merges lines by SKU (0.733625ms)
+✔ a percent discount takes that share, rounded to cents (0.804458ms)
+✔ a fixed discount never takes more than the subtotal (1.699667ms)
+✔ parseCatalog reads SKU,Name,price lines (0.830208ms)
+✔ parseCatalog prices in the catalog's currency (0.068917ms)
+✔ adding merges lines by SKU (0.717708ms)
+✔ carts are values (0.063916ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.23175ms)
+✔ carts are values (0.091167ms)
+✔ bad quantities and currencies are refused (0.179792ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.774208ms)
+✔ tax is on the subtotal after the discount (0.1115ms)
+✔ an empty cart cannot be invoiced (0.153916ms)
+✔ an invoice adds tax on the subtotal and flat shipping (5.401708ms)
+✔ tax is on the subtotal after the discount (0.272208ms)
+✔ an empty cart cannot be invoiced (0.473875ms)
+✔ money keeps whole cents and its currency (0.762083ms)
+✔ add and subtract stay in one currency (0.101542ms)
+✔ multiply rounds halves away from zero (0.085875ms)
+✖ sum, compare and equals (0.426ms)
+✔ format writes two decimals and the symbol (0.080167ms)
+✔ parse reads at most two decimals (0.150625ms)
+✔ percentOf gives exactly rounded results for whole cents amounts (0.973375ms)
+✔ money keeps whole cents and its currency (0.789292ms)
+✔ add and subtract stay in one currency (0.101125ms)
+✔ multiply rounds halves away from zero (0.082833ms)
+✔ sum, compare and equals (0.090084ms)
+✔ format writes two decimals and the symbol (0.073875ms)
+✔ parse reads at most two decimals (0.151208ms)
+✔ percentOf gives exactly rounded results for whole cents amounts (0.058834ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.577959ms)
+✖ an empty report is a zero total (1.00575ms)
+✔ mixed currencies are refused (0.194042ms)
+✔ flat shipping by region (0.699834ms)
+✔ sales tax by region, rounded to cents (0.692167ms)
+✔ a region with no rate is refused (0.170708ms)
+✔ a percent discount takes that share, rounded to cents (0.68575ms)
+✔ a fixed discount never takes more than the subtotal (0.074375ms)
+✔ parseCatalog reads SKU,Name,price lines (0.777959ms)
+✔ parseCatalog prices in the catalog's currency (0.071583ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.2225ms)
+ℹ tests 24
+ℹ suites 0
+✖ a percent discount takes that share, rounded to cents (4.057083ms)
+✖ a fixed discount never takes more than the subtotal (0.201833ms)
+✖ an invoice adds tax on the subtotal and flat shipping (0.715291ms)
+✖ tax is on the subtotal after the discount (0.097625ms)
+✔ an empty cart cannot be invoiced (0.509ms)
+✔ money keeps whole cents and its currency (0.787625ms)
+✖ add and subtract stay in one currency (0.105375ms)
+✔ multiply rounds halves away from zero (0.096584ms)
+✖ sum, compare and equals (0.0715ms)
+✔ format writes two decimals and the symbol (0.072042ms)
+ℹ pass 23
+✔ parse reads at most two decimals (0.17875ms)
+✔ percentOf gives exactly rounded results for whole cents amounts (0.06775ms)
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 664.240209
+
+✖ failing tests:
+
+test at test/report.test.ts:16:1
+✖ an empty report is a zero total (1.00575ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'TOTAL -0.00'
+  - 'TOTAL 0.00'
+           ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375674000-1/test/report.test.ts:17:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'TOTAL -0.00',
+    expected: 'TOTAL 0.00',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+✔ bad quantities and currencies are refused (0.181209ms)
+✔ a percent discount takes that share, rounded to cents (62.020833ms)
+✔ a fixed discount never takes more than the subtotal (0.128833ms)
+✖ an invoice adds tax on the subtotal and flat shipping (30.948416ms)
+✔ tax is on the subtotal after the discount (0.143875ms)
+✔ an empty cart cannot be invoiced (0.171458ms)
+✖ money keeps whole cents and its currency (1.951459ms)
+✔ add and subtract stay in one currency (0.56025ms)
+✔ multiply rounds halves away from zero (0.314667ms)
+✖ sum, compare and equals (0.302459ms)
+✖ format writes two decimals and the symbol (0.141708ms)
+✔ parse reads at most two decimals (0.197542ms)
+✔ percentOf gives exactly rounded results for whole cents amounts (0.081334ms)
+✖ one line per invoice, then the total, amounts without a symbol (1.518292ms)
+✔ an empty report is a zero total (0.089792ms)
+✔ mixed currencies are refused (0.198917ms)
+✔ flat shipping by region (0.714458ms)
+✔ sales tax by region, rounded to cents (0.680917ms)
+✔ a region with no rate is refused (0.171125ms)
+ℹ tests 24
+ℹ suites 0
+ℹ pass 19
+ℹ fail 5
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 667.152083
+✔ one line per invoice, then the total, amounts without a symbol (1.077708ms)
+✔ an empty report is a zero total (0.064083ms)
+✔ mixed currencies are refused (0.195125ms)
+✔ flat shipping by region (0.696417ms)
+✔ sales tax by region, rounded to cents (0.667791ms)
+✔ a region with no rate is refused (0.173166ms)
+ℹ tests 24
+ℹ suites 0
+ℹ pass 23
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+
+✖ failing tests:
+
+test at test/invoice.test.ts:11:1
+✖ an invoice adds tax on the subtotal and flat shipping (30.948416ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    [
+      [
+        'TEA',
+        2,
+  +     0
+  -     900
+      ],
+      [
+        'POT',
+        1,
+  +     0
+  -     2999
+      ]
+    ]
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375690000-4/test/invoice.test.ts:13:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [ [ 'TEA', 2, 0 ], [ 'POT', 1, 0 ] ],
+    expected: [ [ 'TEA', 2, 900 ], [ 'POT', 1, 2999 ] ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at test/money.test.ts:6:1
+✖ money keeps whole cents and its currency (1.951459ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+  +   cents: 0,
+  -   cents: 1234,
+      currency: 'USD'
+    }
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375690000-4/test/money.test.ts:7:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { cents: 0, currency: 'USD' },
+    expected: { cents: 1234, currency: 'USD' },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at test/money.test.ts:30:1
+✖ sum, compare and equals (0.302459ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== -1
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375690000-4/test/money.test.ts:34:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: -1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/money.test.ts:41:1
+✖ format writes two decimals and the symbol (0.141708ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  '$0.00' !== '$12.34'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375690000-4/test/money.test.ts:42:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '$0.00',
+    expected: '$12.34',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/report.test.ts:10:1
+✖ one line per invoice, then the total, amounts without a symbol (1.518292ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'INV-1 OR 0.00\nINV-2 CA 0.00\nTOTAL 0.00'
+  - 'INV-1 OR 14.99\nINV-2 CA 54.25\nTOTAL 69.24'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375690000-4/test/report.test.ts:13:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'INV-1 OR 0.00\nINV-2 CA 0.00\nTOTAL 0.00',
+    expected: 'INV-1 OR 14.99\nINV-2 CA 54.25\nTOTAL 69.24',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+ℹ todo 0
+ℹ duration_ms 671.068709
+
+✖ failing tests:
+
+test at test/money.test.ts:30:1
+✖ sum, compare and equals (0.426ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  false !== true
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375687000-3/test/money.test.ts:37:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+✖ one line per invoice, then the total, amounts without a symbol (0.437541ms)
+✔ an empty report is a zero total (0.118875ms)
+✖ mixed currencies are refused (0.06375ms)
+✔ flat shipping by region (0.72475ms)
+✔ sales tax by region, rounded to cents (0.8325ms)
+✔ a region with no rate is refused (0.183208ms)
+ℹ tests 24
+ℹ suites 0
+ℹ pass 15
+ℹ fail 9
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 667.175459
+✔ parseCatalog reads SKU,Name,price lines (1.045333ms)
+✔ parseCatalog prices in the catalog's currency (0.12225ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.376792ms)
+✔ a percent discount takes that share, rounded to cents (0.64375ms)
+✔ a fixed discount never takes more than the subtotal (0.070875ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.80825ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.798375ms)
+✔ tax is on the subtotal after the discount (0.111333ms)
+✔ an empty cart cannot be invoiced (0.162417ms)
+✔ tax is on the subtotal after the discount (7.0035ms)
+✔ money keeps whole cents and its currency (0.825416ms)
+✔ an empty cart cannot be invoiced (0.2455ms)
+✔ add and subtract stay in one currency (0.101334ms)
+✔ multiply rounds halves away from zero (0.089708ms)
+✔ money keeps whole cents and its currency (0.77ms)
+✔ add and subtract stay in one currency (0.106792ms)
+✔ multiply rounds halves away from zero (0.092959ms)
+✖ sum, compare and equals (0.445667ms)
+✔ format writes two decimals and the symbol (0.079709ms)
+✖ sum, compare and equals (0.439917ms)
+✔ format writes two decimals and the symbol (0.076459ms)
+✔ parse reads at most two decimals (15.502167ms)
+✔ percentOf gives exactly rounded results for whole cents amounts (0.163208ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.540791ms)
+✔ an empty report is a zero total (0.585167ms)
+✔ mixed currencies are refused (19.104041ms)
+✔ flat shipping by region (0.766541ms)
+
+✖ failing tests:
+
+test at test/cart.test.ts:9:1
+✖ adding merges lines by SKU (0.733625ms)
+  TypeError [Error]: currency mismatch: USD and USD
+      at sameCurrency (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/src/core/money.ts:28:40)
+      at add (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/src/core/money.ts:33:3)
+      at file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/src/core/money.ts:64:39
+      at Array.reduce (<anonymous>)
+      at sum (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/src/core/money.ts:64:18)
+      at subtotal (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/src/cart.ts:42:10)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/test/cart.test.ts:14:20)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+
+test at test/discount.test.ts:6:1
+✖ a percent discount takes that share, rounded to cents (4.057083ms)
+  TypeError [Error]: currency mismatch: USD and USD
+      at sameCurrency (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/src/core/money.ts:28:40)
+      at compare (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/src/core/money.ts:69:3)
+      at discountAmount (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/src/discount.ts:10:10)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/test/discount.test.ts:7:20)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17)
+
+test at test/discount.test.ts:12:1
+✖ a fixed discount never takes more than the subtotal (0.201833ms)
+  TypeError [Error]: currency mismatch: USD and USD
+      at sameCurrency (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/src/core/money.ts:28:40)
+      at compare (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/src/core/money.ts:69:3)
+      at discountAmount (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/src/discount.ts:10:10)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/test/discount.test.ts:13:20)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3)
+
+test at test/invoice.test.ts:11:1
+✖ an invoice adds tax on the subtotal and flat shipping (0.715291ms)
+  TypeError [Error]: currency mismatch: USD and USD
+      at sameCurrency (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/src/core/money.ts:28:40)
+      at add (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/src/core/money.ts:33:3)
+      at file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/src/core/money.ts:64:39
+      at Array.reduce (<anonymous>)
+      at sum (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/src/core/money.ts:64:18)
+      at subtotal (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/src/cart.ts:42:10)
+      at buildInvoice (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/src/invoice.ts:39:15)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/test/invoice.test.ts:12:15)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+
+test at test/invoice.test.ts:21:1
+✖ tax is on the subtotal after the discount (0.097625ms)
+  TypeError [Error]: currency mismatch: USD and USD
+      at sameCurrency (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/src/core/money.ts:28:40)
+      at add (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/src/core/money.ts:33:3)
+      at file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/src/core/money.ts:64:39
+      at Array.reduce (<anonymous>)
+      at sum (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/src/core/money.ts:64:18)
+      at subtotal (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/src/cart.ts:42:10)
+      at buildInvoice (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/src/invoice.ts:39:15)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/test/invoice.test.ts:22:15)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+
+test at test/money.test.ts:14:1
+✖ add and subtract stay in one currency (0.105375ms)
+  TypeError [Error]: currency mismatch: USD and USD
+      at sameCurrency (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/src/core/money.ts:28:40)
+      at add (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/src/core/money.ts:33:3)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/test/money.test.ts:15:20)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3)
+
+test at test/money.test.ts:30:1
+✖ sum, compare and equals (0.0715ms)
+  TypeError [Error]: currency mismatch: USD and USD
+      at sameCurrency (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/src/core/money.ts:28:40)
+      at add (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/src/core/money.ts:33:3)
+      at file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/src/core/money.ts:64:39
+      at Array.reduce (<anonymous>)
+      at sum (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/src/core/money.ts:64:18)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/test/money.test.ts:31:20)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+
+test at test/report.test.ts:10:1
+✖ one line per invoice, then the total, amounts without a symbol (0.437541ms)
+  TypeError [Error]: currency mismatch: USD and USD
+      at sameCurrency (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/src/core/money.ts:28:40)
+      at add (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/src/core/money.ts:33:3)
+      at file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/src/core/money.ts:64:39
+      at Array.reduce (<anonymous>)
+      at sum (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/src/core/money.ts:64:18)
+      at subtotal (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/src/cart.ts:42:10)
+      at buildInvoice (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/src/invoice.ts:39:15)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/test/report.test.ts:11:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+
+test at test/report.test.ts:20:1
+✖ mixed currencies are refused (0.06375ms)
+  TypeError [Error]: currency mismatch: USD and USD
+      at sameCurrency (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/src/core/money.ts:28:40)
+      at add (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/src/core/money.ts:33:3)
+      at file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/src/core/money.ts:64:39
+      at Array.reduce (<anonymous>)
+      at sum (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/src/core/money.ts:64:18)
+      at subtotal (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/src/cart.ts:42:10)
+      at buildInvoice (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/src/invoice.ts:39:15)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375665000-0/test/report.test.ts:21:15)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+✔ parse reads at most two decimals (0.161875ms)
+✔ percentOf gives exactly rounded results for whole cents amounts (0.058459ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.542042ms)
+✔ an empty report is a zero total (0.599375ms)
+✔ mixed currencies are refused (0.187875ms)
+✔ flat shipping by region (0.731042ms)
+✔ sales tax by region, rounded to cents (0.677042ms)
+✔ a region with no rate is refused (0.207417ms)
+ℹ tests 24
+ℹ suites 0
+ℹ pass 23
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 673.911958
+✔ sales tax by region, rounded to cents (0.731167ms)
+✔ a region with no rate is refused (0.232041ms)
+
+✖ failing tests:
+
+test at test/money.test.ts:30:1
+✖ sum, compare and equals (0.445667ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  true !== false
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375692000-5/test/money.test.ts:38:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: true,
+    expected: false,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+ℹ tests 24
+ℹ suites 0
+ℹ pass 23
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 676.606916
+
+✖ failing tests:
+
+test at test/money.test.ts:30:1
+✖ sum, compare and equals (0.439917ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  false !== true
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920637375682000-2/test/money.test.ts:37:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+✔ adding merges lines by SKU (0.750958ms)
+✔ carts are values (0.078833ms)
+✔ bad quantities and currencies are refused (0.1805ms)
+✔ parseCatalog reads SKU,Name,price lines (0.817083ms)
+✔ parseCatalog prices in the catalog's currency (0.072416ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.21675ms)
+✔ a percent discount takes that share, rounded to cents (0.662292ms)
+✔ a fixed discount never takes more than the subtotal (0.070667ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.808542ms)
+✔ tax is on the subtotal after the discount (0.113084ms)
+✔ an empty cart cannot be invoiced (0.15875ms)
+✔ money keeps whole cents and its currency (0.909125ms)
+✔ add and subtract stay in one currency (0.128416ms)
+✔ multiply rounds halves away from zero (0.089583ms)
+✔ sum, compare and equals (0.095584ms)
+✖ format writes two decimals and the symbol (0.488792ms)
+✔ parse reads at most two decimals (0.266625ms)
+✔ percentOf gives exactly rounded results for whole cents amounts (0.087625ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.571209ms)
+✔ an empty report is a zero total (0.589125ms)
+✔ mixed currencies are refused (0.202792ms)
+✔ flat shipping by region (0.691958ms)
+✔ sales tax by region, rounded to cents (0.88625ms)
+✔ a region with no rate is refused (0.192167ms)
+ℹ tests 24
+ℹ suites 0
+ℹ pass 23
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 130.917083
+
+✖ failing tests:
+
+test at test/money.test.ts:41:1
+✖ format writes two decimals and the symbol (0.488792ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '12.34 USD'
+  - '$12.34'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45507-1792920638129401000-6/test/money.test.ts:42:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '12.34 USD',
+    expected: '$12.34',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

@@ -1,0 +1,13 @@
+{
+ "claim": "gleam-agents native harness hidden pass rate on bench/hard >= Elixir swarm baseline - 0.15, same model",
+ "metric": "hidden pass rate, bench/hard 17 tasks",
+ "ours": 0.824,
+ "ours_counts": "14/17",
+ "baseline": 0.882,
+ "baseline_counts": "45/51",
+ "threshold": 0.732,
+ "verdict": "proven",
+ "ours_usd_per_seat": 0.1677,
+ "baseline_usd_per_seat": 0.1531,
+ "runs": 1
+}

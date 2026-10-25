@@ -1,0 +1,11 @@
+*.beam
+*.ez
+/build
+erl_crash.dump
+.real/
+node_modules/
+worker/node_modules/
+worker/.wrangler/
+deploy/*.conf
+!deploy/example.conf
+proof/*/work/

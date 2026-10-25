@@ -1,0 +1,14 @@
+{
+ "at": "2026-10-24T21:45:09.323Z",
+ "base": "https://gleam-agents.coey.dev",
+ "me": {
+  "signedIn": true,
+  "via": "cli-token",
+  "account": "Coeyman@gmail.com's Account",
+  "emailDomain": null
+ },
+ "anonymousPublishStatus": 401,
+ "publishStatus": 201,
+ "reportId": "2026-10-24-59a37162",
+ "reportUrl": "https://gleam-agents.coey.dev/reports/2026-10-24-59a37162"
+}

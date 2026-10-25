@@ -1,0 +1,2614 @@
+✔ adding merges lines by SKU (4.017834ms)
+✔ carts are values (0.07825ms)
+✔ bad quantities and currencies are refused (0.188083ms)
+✔ parseCatalog reads SKU,Name,price lines (0.879708ms)
+✔ parseCatalog prices in the catalog's currency (0.142209ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.235292ms)
+✔ a percent discount takes that share, rounded to cents (0.921458ms)
+✔ a fixed discount never takes more than the subtotal (0.099209ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.709792ms)
+✔ tax is on the subtotal after the discount (0.107083ms)
+✔ an empty cart cannot be invoiced (0.6225ms)
+✔ money keeps whole cents and its currency (1.085458ms)
+✔ add and subtract stay in one currency (0.113709ms)
+✔ multiply rounds halves away from zero (0.096ms)
+✔ sum, compare and equals (0.107083ms)
+✔ format writes two decimals and the symbol (0.089375ms)
+✔ parse reads at most two decimals (0.162084ms)
+✔ one line per invoice, then the total, amounts without a symbol (1.189125ms)
+✔ an empty report is a zero total (0.089625ms)
+✔ mixed currencies are refused (0.277042ms)
+✔ flat shipping by region (0.704209ms)
+✔ sales tax by region, rounded to cents (0.667792ms)
+✔ a region with no rate is refused (0.1715ms)
+✔ toWords for basic amounts (0.531083ms)
+✔ toWords for dollars with cents (0.116292ms)
+✔ toWords for larger amounts (0.069916ms)
+✔ toWords for amounts with all parts (0.0495ms)
+✔ toWords for teens (0.05875ms)
+✔ toWords for twenty and above (0.048667ms)
+✔ toWords for negative amounts (0.132667ms)
+✔ toWords for hundred amounts (0.11225ms)
+✔ toWords throws for non-USD currency (0.244208ms)
+✔ toWords throws for amounts exceeding max (0.126083ms)
+ℹ tests 33
+ℹ suites 0
+ℹ pass 33
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 160.534167
+✔ adding merges lines by SKU (0.840833ms)
+✔ carts are values (0.144083ms)
+✔ bad quantities and currencies are refused (0.282417ms)
+✔ parseCatalog reads SKU,Name,price lines (0.815584ms)
+✔ parseCatalog prices in the catalog's currency (0.068ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.223792ms)
+✔ a percent discount takes that share, rounded to cents (0.673209ms)
+✔ a fixed discount never takes more than the subtotal (0.079166ms)
+✔ adding merges lines by SKU (0.761167ms)
+✔ carts are values (0.069292ms)
+✔ bad quantities and currencies are refused (0.188666ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.790583ms)
+✔ tax is on the subtotal after the discount (0.699334ms)
+✔ an empty cart cannot be invoiced (0.169917ms)
+✔ money keeps whole cents and its currency (0.788666ms)
+✔ add and subtract stay in one currency (0.103334ms)
+✔ multiply rounds halves away from zero (0.09025ms)
+✔ sum, compare and equals (0.098ms)
+✔ format writes two decimals and the symbol (0.080291ms)
+✔ parse reads at most two decimals (0.150041ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.923917ms)
+✔ an empty report is a zero total (1.179917ms)
+✔ mixed currencies are refused (0.842291ms)
+✔ adding merges lines by SKU (0.725083ms)
+✔ carts are values (0.067541ms)
+✔ bad quantities and currencies are refused (0.187917ms)
+✔ parseCatalog reads SKU,Name,price lines (0.795125ms)
+✔ parseCatalog prices in the catalog's currency (0.069792ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.228792ms)
+✔ a percent discount takes that share, rounded to cents (0.645791ms)
+✔ a fixed discount never takes more than the subtotal (44.359958ms)
+✔ adding merges lines by SKU (0.918125ms)
+✔ carts are values (0.078167ms)
+✔ bad quantities and currencies are refused (0.190333ms)
+✔ flat shipping by region (0.731834ms)
+✔ adding merges lines by SKU (0.719083ms)
+✔ carts are values (0.06575ms)
+✔ bad quantities and currencies are refused (0.184625ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.83175ms)
+✔ tax is on the subtotal after the discount (0.121208ms)
+✔ an empty cart cannot be invoiced (0.169208ms)
+✔ money keeps whole cents and its currency (0.777291ms)
+✔ add and subtract stay in one currency (0.104417ms)
+✔ multiply rounds halves away from zero (0.118208ms)
+✔ sum, compare and equals (0.100125ms)
+✔ format writes two decimals and the symbol (0.081667ms)
+✔ parse reads at most two decimals (0.157375ms)
+✔ parseCatalog reads SKU,Name,price lines (0.793667ms)
+✔ parseCatalog prices in the catalog's currency (0.068958ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.213333ms)
+✔ a percent discount takes that share, rounded to cents (1.645209ms)
+✔ a fixed discount never takes more than the subtotal (0.195958ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.791208ms)
+✔ tax is on the subtotal after the discount (0.109625ms)
+✔ an empty cart cannot be invoiced (0.161292ms)
+✔ adding merges lines by SKU (0.827167ms)
+✔ carts are values (0.077ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.554209ms)
+✔ an empty report is a zero total (11.202042ms)
+✔ mixed currencies are refused (0.292084ms)
+✔ bad quantities and currencies are refused (0.200792ms)
+✔ parseCatalog reads SKU,Name,price lines (0.912125ms)
+✔ parseCatalog prices in the catalog's currency (0.071209ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.219292ms)
+✔ flat shipping by region (0.740417ms)
+✔ sales tax by region, rounded to cents (0.674125ms)
+✔ a region with no rate is refused (0.162833ms)
+✔ a percent discount takes that share, rounded to cents (0.6885ms)
+✔ a fixed discount never takes more than the subtotal (0.072208ms)
+✔ sales tax by region, rounded to cents (112.159209ms)
+✔ a region with no rate is refused (0.441458ms)
+✖ toWords for basic amounts (0.893958ms)
+✔ toWords for dollars with cents (0.122542ms)
+✔ toWords for larger amounts (0.077417ms)
+✔ toWords for amounts with all parts (0.049458ms)
+✔ toWords for teens (0.053625ms)
+✔ toWords for twenty and above (2.073209ms)
+✔ toWords for negative amounts (18.881958ms)
+✔ toWords for hundred amounts (0.690042ms)
+✔ toWords throws for non-USD currency (0.222584ms)
+✔ toWords throws for amounts exceeding max (0.122625ms)
+✔ parseCatalog reads SKU,Name,price lines (0.789875ms)
+✔ parseCatalog prices in the catalog's currency (0.071875ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.21675ms)
+ℹ tests 33
+ℹ suites 0
+ℹ pass 32
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+✔ a percent discount takes that share, rounded to cents (0.666583ms)
+ℹ duration_ms 702.055083
+✔ a fixed discount never takes more than the subtotal (0.071959ms)
+✔ money keeps whole cents and its currency (0.792917ms)
+✔ add and subtract stay in one currency (0.10725ms)
+✔ multiply rounds halves away from zero (0.092875ms)
+✔ sum, compare and equals (0.094959ms)
+✔ format writes two decimals and the symbol (0.083208ms)
+✔ parse reads at most two decimals (0.142083ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.542917ms)
+✔ an empty report is a zero total (0.61825ms)
+✔ mixed currencies are refused (0.197333ms)
+✔ flat shipping by region (0.724167ms)
+
+✖ failing tests:
+
+test at test/words.test.ts:6:1
+✖ toWords for basic amounts (0.893958ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'minus zero dollars'
+  - 'zero dollars'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251850000-4/test/words.test.ts:7:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'minus zero dollars',
+    expected: 'zero dollars',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+✔ an invoice adds tax on the subtotal and flat shipping (0.756583ms)
+✔ tax is on the subtotal after the discount (0.102416ms)
+✔ an empty cart cannot be invoiced (0.153083ms)
+✔ money keeps whole cents and its currency (0.794833ms)
+✔ add and subtract stay in one currency (0.105917ms)
+✔ multiply rounds halves away from zero (0.087625ms)
+✔ sum, compare and equals (0.100042ms)
+✔ format writes two decimals and the symbol (0.079417ms)
+✔ parse reads at most two decimals (0.158958ms)
+✔ one line per invoice, then the total, amounts without a symbol (2.100208ms)
+✔ an empty report is a zero total (0.228042ms)
+✔ mixed currencies are refused (0.510375ms)
+✔ flat shipping by region (0.774375ms)
+✔ sales tax by region, rounded to cents (1.309916ms)
+✔ a region with no rate is refused (0.188625ms)
+✖ toWords for basic amounts (0.872291ms)
+✖ toWords for dollars with cents (0.106208ms)
+✖ toWords for larger amounts (0.087833ms)
+✖ toWords for amounts with all parts (0.111208ms)
+✖ toWords for teens (0.088916ms)
+✖ toWords for twenty and above (0.069625ms)
+✖ toWords for negative amounts (0.060875ms)
+✖ toWords for hundred amounts (0.718666ms)
+✔ toWords throws for non-USD currency (0.195917ms)
+✔ toWords throws for amounts exceeding max (0.099583ms)
+ℹ tests 33
+ℹ suites 0
+ℹ pass 25
+ℹ fail 8
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 700.891583
+✔ sales tax by region, rounded to cents (0.655125ms)
+✔ a region with no rate is refused (0.182792ms)
+
+✖ failing tests:
+
+test at test/words.test.ts:6:1
+✖ toWords for basic amounts (0.872291ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'zero dollars and one cents'
+  - 'zero dollars and one cent'
+                              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251807000-2/test/words.test.ts:10:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'zero dollars and one cents',
+    expected: 'zero dollars and one cent',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:15:1
+✖ toWords for dollars with cents (0.106208ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'one dollar and one cents'
+  - 'one dollar and one cent'
+                            ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251807000-2/test/words.test.ts:16:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'one dollar and one cents',
+    expected: 'one dollar and one cent',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:22:1
+✖ toWords for larger amounts (0.087833ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'one thousand one dollars and one cents'
+  - 'one thousand one dollars and one cent'
+                                          ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251807000-2/test/words.test.ts:23:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'one thousand one dollars and one cents',
+    expected: 'one thousand one dollars and one cent',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:32:1
+✖ toWords for amounts with all parts (0.111208ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'one million two hundred thirty-four thousand five hundred sixty-seven dollars and eighty-nine cent'
+  - 'one million two hundred thirty-four thousand five hundred sixty-seven dollars and eighty-nine cents'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251807000-2/test/words.test.ts:33:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'one million two hundred thirty-four thousand five hundred sixty-seven dollars and eighty-nine cent',
+    expected: 'one million two hundred thirty-four thousand five hundred sixty-seven dollars and eighty-nine cents',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:37:1
+✖ toWords for teens (0.088916ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'zero dollars and ten cent'
+  - 'zero dollars and ten cents'
+                              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251807000-2/test/words.test.ts:43:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'zero dollars and ten cent',
+    expected: 'zero dollars and ten cents',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:48:1
+✖ toWords for twenty and above (0.069625ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'zero dollars and twenty cent'
+  - 'zero dollars and twenty cents'
+                                 ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251807000-2/test/words.test.ts:54:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'zero dollars and twenty cent',
+    expected: 'zero dollars and twenty cents',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:58:1
+✖ toWords for negative amounts (0.060875ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'minus zero dollars and fifty cent'
+  - 'minus zero dollars and fifty cents'
+                                      ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251807000-2/test/words.test.ts:60:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'minus zero dollars and fifty cent',
+    expected: 'minus zero dollars and fifty cents',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:64:1
+✖ toWords for hundred amounts (0.718666ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'one hundred one dollars and fifty cent'
+  - 'one hundred one dollars and fifty cents'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251807000-2/test/words.test.ts:67:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'one hundred one dollars and fifty cent',
+    expected: 'one hundred one dollars and fifty cents',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+✔ parseCatalog reads SKU,Name,price lines (0.856875ms)
+✔ parseCatalog prices in the catalog's currency (0.074292ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.225042ms)
+✔ a percent discount takes that share, rounded to cents (0.684875ms)
+✔ a fixed discount never takes more than the subtotal (0.075542ms)
+✔ an invoice adds tax on the subtotal and flat shipping (1.741833ms)
+✔ tax is on the subtotal after the discount (0.12725ms)
+✔ an empty cart cannot be invoiced (0.173875ms)
+✔ money keeps whole cents and its currency (0.748291ms)
+✔ add and subtract stay in one currency (0.103208ms)
+✔ multiply rounds halves away from zero (0.093333ms)
+✔ sum, compare and equals (0.10025ms)
+✔ format writes two decimals and the symbol (0.07875ms)
+✔ parse reads at most two decimals (0.14825ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.55075ms)
+✔ an empty report is a zero total (8.716208ms)
+✔ mixed currencies are refused (0.874625ms)
+✔ flat shipping by region (18.691125ms)
+✔ sales tax by region, rounded to cents (0.679791ms)
+✔ a region with no rate is refused (0.164292ms)
+✖ toWords for basic amounts (0.93325ms)
+✖ toWords for dollars with cents (0.120208ms)
+✖ toWords for larger amounts (0.083459ms)
+✖ toWords for amounts with all parts (0.096042ms)
+✖ toWords for teens (0.071584ms)
+✖ toWords for twenty and above (0.064417ms)
+✖ toWords for negative amounts (0.069792ms)
+✖ toWords for hundred amounts (4.269916ms)
+✔ toWords throws for non-USD currency (0.6755ms)
+✔ toWords throws for amounts exceeding max (0.183291ms)
+ℹ tests 33
+ℹ suites 0
+ℹ pass 25
+ℹ fail 8
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 704.634167
+✔ an invoice adds tax on the subtotal and flat shipping (0.837875ms)
+✔ tax is on the subtotal after the discount (0.118584ms)
+✔ an empty cart cannot be invoiced (1.081958ms)
+✔ money keeps whole cents and its currency (0.769375ms)
+✔ add and subtract stay in one currency (0.101041ms)
+✔ multiply rounds halves away from zero (0.090166ms)
+✔ sum, compare and equals (0.105792ms)
+✔ format writes two decimals and the symbol (0.085958ms)
+✔ parse reads at most two decimals (26.272375ms)
+
+✖ failing tests:
+
+test at test/words.test.ts:6:1
+✖ toWords for basic amounts (0.93325ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + ' dollar'
+  - 'one dollar'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251783000-1/test/words.test.ts:8:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: ' dollar',
+    expected: 'one dollar',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:15:1
+✖ toWords for dollars with cents (0.120208ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + ' dollar and  cent'
+  - 'one dollar and one cent'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251783000-1/test/words.test.ts:16:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: ' dollar and  cent',
+    expected: 'one dollar and one cent',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:22:1
+✖ toWords for larger amounts (0.083459ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'thousand dollars and  cent'
+  - 'one thousand one dollars and one cent'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251783000-1/test/words.test.ts:23:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'thousand dollars and  cent',
+    expected: 'one thousand one dollars and one cent',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:32:1
+✖ toWords for amounts with all parts (0.096042ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'million  thousand dollars and  cents'
+  - 'one million two hundred thirty-four thousand five hundred sixty-seven dollars and eighty-nine cents'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251783000-1/test/words.test.ts:33:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'million  thousand dollars and  cents',
+    expected: 'one million two hundred thirty-four thousand five hundred sixty-seven dollars and eighty-nine cents',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:37:1
+✖ toWords for teens (0.071584ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + ' dollars'
+  - 'ten dollars'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251783000-1/test/words.test.ts:38:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: ' dollars',
+    expected: 'ten dollars',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:48:1
+✖ toWords for twenty and above (0.064417ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + ' dollars'
+  - 'twenty dollars'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251783000-1/test/words.test.ts:49:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: ' dollars',
+    expected: 'twenty dollars',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:58:1
+✖ toWords for negative amounts (0.069792ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'minus  dollar'
+  - 'minus one dollar'
+           ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251783000-1/test/words.test.ts:59:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'minus  dollar',
+    expected: 'minus one dollar',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:64:1
+✖ toWords for hundred amounts (4.269916ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + ' dollars'
+  - 'one hundred dollars'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251783000-1/test/words.test.ts:65:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: ' dollars',
+    expected: 'one hundred dollars',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+✖ toWords for basic amounts (0.857209ms)
+✖ toWords for dollars with cents (0.099167ms)
+✖ toWords for larger amounts (0.081125ms)
+✖ toWords for amounts with all parts (0.0865ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.553666ms)
+✔ an empty report is a zero total (1.113459ms)
+✔ mixed currencies are refused (0.533791ms)
+✖ toWords for teens (0.072917ms)
+✔ flat shipping by region (0.720791ms)
+✖ toWords for twenty and above (0.059417ms)
+✔ sales tax by region, rounded to cents (6.340458ms)
+✔ a region with no rate is refused (0.183292ms)
+✖ toWords for negative amounts (0.060083ms)
+✖ toWords for hundred amounts (0.182958ms)
+✔ toWords throws for non-USD currency (0.559916ms)
+✔ toWords throws for amounts exceeding max (0.128292ms)
+✖ toWords for basic amounts (0.446917ms)
+✖ toWords for dollars with cents (0.058625ms)
+✖ toWords for larger amounts (0.044792ms)
+✖ toWords for amounts with all parts (0.040709ms)
+✖ toWords for teens (0.044459ms)
+✖ toWords for twenty and above (0.040917ms)
+✖ toWords for negative amounts (0.036542ms)
+✖ toWords for hundred amounts (0.03775ms)
+✖ toWords throws for non-USD currency (0.347166ms)
+✔ toWords throws for amounts exceeding max (0.191792ms)
+ℹ tests 33
+ℹ suites 0
+ℹ pass 24
+ℹ fail 9
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 707.726959
+✖ toWords for basic amounts (2.237542ms)
+✔ toWords for dollars with cents (0.167083ms)
+✖ toWords for larger amounts (0.166625ms)
+✖ toWords for amounts with all parts (0.099209ms)
+✖ toWords for teens (0.084209ms)
+✖ toWords for twenty and above (0.075208ms)
+✖ toWords for negative amounts (0.074416ms)
+✖ toWords for hundred amounts (1.510208ms)
+✔ toWords throws for non-USD currency (0.235041ms)
+✔ toWords throws for amounts exceeding max (0.114042ms)
+ℹ tests 33
+ℹ suites 0
+ℹ pass 26
+ℹ fail 7
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 707.032375
+
+✖ failing tests:
+
+test at test/words.test.ts:6:1
+✖ toWords for basic amounts (0.446917ms)
+  RangeError [Error]: toWords: currency USD is not USD
+      at toWords (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251814000-3/src/words.ts:8:11)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251814000-3/test/words.test.ts:7:16)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17)
+
+test at test/words.test.ts:15:1
+✖ toWords for dollars with cents (0.058625ms)
+  RangeError [Error]: toWords: currency USD is not USD
+      at toWords (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251814000-3/src/words.ts:8:11)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251814000-3/test/words.test.ts:16:16)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3)
+
+test at test/words.test.ts:22:1
+✖ toWords for larger amounts (0.044792ms)
+  RangeError [Error]: toWords: currency USD is not USD
+      at toWords (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251814000-3/src/words.ts:8:11)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251814000-3/test/words.test.ts:23:16)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/words.test.ts:32:1
+✖ toWords for amounts with all parts (0.040709ms)
+  RangeError [Error]: toWords: currency USD is not USD
+      at toWords (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251814000-3/src/words.ts:8:11)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251814000-3/test/words.test.ts:33:16)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/words.test.ts:37:1
+✖ toWords for teens (0.044459ms)
+  RangeError [Error]: toWords: currency USD is not USD
+      at toWords (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251814000-3/src/words.ts:8:11)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251814000-3/test/words.test.ts:38:16)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/words.test.ts:48:1
+✖ toWords for twenty and above (0.040917ms)
+  RangeError [Error]: toWords: currency USD is not USD
+      at toWords (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251814000-3/src/words.ts:8:11)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251814000-3/test/words.test.ts:49:16)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/words.test.ts:58:1
+✖ toWords for negative amounts (0.036542ms)
+  RangeError [Error]: toWords: currency USD is not USD
+      at toWords (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251814000-3/src/words.ts:8:11)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251814000-3/test/words.test.ts:59:16)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/words.test.ts:64:1
+✖ toWords for hundred amounts (0.03775ms)
+  RangeError [Error]: toWords: currency USD is not USD
+      at toWords (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251814000-3/src/words.ts:8:11)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251814000-3/test/words.test.ts:65:16)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/words.test.ts:71:1
+✖ toWords throws for non-USD currency (0.347166ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception (RangeError).
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251814000-3/test/words.test.ts:72:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+✖ failing tests:
+
+test at test/words.test.ts:6:1
+✖ toWords for basic amounts (2.237542ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'zero dollars and zero cents'
+  - 'zero dollars'
+                 ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251781000-0/test/words.test.ts:7:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'zero dollars and zero cents',
+    expected: 'zero dollars',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:22:1
+✖ toWords for larger amounts (0.166625ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'one thousand one dollars and zero cents'
+  - 'one thousand one dollars'
+                             ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251781000-0/test/words.test.ts:24:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'one thousand one dollars and zero cents',
+    expected: 'one thousand one dollars',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:32:1
+✖ toWords for amounts with all parts (0.099209ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'one million two thousand three dollars and zero cents'
+  - 'one million two thousand three dollars'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251781000-0/test/words.test.ts:34:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'one million two thousand three dollars and zero cents',
+    expected: 'one million two thousand three dollars',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:37:1
+✖ toWords for teens (0.084209ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'ten dollars and zero cents'
+  - 'ten dollars'
+                ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251781000-0/test/words.test.ts:38:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'ten dollars and zero cents',
+    expected: 'ten dollars',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:48:1
+✖ toWords for twenty and above (0.075208ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'twenty dollars and zero cents'
+  - 'twenty dollars'
+                   ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251781000-0/test/words.test.ts:49:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'twenty dollars and zero cents',
+    expected: 'twenty dollars',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:58:1
+✖ toWords for negative amounts (0.074416ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'minus one dollar and zero cents'
+  - 'minus one dollar'
+                     ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251781000-0/test/words.test.ts:59:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'minus one dollar and zero cents',
+    expected: 'minus one dollar',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:64:1
+✖ toWords for hundred amounts (1.510208ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'one hundred dollars and zero cents'
+  - 'one hundred dollars'
+                        ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251781000-0/test/words.test.ts:65:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'one hundred dollars and zero cents',
+    expected: 'one hundred dollars',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+ℹ tests 33
+ℹ suites 0
+ℹ pass 25
+ℹ fail 8
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 712.638792
+
+✖ failing tests:
+
+test at test/words.test.ts:6:1
+✖ toWords for basic amounts (0.857209ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + ' dollars'
+  - 'zero dollars'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251852000-5/test/words.test.ts:7:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: ' dollars',
+    expected: 'zero dollars',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:15:1
+✖ toWords for dollars with cents (0.099167ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'zero dollar and zero cent'
+  - 'one dollar and one cent'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251852000-5/test/words.test.ts:16:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'zero dollar and zero cent',
+    expected: 'one dollar and one cent',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:22:1
+✖ toWords for larger amounts (0.081125ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'zero dollars and zero cent'
+  - 'one thousand one dollars and one cent'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251852000-5/test/words.test.ts:23:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'zero dollars and zero cent',
+    expected: 'one thousand one dollars and one cent',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:32:1
+✖ toWords for amounts with all parts (0.0865ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'zero dollars and zero cents'
+  - 'one million two hundred thirty-four thousand five hundred sixty-seven dollars and eighty-nine cents'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251852000-5/test/words.test.ts:33:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'zero dollars and zero cents',
+    expected: 'one million two hundred thirty-four thousand five hundred sixty-seven dollars and eighty-nine cents',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:37:1
+✖ toWords for teens (0.072917ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'zero dollars'
+  - 'ten dollars'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251852000-5/test/words.test.ts:38:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'zero dollars',
+    expected: 'ten dollars',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:48:1
+✖ toWords for twenty and above (0.059417ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'zero dollars'
+  - 'twenty dollars'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251852000-5/test/words.test.ts:49:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'zero dollars',
+    expected: 'twenty dollars',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:58:1
+✖ toWords for negative amounts (0.060083ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'minus zero dollar'
+  - 'minus one dollar'
+           ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251852000-5/test/words.test.ts:59:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'minus zero dollar',
+    expected: 'minus one dollar',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:64:1
+✖ toWords for hundred amounts (0.182958ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'zero dollars'
+  - 'one hundred dollars'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920626251852000-5/test/words.test.ts:65:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'zero dollars',
+    expected: 'one hundred dollars',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+✔ adding merges lines by SKU (0.687333ms)
+✔ carts are values (0.061042ms)
+✔ bad quantities and currencies are refused (0.173584ms)
+✔ parseCatalog reads SKU,Name,price lines (0.751291ms)
+✔ parseCatalog prices in the catalog's currency (0.069458ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.224917ms)
+✔ a percent discount takes that share, rounded to cents (1.195625ms)
+✔ a fixed discount never takes more than the subtotal (0.0975ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.791167ms)
+✔ tax is on the subtotal after the discount (0.108083ms)
+✔ an empty cart cannot be invoiced (0.622167ms)
+✔ money keeps whole cents and its currency (0.764333ms)
+✔ add and subtract stay in one currency (0.105792ms)
+✔ multiply rounds halves away from zero (0.098291ms)
+✔ sum, compare and equals (0.098709ms)
+✔ format writes two decimals and the symbol (0.080875ms)
+✔ parse reads at most two decimals (0.153167ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.9825ms)
+✔ an empty report is a zero total (0.100333ms)
+✔ mixed currencies are refused (0.276083ms)
+✔ flat shipping by region (0.945625ms)
+✔ adding merges lines by SKU (3.319958ms)
+✔ carts are values (0.312209ms)
+✔ bad quantities and currencies are refused (0.282542ms)
+✔ parseCatalog reads SKU,Name,price lines (0.788334ms)
+✔ parseCatalog prices in the catalog's currency (0.0665ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.218125ms)
+✔ sales tax by region, rounded to cents (0.766ms)
+✔ a region with no rate is refused (4.643041ms)
+✔ adding merges lines by SKU (6.508083ms)
+✔ carts are values (0.138666ms)
+✔ bad quantities and currencies are refused (0.212375ms)
+✔ a percent discount takes that share, rounded to cents (0.688959ms)
+✔ a fixed discount never takes more than the subtotal (0.076ms)
+✔ adding merges lines by SKU (0.739292ms)
+✔ carts are values (0.066291ms)
+✔ bad quantities and currencies are refused (0.179375ms)
+✔ adding merges lines by SKU (0.753292ms)
+✔ carts are values (0.066ms)
+✔ bad quantities and currencies are refused (4.887833ms)
+✔ parseCatalog reads SKU,Name,price lines (0.876ms)
+✔ parseCatalog prices in the catalog's currency (0.08375ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.233333ms)
+✔ a percent discount takes that share, rounded to cents (0.738834ms)
+✔ a fixed discount never takes more than the subtotal (0.082958ms)
+✔ adding merges lines by SKU (7.711041ms)
+✔ carts are values (0.083041ms)
+✔ parseCatalog reads SKU,Name,price lines (0.800583ms)
+✔ parseCatalog prices in the catalog's currency (0.075125ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.22775ms)
+✔ bad quantities and currencies are refused (0.192916ms)
+✔ parseCatalog reads SKU,Name,price lines (4.098167ms)
+✔ parseCatalog prices in the catalog's currency (0.150416ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.277916ms)
+✔ a percent discount takes that share, rounded to cents (0.742ms)
+✔ a fixed discount never takes more than the subtotal (0.0785ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.800041ms)
+✔ tax is on the subtotal after the discount (0.10725ms)
+✔ an empty cart cannot be invoiced (0.166709ms)
+✔ money keeps whole cents and its currency (0.810791ms)
+✔ add and subtract stay in one currency (0.107042ms)
+✔ multiply rounds halves away from zero (0.086625ms)
+✔ sum, compare and equals (0.0945ms)
+✔ format writes two decimals and the symbol (0.076542ms)
+✔ parse reads at most two decimals (0.147458ms)
+✔ a percent discount takes that share, rounded to cents (0.6615ms)
+✔ a fixed discount never takes more than the subtotal (0.074042ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.537625ms)
+✔ an empty report is a zero total (1.036875ms)
+✔ mixed currencies are refused (0.257583ms)
+✔ parseCatalog reads SKU,Name,price lines (5.68825ms)
+✔ parseCatalog prices in the catalog's currency (0.084833ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.234625ms)
+✔ a percent discount takes that share, rounded to cents (0.675625ms)
+✔ a fixed discount never takes more than the subtotal (0.071833ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.746417ms)
+✔ tax is on the subtotal after the discount (0.102542ms)
+✔ an empty cart cannot be invoiced (0.1605ms)
+✖ toWords for basic amounts (3.009792ms)
+✖ toWords for dollars with cents (0.547708ms)
+✖ toWords for larger amounts (0.10275ms)
+✖ toWords for amounts with all parts (0.143875ms)
+✖ toWords for teens (0.090125ms)
+✖ toWords for twenty and above (0.073208ms)
+✖ toWords for negative amounts (0.066834ms)
+✖ toWords for hundred amounts (2.362417ms)
+✔ toWords throws for non-USD currency (0.270917ms)
+✔ toWords throws for amounts exceeding max (3.54425ms)
+✔ money keeps whole cents and its currency (0.774084ms)
+✔ add and subtract stay in one currency (0.105417ms)
+✔ multiply rounds halves away from zero (0.085334ms)
+✔ sum, compare and equals (0.089958ms)
+✔ format writes two decimals and the symbol (0.075792ms)
+✔ parse reads at most two decimals (0.1505ms)
+ℹ tests 33
+ℹ suites 0
+ℹ pass 25
+ℹ fail 8
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 694.658959
+
+✖ failing tests:
+
+test at test/words.test.ts:6:1
+✖ toWords for basic amounts (3.009792ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'hundredone dollar'
+  - 'one dollar'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920627051987000-6/test/words.test.ts:8:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'hundredone dollar',
+    expected: 'one dollar',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:15:1
+✖ toWords for dollars with cents (0.547708ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'hundredone dollar and hundredone cent'
+  - 'one dollar and one cent'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920627051987000-6/test/words.test.ts:16:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'hundredone dollar and hundredone cent',
+    expected: 'one dollar and one cent',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:22:1
+✖ toWords for larger amounts (0.10275ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'hundredone thousand  hundredone dollars and hundredone cent'
+  - 'one thousand one dollars and one cent'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920627051987000-6/test/words.test.ts:23:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'hundredone thousand  hundredone dollars and hundredone cent',
+    expected: 'one thousand one dollars and one cent',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:32:1
+✖ toWords for amounts with all parts (0.143875ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'hundredone million two hundred thirty-four thousand five hundred sixty-seven dollars and hundredeighty-nine cents'
+  - 'one million two hundred thirty-four thousand five hundred sixty-seven dollars and eighty-nine cents'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920627051987000-6/test/words.test.ts:33:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'hundredone million two hundred thirty-four thousand five hundred sixty-seven dollars and hundredeighty-nine cents',
+    expected: 'one million two hundred thirty-four thousand five hundred sixty-seven dollars and eighty-nine cents',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:37:1
+✖ toWords for teens (0.090125ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'hundredten dollars'
+  - 'ten dollars'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920627051987000-6/test/words.test.ts:38:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'hundredten dollars',
+    expected: 'ten dollars',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:48:1
+✖ toWords for twenty and above (0.073208ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'hundredtwenty dollars'
+  - 'twenty dollars'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920627051987000-6/test/words.test.ts:49:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'hundredtwenty dollars',
+    expected: 'twenty dollars',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:58:1
+✖ toWords for negative amounts (0.066834ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'minus hundredone dollar'
+  - 'minus one dollar'
+           ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920627051987000-6/test/words.test.ts:59:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'minus hundredone dollar',
+    expected: 'minus one dollar',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:64:1
+✖ toWords for hundred amounts (2.362417ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'one hundred one dollars and hundredfifty cents'
+  - 'one hundred one dollars and fifty cents'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920627051987000-6/test/words.test.ts:67:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'one hundred one dollars and hundredfifty cents',
+    expected: 'one hundred one dollars and fifty cents',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+✔ flat shipping by region (4.690167ms)
+✔ sales tax by region, rounded to cents (0.6525ms)
+✔ a region with no rate is refused (0.174708ms)
+✔ toWords for basic amounts (0.785416ms)
+✔ toWords for dollars with cents (0.34625ms)
+✖ toWords for larger amounts (0.671959ms)
+✔ toWords for amounts with all parts (0.073041ms)
+✖ toWords for teens (0.107458ms)
+✔ toWords for twenty and above (8.619291ms)
+✔ toWords for negative amounts (0.107083ms)
+✔ toWords for hundred amounts (0.056041ms)
+✔ toWords throws for non-USD currency (0.212625ms)
+✔ toWords throws for amounts exceeding max (0.119917ms)
+ℹ tests 33
+ℹ suites 0
+ℹ pass 31
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 654.348583
+✔ an invoice adds tax on the subtotal and flat shipping (7.596541ms)
+✔ tax is on the subtotal after the discount (1.682542ms)
+✔ an empty cart cannot be invoiced (0.255875ms)
+✔ money keeps whole cents and its currency (0.810209ms)
+✔ add and subtract stay in one currency (0.110042ms)
+✔ multiply rounds halves away from zero (0.086541ms)
+✔ sum, compare and equals (0.093792ms)
+✔ format writes two decimals and the symbol (0.075708ms)
+✔ parse reads at most two decimals (0.147583ms)
+
+✖ failing tests:
+
+test at test/words.test.ts:22:1
+✖ toWords for larger amounts (0.671959ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'undefined thousand dollars'
+  - 'ten thousand dollars'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920627060305000-9/test/words.test.ts:26:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined thousand dollars',
+    expected: 'ten thousand dollars',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:37:1
+✖ toWords for teens (0.107458ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'undefined dollars'
+  - 'ten dollars'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920627060305000-9/test/words.test.ts:38:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined dollars',
+    expected: 'ten dollars',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+✔ one line per invoice, then the total, amounts without a symbol (1.2115ms)
+✔ an empty report is a zero total (0.181833ms)
+✔ mixed currencies are refused (0.263667ms)
+✔ flat shipping by region (0.713334ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.757375ms)
+✔ tax is on the subtotal after the discount (0.1055ms)
+✔ an empty cart cannot be invoiced (0.155333ms)
+✔ money keeps whole cents and its currency (0.851792ms)
+✔ add and subtract stay in one currency (0.105083ms)
+✔ multiply rounds halves away from zero (0.085958ms)
+✔ sum, compare and equals (0.092792ms)
+✔ format writes two decimals and the symbol (0.081792ms)
+✔ parse reads at most two decimals (32.882791ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.604792ms)
+✔ an empty report is a zero total (5.274833ms)
+✔ mixed currencies are refused (0.282542ms)
+✔ flat shipping by region (0.87225ms)
+✔ sales tax by region, rounded to cents (0.658417ms)
+✔ a region with no rate is refused (0.278125ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.779375ms)
+✔ tax is on the subtotal after the discount (0.12375ms)
+✔ an empty cart cannot be invoiced (0.172792ms)
+✔ money keeps whole cents and its currency (0.803708ms)
+✔ add and subtract stay in one currency (0.115375ms)
+✔ multiply rounds halves away from zero (0.090875ms)
+✔ sum, compare and equals (0.093417ms)
+✔ format writes two decimals and the symbol (0.075291ms)
+✔ parse reads at most two decimals (0.133417ms)
+✔ one line per invoice, then the total, amounts without a symbol (2.488834ms)
+✔ an empty report is a zero total (0.084375ms)
+✔ mixed currencies are refused (0.365417ms)
+✔ flat shipping by region (0.724833ms)
+✔ sales tax by region, rounded to cents (0.645125ms)
+✔ a region with no rate is refused (0.18ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.582083ms)
+✖ toWords for basic amounts (0.942375ms)
+✔ an empty report is a zero total (0.626375ms)
+✔ mixed currencies are refused (0.205583ms)
+✖ toWords for dollars with cents (0.120667ms)
+✔ flat shipping by region (0.748ms)
+✔ sales tax by region, rounded to cents (0.659084ms)
+✔ a region with no rate is refused (0.171792ms)
+✔ toWords for basic amounts (0.504375ms)
+✔ toWords for larger amounts (0.107375ms)
+✔ toWords for amounts with all parts (0.056166ms)
+✔ toWords for teens (0.055041ms)
+✖ toWords for twenty and above (0.081125ms)
+✔ sales tax by region, rounded to cents (0.642334ms)
+✖ toWords for negative amounts (0.962459ms)
+✖ toWords for hundred amounts (0.190792ms)
+✔ toWords throws for non-USD currency (0.256291ms)
+✔ toWords throws for amounts exceeding max (0.269833ms)
+✔ toWords for dollars with cents (0.085ms)
+✔ a region with no rate is refused (0.169458ms)
+✖ toWords for larger amounts (0.629583ms)
+✔ toWords for basic amounts (0.487958ms)
+✔ toWords for amounts with all parts (0.084125ms)
+✔ toWords for teens (0.067833ms)
+✔ toWords for twenty and above (0.055792ms)
+✔ toWords for negative amounts (0.627667ms)
+✔ toWords for hundred amounts (0.319333ms)
+✔ toWords throws for non-USD currency (0.562958ms)
+✔ toWords throws for amounts exceeding max (0.1465ms)
+✔ toWords for dollars with cents (0.082917ms)
+ℹ tests 33
+✖ toWords for larger amounts (0.4705ms)
+✖ toWords for amounts with all parts (0.091167ms)
+✔ toWords for teens (0.057625ms)
+ℹ tests 33
+✔ toWords for twenty and above (0.049542ms)
+ℹ suites 0
+ℹ suites 0
+ℹ pass 32
+ℹ fail 1
+ℹ pass 28
+ℹ cancelled 0
+✔ toWords for negative amounts (1.95475ms)
+ℹ fail 5
+✔ toWords for hundred amounts (0.190833ms)
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 667.737459
+✔ toWords throws for non-USD currency (0.463583ms)
+ℹ cancelled 0
+ℹ skipped 0
+✔ toWords throws for amounts exceeding max (0.253833ms)
+ℹ todo 0
+ℹ duration_ms 665.064334
+
+✖ failing tests:
+
+test at test/words.test.ts:22:1
+✖ toWords for larger amounts (0.629583ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'one hundred  thousand dollars'
+  - 'one hundred thousand dollars'
+                 ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920627056260000-7/test/words.test.ts:27:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'one hundred  thousand dollars',
+    expected: 'one hundred thousand dollars',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+ℹ tests 33
+ℹ suites 0
+ℹ pass 31
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 664.733833
+
+✖ failing tests:
+
+test at test/words.test.ts:6:1
+✖ toWords for basic amounts (0.942375ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'zero dollars and fifty- cents'
+  - 'zero dollars and fifty cents'
+                           ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920627067614000-11/test/words.test.ts:11:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'zero dollars and fifty- cents',
+    expected: 'zero dollars and fifty cents',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:15:1
+✖ toWords for dollars with cents (0.120667ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'one dollar and fifty- cents'
+  - 'one dollar and fifty cents'
+                         ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920627067614000-11/test/words.test.ts:17:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'one dollar and fifty- cents',
+    expected: 'one dollar and fifty cents',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:48:1
+✖ toWords for twenty and above (0.081125ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'twenty- dollars'
+  - 'twenty dollars'
+           ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920627067614000-11/test/words.test.ts:49:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'twenty- dollars',
+    expected: 'twenty dollars',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:58:1
+✖ toWords for negative amounts (0.962459ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'minus zero dollars and fifty- cents'
+  - 'minus zero dollars and fifty cents'
+                                 ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920627067614000-11/test/words.test.ts:60:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'minus zero dollars and fifty- cents',
+    expected: 'minus zero dollars and fifty cents',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:64:1
+✖ toWords for hundred amounts (0.190792ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'one hundred one dollars and fifty- cents'
+  - 'one hundred one dollars and fifty cents'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920627067614000-11/test/words.test.ts:67:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'one hundred one dollars and fifty- cents',
+    expected: 'one hundred one dollars and fifty cents',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+✖ failing tests:
+
+test at test/words.test.ts:22:1
+✖ toWords for larger amounts (0.4705ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'one thousand  one dollars and one cent'
+  - 'one thousand one dollars and one cent'
+                  ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920627058404000-8/test/words.test.ts:23:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'one thousand  one dollars and one cent',
+    expected: 'one thousand one dollars and one cent',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:32:1
+✖ toWords for amounts with all parts (0.091167ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'one million  two thousand  three dollars'
+  - 'one million two thousand three dollars'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920627058404000-8/test/words.test.ts:34:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'one million  two thousand  three dollars',
+    expected: 'one million two thousand three dollars',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+✔ toWords for basic amounts (123.288042ms)
+✔ toWords for dollars with cents (0.302709ms)
+✔ toWords for larger amounts (0.140792ms)
+✔ toWords for amounts with all parts (0.097125ms)
+✔ toWords for teens (0.123583ms)
+✖ toWords for twenty and above (0.992625ms)
+✔ toWords for negative amounts (0.147833ms)
+✔ toWords for hundred amounts (19.92775ms)
+✔ toWords throws for non-USD currency (8.521208ms)
+✔ toWords throws for amounts exceeding max (0.317ms)
+ℹ tests 33
+ℹ suites 0
+ℹ pass 32
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 671.269667
+
+✖ failing tests:
+
+test at test/words.test.ts:48:1
+✖ toWords for twenty and above (0.992625ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'undefined dollars'
+  - 'twenty dollars'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920627061296000-10/test/words.test.ts:49:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'undefined dollars',
+    expected: 'twenty dollars',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+✔ adding merges lines by SKU (1.04425ms)
+✔ carts are values (0.09975ms)
+✔ bad quantities and currencies are refused (0.216917ms)
+✔ adding merges lines by SKU (3.873666ms)
+✔ carts are values (0.08775ms)
+✔ bad quantities and currencies are refused (0.201417ms)
+✔ parseCatalog reads SKU,Name,price lines (0.820042ms)
+✔ parseCatalog prices in the catalog's currency (0.065834ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.214834ms)
+✔ parseCatalog reads SKU,Name,price lines (0.814167ms)
+✔ parseCatalog prices in the catalog's currency (0.066083ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.215417ms)
+✔ adding merges lines by SKU (0.774042ms)
+✔ adding merges lines by SKU (0.71425ms)
+✔ carts are values (0.854708ms)
+✔ bad quantities and currencies are refused (0.252375ms)
+✔ adding merges lines by SKU (0.778209ms)
+✔ carts are values (0.0705ms)
+✔ bad quantities and currencies are refused (0.190792ms)
+✔ carts are values (0.063208ms)
+✔ bad quantities and currencies are refused (0.177291ms)
+✔ parseCatalog reads SKU,Name,price lines (9.863917ms)
+✔ parseCatalog prices in the catalog's currency (2.1485ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.353625ms)
+✔ a percent discount takes that share, rounded to cents (0.647792ms)
+✔ a fixed discount never takes more than the subtotal (0.083291ms)
+✔ parseCatalog reads SKU,Name,price lines (0.834458ms)
+✔ parseCatalog prices in the catalog's currency (0.078041ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.227209ms)
+✔ a percent discount takes that share, rounded to cents (0.756334ms)
+✔ a fixed discount never takes more than the subtotal (0.083417ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.88ms)
+✔ parseCatalog reads SKU,Name,price lines (0.790292ms)
+✔ parseCatalog prices in the catalog's currency (0.069459ms)
+✔ tax is on the subtotal after the discount (0.1115ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.349ms)
+✔ an empty cart cannot be invoiced (0.179917ms)
+✔ a percent discount takes that share, rounded to cents (0.662833ms)
+✔ a fixed discount never takes more than the subtotal (0.069917ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.78ms)
+✔ tax is on the subtotal after the discount (0.106208ms)
+✔ an empty cart cannot be invoiced (0.156ms)
+✔ money keeps whole cents and its currency (0.769375ms)
+✔ add and subtract stay in one currency (0.104334ms)
+✔ multiply rounds halves away from zero (0.09475ms)
+✔ sum, compare and equals (0.09975ms)
+✔ format writes two decimals and the symbol (0.082208ms)
+✔ parse reads at most two decimals (25.253083ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.582208ms)
+✔ an empty report is a zero total (0.549375ms)
+✔ mixed currencies are refused (0.208375ms)
+✔ flat shipping by region (3.23425ms)
+✔ sales tax by region, rounded to cents (0.639208ms)
+✔ a region with no rate is refused (0.168167ms)
+✖ toWords for basic amounts (0.946666ms)
+✔ a percent discount takes that share, rounded to cents (30.132625ms)
+✖ toWords for dollars with cents (0.1405ms)
+✖ toWords for larger amounts (0.092375ms)
+✔ a fixed discount never takes more than the subtotal (0.861041ms)
+✖ toWords for amounts with all parts (0.122083ms)
+✖ toWords for teens (0.078959ms)
+✖ toWords for twenty and above (0.064625ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.79775ms)
+✖ toWords for negative amounts (0.061917ms)
+✔ tax is on the subtotal after the discount (0.106833ms)
+✔ an empty cart cannot be invoiced (0.694ms)
+✔ money keeps whole cents and its currency (0.793375ms)
+✔ add and subtract stay in one currency (0.109958ms)
+✔ multiply rounds halves away from zero (0.093208ms)
+✔ sum, compare and equals (0.097625ms)
+✔ format writes two decimals and the symbol (0.083416ms)
+✔ parse reads at most two decimals (0.159709ms)
+✔ one line per invoice, then the total, amounts without a symbol (2.414209ms)
+✔ an empty report is a zero total (0.644292ms)
+✖ toWords for hundred amounts (0.1555ms)
+✔ mixed currencies are refused (0.23075ms)
+✔ toWords throws for non-USD currency (0.277291ms)
+✔ flat shipping by region (0.741875ms)
+✔ toWords throws for amounts exceeding max (0.117958ms)
+✔ sales tax by region, rounded to cents (0.663958ms)
+✔ a region with no rate is refused (0.165542ms)
+✖ toWords for basic amounts (0.890459ms)
+✖ toWords for dollars with cents (0.107583ms)
+ℹ tests 33
+✖ toWords for larger amounts (0.079417ms)
+ℹ suites 0
+ℹ pass 25
+ℹ fail 8
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 634.352667
+✖ toWords for amounts with all parts (0.109541ms)
+✖ toWords for teens (0.079041ms)
+✖ toWords for twenty and above (0.07025ms)
+✖ toWords for negative amounts (0.070833ms)
+✖ toWords for hundred amounts (0.659375ms)
+✔ toWords throws for non-USD currency (0.198166ms)
+✔ toWords throws for amounts exceeding max (0.099708ms)
+ℹ tests 33
+ℹ suites 0
+ℹ pass 25
+ℹ fail 8
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 654.905667
+
+✖ failing tests:
+
+test at test/words.test.ts:6:1
+✖ toWords for basic amounts (0.946666ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'zero dollar'
+  - 'zero dollars'
+                ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920627818137000-16/test/words.test.ts:7:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'zero dollar',
+    expected: 'zero dollars',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:15:1
+✖ toWords for dollars with cents (0.1405ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'one dollars and one cent'
+  - 'one dollar and one cent'
+               ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920627818137000-16/test/words.test.ts:16:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'one dollars and one cent',
+    expected: 'one dollar and one cent',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:22:1
+✖ toWords for larger amounts (0.092375ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'one thousand one dollar and one cent'
+  - 'one thousand one dollars and one cent'
+                            ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920627818137000-16/test/words.test.ts:23:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'one thousand one dollar and one cent',
+    expected: 'one thousand one dollars and one cent',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:32:1
+✖ toWords for amounts with all parts (0.122083ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'one million two hundred thirty-four thousand five hundred sixty-seven dollar and eighty-nine cents'
+  - 'one million two hundred thirty-four thousand five hundred sixty-seven dollars and eighty-nine cents'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920627818137000-16/test/words.test.ts:33:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'one million two hundred thirty-four thousand five hundred sixty-seven dollar and eighty-nine cents',
+    expected: 'one million two hundred thirty-four thousand five hundred sixty-seven dollars and eighty-nine cents',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:37:1
+✖ toWords for teens (0.078959ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'ten dollar'
+  - 'ten dollars'
+               ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920627818137000-16/test/words.test.ts:38:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'ten dollar',
+    expected: 'ten dollars',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:48:1
+✖ toWords for twenty and above (0.064625ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'twenty dollar'
+  - 'twenty dollars'
+                  ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920627818137000-16/test/words.test.ts:49:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'twenty dollar',
+    expected: 'twenty dollars',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:58:1
+✖ toWords for negative amounts (0.061917ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'minus one dollars'
+  - 'minus one dollar'
+                     ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920627818137000-16/test/words.test.ts:59:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'minus one dollars',
+    expected: 'minus one dollar',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:64:1
+✖ toWords for hundred amounts (0.1555ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'one hundred dollar'
+  - 'one hundred dollars'
+                       ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920627818137000-16/test/words.test.ts:65:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'one hundred dollar',
+    expected: 'one hundred dollars',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+✔ money keeps whole cents and its currency (0.768292ms)
+✔ add and subtract stay in one currency (0.108834ms)
+✔ multiply rounds halves away from zero (0.088541ms)
+✔ sum, compare and equals (0.094792ms)
+✔ format writes two decimals and the symbol (0.078ms)
+✔ parse reads at most two decimals (0.155125ms)
+✔ one line per invoice, then the total, amounts without a symbol (1.284042ms)
+✔ an empty report is a zero total (1.204208ms)
+✔ mixed currencies are refused (0.506125ms)
+✔ flat shipping by region (0.686417ms)
+✔ sales tax by region, rounded to cents (0.623958ms)
+✔ a region with no rate is refused (0.170458ms)
+✖ toWords for basic amounts (0.858417ms)
+✖ toWords for dollars with cents (0.102042ms)
+✖ toWords for larger amounts (0.081416ms)
+✖ toWords for amounts with all parts (0.10975ms)
+✖ toWords for teens (0.076917ms)
+✖ toWords for twenty and above (0.067833ms)
+
+✖ failing tests:
+
+test at test/words.test.ts:6:1
+✖ toWords for basic amounts (0.890459ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'thousand one dollar'
+  - 'one dollar'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920627809326000-13/test/words.test.ts:8:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'thousand one dollar',
+    expected: 'one dollar',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:15:1
+✖ toWords for dollars with cents (0.107583ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'thousand one dollar and thousand one cent'
+  - 'one dollar and one cent'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920627809326000-13/test/words.test.ts:16:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'thousand one dollar and thousand one cent',
+    expected: 'one dollar and one cent',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:22:1
+✖ toWords for larger amounts (0.079417ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'one thousand one dollars and thousand one cent'
+  - 'one thousand one dollars and one cent'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920627809326000-13/test/words.test.ts:23:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'one thousand one dollars and thousand one cent',
+    expected: 'one thousand one dollars and one cent',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:32:1
+✖ toWords for amounts with all parts (0.109541ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'one million two hundred thirty-four thousand five hundred sixty-seven dollars and thousand eighty-nine cents'
+  - 'one million two hundred thirty-four thousand five hundred sixty-seven dollars and eighty-nine cents'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920627809326000-13/test/words.test.ts:33:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'one million two hundred thirty-four thousand five hundred sixty-seven dollars and thousand eighty-nine cents',
+    expected: 'one million two hundred thirty-four thousand five hundred sixty-seven dollars and eighty-nine cents',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:37:1
+✖ toWords for teens (0.079041ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'thousand ten dollars'
+  - 'ten dollars'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920627809326000-13/test/words.test.ts:38:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'thousand ten dollars',
+    expected: 'ten dollars',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:48:1
+✖ toWords for twenty and above (0.07025ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'thousand twenty dollars'
+  - 'twenty dollars'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920627809326000-13/test/words.test.ts:49:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'thousand twenty dollars',
+    expected: 'twenty dollars',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:58:1
+✖ toWords for negative amounts (0.070833ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'minus thousand one dollar'
+  - 'minus one dollar'
+           ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920627809326000-13/test/words.test.ts:59:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'minus thousand one dollar',
+    expected: 'minus one dollar',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:64:1
+✖ toWords for hundred amounts (0.659375ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'thousand one hundred dollars'
+  - 'one hundred dollars'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920627809326000-13/test/words.test.ts:65:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'thousand one hundred dollars',
+    expected: 'one hundred dollars',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+✖ toWords for negative amounts (0.613917ms)
+✖ toWords for hundred amounts (0.071583ms)
+✔ a percent discount takes that share, rounded to cents (0.663042ms)
+✔ toWords throws for non-USD currency (0.2045ms)
+✔ toWords throws for amounts exceeding max (0.099583ms)
+ℹ tests 33
+ℹ suites 0
+ℹ pass 25
+ℹ fail 8
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 656.854917
+✔ an invoice adds tax on the subtotal and flat shipping (1.526875ms)
+✔ tax is on the subtotal after the discount (0.703917ms)
+✔ an empty cart cannot be invoiced (0.26325ms)
+✔ money keeps whole cents and its currency (0.857208ms)
+✔ add and subtract stay in one currency (0.201125ms)
+✔ multiply rounds halves away from zero (0.111375ms)
+✔ sum, compare and equals (0.103959ms)
+✔ format writes two decimals and the symbol (0.083959ms)
+✔ parse reads at most two decimals (0.167291ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.594125ms)
+✔ an empty report is a zero total (0.643583ms)
+✔ mixed currencies are refused (0.196667ms)
+✔ flat shipping by region (0.702916ms)
+✔ sales tax by region, rounded to cents (0.703166ms)
+✔ a region with no rate is refused (0.170875ms)
+✔ toWords for basic amounts (0.699625ms)
+✔ toWords for dollars with cents (0.226209ms)
+✔ toWords for larger amounts (0.124458ms)
+✔ toWords for amounts with all parts (0.113042ms)
+✔ toWords for teens (0.115417ms)
+✔ toWords for twenty and above (0.094708ms)
+✔ toWords for negative amounts (0.09075ms)
+✔ toWords for hundred amounts (11.984541ms)
+✔ toWords throws for non-USD currency (0.269292ms)
+✔ toWords throws for amounts exceeding max (0.133167ms)
+✔ a fixed discount never takes more than the subtotal (0.074208ms)
+ℹ tests 33
+ℹ suites 0
+ℹ pass 33
+
+✖ failing tests:
+
+test at test/words.test.ts:6:1
+✖ toWords for basic amounts (0.858417ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'million one dollar'
+  - 'one dollar'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920627806198000-12/test/words.test.ts:8:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'million one dollar',
+    expected: 'one dollar',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:15:1
+✖ toWords for dollars with cents (0.102042ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'million one dollar and million one cent'
+  - 'one dollar and one cent'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920627806198000-12/test/words.test.ts:16:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'million one dollar and million one cent',
+    expected: 'one dollar and one cent',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:22:1
+✖ toWords for larger amounts (0.081416ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'million one thousand one dollars and million one cent'
+  - 'one thousand one dollars and one cent'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920627806198000-12/test/words.test.ts:23:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'million one thousand one dollars and million one cent',
+    expected: 'one thousand one dollars and one cent',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:32:1
+✖ toWords for amounts with all parts (0.10975ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'one million two hundred thirty-four thousand five hundred sixty-seven dollars and million eighty-nine cents'
+  - 'one million two hundred thirty-four thousand five hundred sixty-seven dollars and eighty-nine cents'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920627806198000-12/test/words.test.ts:33:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'one million two hundred thirty-four thousand five hundred sixty-seven dollars and million eighty-nine cents',
+    expected: 'one million two hundred thirty-four thousand five hundred sixty-seven dollars and eighty-nine cents',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:37:1
+✖ toWords for teens (0.076917ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'million ten dollars'
+  - 'ten dollars'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920627806198000-12/test/words.test.ts:38:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'million ten dollars',
+    expected: 'ten dollars',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:48:1
+✖ toWords for twenty and above (0.067833ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'million twenty dollars'
+  - 'twenty dollars'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920627806198000-12/test/words.test.ts:49:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'million twenty dollars',
+    expected: 'twenty dollars',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:58:1
+✖ toWords for negative amounts (0.613917ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'minus million one dollar'
+  - 'minus one dollar'
+           ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920627806198000-12/test/words.test.ts:59:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'minus million one dollar',
+    expected: 'minus one dollar',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/words.test.ts:64:1
+✖ toWords for hundred amounts (0.071583ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'million one hundred dollars'
+  - 'one hundred dollars'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44586-1792920627806198000-12/test/words.test.ts:65:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'million one hundred dollars',
+    expected: 'one hundred dollars',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 634.121125
+✔ an invoice adds tax on the subtotal and flat shipping (0.818916ms)
+✔ tax is on the subtotal after the discount (0.109417ms)
+✔ an empty cart cannot be invoiced (0.924542ms)
+✔ money keeps whole cents and its currency (1.049166ms)
+✔ add and subtract stay in one currency (0.126084ms)
+✔ multiply rounds halves away from zero (0.096125ms)
+✔ sum, compare and equals (0.098917ms)
+✔ format writes two decimals and the symbol (0.079ms)
+✔ parse reads at most two decimals (0.169208ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.561167ms)
+✔ an empty report is a zero total (0.605333ms)
+✔ mixed currencies are refused (0.19525ms)
+✔ flat shipping by region (1.182417ms)
+✔ sales tax by region, rounded to cents (0.641ms)
+✔ a region with no rate is refused (0.175042ms)
+✔ toWords for basic amounts (0.514708ms)
+✔ toWords for dollars with cents (0.082833ms)
+✔ toWords for larger amounts (0.057875ms)
+✔ toWords for amounts with all parts (0.049042ms)
+✔ toWords for teens (0.055375ms)
+✔ toWords for twenty and above (0.0475ms)
+✔ toWords for negative amounts (0.045541ms)
+✔ toWords for hundred amounts (1.293916ms)
+✔ toWords throws for non-USD currency (0.247166ms)
+✔ toWords throws for amounts exceeding max (0.126417ms)
+ℹ tests 33
+ℹ suites 0
+ℹ pass 33
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 643.89375

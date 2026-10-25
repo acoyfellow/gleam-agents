@@ -1,0 +1,1 @@
+{"schema_version":2,"total":2,"killed":2,"survived":0,"timeout":0,"error":0,"evaluated":2,"score":1,"mutants":[{"id":"1b4f4a9b822f1878","line":13,"operator":"equality-strict-to-loose-neg","status":"killed"},{"id":"a8ea1907f69de889","line":36,"operator":"equality-strict-to-loose-neg","status":"killed"}]}

@@ -1,0 +1,10 @@
+{
+  // Template copied to the candidate workdir as wrangler.jsonc before the agent runs.
+  // The agent may edit this but the KV binding (KV) must remain.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "kv-crud-candidate",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-05-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "kv_namespaces": [{ "binding": "KV", "id": "00000000000000000000000000000000" }]
+}

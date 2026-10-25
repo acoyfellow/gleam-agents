@@ -1,0 +1,27 @@
+{
+ "name": "haiku45-pi",
+ "harness": "pi",
+ "model": "claude-haiku-4-5",
+ "price_per_m": {
+  "in": 1,
+  "out": 5
+ },
+ "max_turns": 30,
+ "max_tokens": 16000,
+ "max_minutes": 15,
+ "tools": [
+  "read",
+  "bash",
+  "edit",
+  "write"
+ ],
+ "pi": {
+  "provider": "anthropic",
+  "extensions": []
+ },
+ "seat_id": "r-cart",
+ "writable": [
+  "src/",
+  "test/"
+ ]
+}

@@ -1,0 +1,134 @@
+{
+ "claim": "on agent-written code, mutant score < 0.5 flags the seats whose visible tests pass but hidden tests fail",
+ "metric": "wrong ships caught / wrong ships, and false alarms / flagged",
+ "threshold": 0.5,
+ "seats_scored": 17,
+ "wrong_ships": 3,
+ "caught": 0,
+ "flagged": 0,
+ "false_alarms": 0,
+ "wrong_rate_when_flagged": null,
+ "wrong_rate_when_not_flagged": 0.176,
+ "rows": [
+  {
+   "seat": "h-allocate-remainder",
+   "hidden_pass": false,
+   "visible_pass": true,
+   "mutants": 13,
+   "score": 0.769
+  },
+  {
+   "seat": "h-business-days",
+   "hidden_pass": true,
+   "visible_pass": true,
+   "mutants": 11,
+   "score": 0.909
+  },
+  {
+   "seat": "h-cart-merge",
+   "hidden_pass": true,
+   "visible_pass": true,
+   "mutants": 8,
+   "score": 1
+  },
+  {
+   "seat": "h-catalog-search",
+   "hidden_pass": false,
+   "visible_pass": true,
+   "mutants": 9,
+   "score": 0.667
+  },
+  {
+   "seat": "h-csv-parse",
+   "hidden_pass": true,
+   "visible_pass": true,
+   "mutants": 43,
+   "score": 0.651
+  },
+  {
+   "seat": "h-discount-cap",
+   "hidden_pass": true,
+   "visible_pass": true,
+   "mutants": 7,
+   "score": 0.571
+  },
+  {
+   "seat": "h-format-negative-code",
+   "hidden_pass": true,
+   "visible_pass": true,
+   "mutants": 9,
+   "score": 0.889
+  },
+  {
+   "seat": "h-installments",
+   "hidden_pass": true,
+   "visible_pass": true,
+   "mutants": 9,
+   "score": 0.889
+  },
+  {
+   "seat": "h-invoice-credit",
+   "hidden_pass": true,
+   "visible_pass": true,
+   "mutants": 2,
+   "score": 1
+  },
+  {
+   "seat": "h-invoice-rounding-audit",
+   "hidden_pass": true,
+   "visible_pass": true,
+   "mutants": 6,
+   "score": 0.833
+  },
+  {
+   "seat": "h-money-words",
+   "hidden_pass": true,
+   "visible_pass": true,
+   "mutants": 17,
+   "score": 0.882
+  },
+  {
+   "seat": "h-parse-strict",
+   "hidden_pass": true,
+   "visible_pass": true,
+   "mutants": 11,
+   "score": 0.909
+  },
+  {
+   "seat": "h-report-currency-mix",
+   "hidden_pass": true,
+   "visible_pass": true,
+   "mutants": 2,
+   "score": 1
+  },
+  {
+   "seat": "h-shipping-weight",
+   "hidden_pass": true,
+   "visible_pass": true,
+   "mutants": 3,
+   "score": 1
+  },
+  {
+   "seat": "h-sku-glob",
+   "hidden_pass": false,
+   "visible_pass": true,
+   "mutants": 34,
+   "score": 0.882
+  },
+  {
+   "seat": "h-tax-cent-bug",
+   "hidden_pass": true,
+   "visible_pass": true,
+   "mutants": 7,
+   "score": 1
+  },
+  {
+   "seat": "h-tax-inclusive",
+   "hidden_pass": true,
+   "visible_pass": true,
+   "mutants": 3,
+   "score": 1
+  }
+ ],
+ "verdict": "disproven"
+}

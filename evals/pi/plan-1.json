@@ -1,0 +1,19 @@
+{
+ "name": "pi-harness-smoke",
+ "baseline": "same task on haiku45-native in proof/eval",
+ "seats": [
+  {
+   "id": "pi-cart-merge",
+   "shape": "haiku45-pi",
+   "goal": "cart-merge",
+   "prompt_file": "../hard/prompts/cart-merge.md",
+   "seed": "../../bench/hard/seed",
+   "writable": [
+    "src/",
+    "test/"
+   ],
+   "test_command": "node --test",
+   "grade_command": "mkdir -p test/accept && cp \"$FLEET_ROOT\"/bench/hard/accept/cart-merge.test.ts \"$FLEET_ROOT\"/bench/hard/accept/fixtures.ts test/accept/ && node --test --test-reporter=dot test/accept/cart-merge.test.ts; e=$?; rm -rf test/accept; exit $e"
+  }
+ ]
+}

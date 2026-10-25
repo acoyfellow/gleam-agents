@@ -1,0 +1,1 @@
+{"plan":"smoke-kv-retry","baseline":"swarm-desk Elixir native loop, hard-final.json (sonnet5-full 100%, haiku45-full 88% hidden pass on bench/hard)","seats":1,"graded":1,"passed":1,"usd":0.0788,"wall_ms":37801,"errors":[]}

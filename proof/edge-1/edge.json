@@ -1,0 +1,18 @@
+{
+ "claim": "a pi seat works on an Artifacts branch through ply with no local checkout, and the branch merges",
+ "outcome": "done",
+ "edits": 1,
+ "push_bytes": [
+  574
+ ],
+ "merge": {
+  "kind": "fast_forward",
+  "commit": null
+ },
+ "fsck": "ok",
+ "local_files_in_workspace": 0,
+ "bash_calls": 0,
+ "tests_pass_after_merge": true,
+ "usd": 0.0085,
+ "verdict": "proven"
+}

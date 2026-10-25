@@ -1,0 +1,1004 @@
+✔ adding merges lines by SKU (0.821792ms)
+✔ carts are values (0.068833ms)
+✔ bad quantities and currencies are refused (0.181625ms)
+✔ mergeCarts combines lines for same SKU at a's position (0.106834ms)
+✔ mergeCarts appends lines only in b (0.079458ms)
+✔ mergeCarts caps quantity at 99 (0.055583ms)
+✔ mergeCarts throws TypeError for different currencies (0.055209ms)
+✔ mergeCarts keeps a's product in merged lines (0.46525ms)
+✔ parseCatalog reads SKU,Name,price lines (0.836458ms)
+✔ parseCatalog prices in the catalog's currency (0.068584ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.226ms)
+✔ a percent discount takes that share, rounded to cents (0.907167ms)
+✔ a fixed discount never takes more than the subtotal (0.087708ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.676ms)
+✔ tax is on the subtotal after the discount (0.098666ms)
+✔ an empty cart cannot be invoiced (0.245667ms)
+✔ money keeps whole cents and its currency (0.861083ms)
+✔ add and subtract stay in one currency (0.115ms)
+✔ multiply rounds halves away from zero (0.092083ms)
+✔ sum, compare and equals (0.094ms)
+✔ format writes two decimals and the symbol (0.082375ms)
+✔ parse reads at most two decimals (0.148708ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.998667ms)
+✔ an empty report is a zero total (0.063ms)
+✔ mixed currencies are refused (0.303458ms)
+✔ flat shipping by region (0.697542ms)
+✔ sales tax by region, rounded to cents (0.601209ms)
+✔ a region with no rate is refused (0.158708ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 28
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 194.043208
+✖ adding merges lines by SKU (0.756292ms)
+✔ carts are values (0.374167ms)
+✔ bad quantities and currencies are refused (0.1805ms)
+✔ mergeCarts combines lines for same SKU at a's position (0.116708ms)
+✔ mergeCarts appends lines only in b (0.073292ms)
+✔ mergeCarts caps quantity at 99 (7.484958ms)
+✔ mergeCarts throws TypeError for different currencies (0.381375ms)
+✔ mergeCarts keeps a's product in merged lines (0.250208ms)
+✔ adding merges lines by SKU (0.83ms)
+✔ carts are values (0.071667ms)
+✖ adding merges lines by SKU (0.429292ms)
+✖ carts are values (0.057417ms)
+✖ bad quantities and currencies are refused (0.364208ms)
+✖ mergeCarts combines lines for same SKU at a's position (0.055584ms)
+✖ mergeCarts appends lines only in b (0.050625ms)
+✖ mergeCarts caps quantity at 99 (0.038708ms)
+✔ mergeCarts throws TypeError for different currencies (0.113125ms)
+✖ mergeCarts keeps a's product in merged lines (0.048292ms)
+✖ bad quantities and currencies are refused (0.338333ms)
+✔ mergeCarts combines lines for same SKU at a's position (0.111125ms)
+✔ mergeCarts appends lines only in b (0.070875ms)
+✔ mergeCarts caps quantity at 99 (0.060125ms)
+✔ mergeCarts throws TypeError for different currencies (0.1145ms)
+✔ mergeCarts keeps a's product in merged lines (0.05775ms)
+✔ parseCatalog reads SKU,Name,price lines (0.81375ms)
+✔ parseCatalog prices in the catalog's currency (0.072167ms)
+✖ adding merges lines by SKU (0.749917ms)
+✔ carts are values (0.379ms)
+✔ bad quantities and currencies are refused (0.172541ms)
+✖ mergeCarts combines lines for same SKU at a's position (0.123875ms)
+✖ mergeCarts appends lines only in b (0.09275ms)
+✖ mergeCarts caps quantity at 99 (0.06325ms)
+✔ mergeCarts throws TypeError for different currencies (0.060125ms)
+✖ mergeCarts keeps a's product in merged lines (0.120333ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.215125ms)
+✖ adding merges lines by SKU (1.315541ms)
+✔ carts are values (0.094792ms)
+✔ bad quantities and currencies are refused (0.251708ms)
+✖ mergeCarts combines lines for same SKU at a's position (0.164416ms)
+✖ mergeCarts appends lines only in b (0.093084ms)
+✔ mergeCarts caps quantity at 99 (0.06ms)
+✔ mergeCarts throws TypeError for different currencies (0.055458ms)
+✔ mergeCarts keeps a's product in merged lines (14.103917ms)
+✔ a percent discount takes that share, rounded to cents (0.654167ms)
+✔ a fixed discount never takes more than the subtotal (0.079833ms)
+file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793966000-5/src/cart.ts:28
+  if (product.price.currency === cart.currency) throw new TypeError(`cart: ${product.sku} is priced in ${product.price.currency}, the cart in ${cart.currency}`);
+                                                      ^
+
+TypeError: cart: TEA is priced in USD, the cart in USD
+    at addToCart (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793966000-5/src/cart.ts:28:55)
+    at file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793966000-5/test/invoice.test.ts:9:24
+    at ModuleJob.run (node:internal/modules/esm/module_job:561:25)
+    at async node:internal/modules/esm/loader:647:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)
+
+✖ adding merges lines by SKU (0.427209ms)
+Node.js v24.22.1
+✖ carts are values (0.057542ms)
+✖ test/invoice.test.ts (481.192709ms)
+✔ parseCatalog reads SKU,Name,price lines (0.829792ms)
+✔ parseCatalog prices in the catalog's currency (0.074292ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.240625ms)
+✔ parseCatalog reads SKU,Name,price lines (0.802042ms)
+✔ parseCatalog prices in the catalog's currency (0.070459ms)
+✔ money keeps whole cents and its currency (0.761875ms)
+✔ add and subtract stay in one currency (0.101667ms)
+✔ multiply rounds halves away from zero (0.085584ms)
+✔ sum, compare and equals (0.097292ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.232666ms)
+✔ format writes two decimals and the symbol (0.080625ms)
+✔ parse reads at most two decimals (0.142458ms)
+✖ bad quantities and currencies are refused (0.354125ms)
+✖ mergeCarts combines lines for same SKU at a's position (0.058958ms)
+✖ mergeCarts appends lines only in b (0.048792ms)
+✔ mergeCarts caps quantity at 99 (0.135167ms)
+✔ mergeCarts throws TypeError for different currencies (0.055708ms)
+✔ mergeCarts keeps a's product in merged lines (0.05325ms)
+✔ a percent discount takes that share, rounded to cents (1.147709ms)
+✔ a fixed discount never takes more than the subtotal (0.095667ms)
+✔ a percent discount takes that share, rounded to cents (4.426541ms)
+✔ a fixed discount never takes more than the subtotal (0.1015ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.762958ms)
+✔ tax is on the subtotal after the discount (0.200792ms)
+✔ an empty cart cannot be invoiced (0.791916ms)
+✔ money keeps whole cents and its currency (0.757583ms)
+✔ add and subtract stay in one currency (0.102375ms)
+✔ multiply rounds halves away from zero (0.088542ms)
+✔ sum, compare and equals (0.103542ms)
+✔ format writes two decimals and the symbol (0.084333ms)
+✔ parse reads at most two decimals (2.006709ms)
+✔ one line per invoice, then the total, amounts without a symbol (3.866958ms)
+✔ an empty report is a zero total (0.11675ms)
+✔ mixed currencies are refused (0.227417ms)
+✔ flat shipping by region (29.657ms)
+✔ parseCatalog reads SKU,Name,price lines (0.847042ms)
+✔ parseCatalog prices in the catalog's currency (0.075333ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.2235ms)
+✔ a percent discount takes that share, rounded to cents (3.251833ms)
+✔ sales tax by region, rounded to cents (0.655ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.779292ms)
+✔ a region with no rate is refused (0.170041ms)
+✔ a fixed discount never takes more than the subtotal (0.252583ms)
+✔ tax is on the subtotal after the discount (0.110417ms)
+✖ an invoice adds tax on the subtotal and flat shipping (0.542708ms)
+✔ an empty cart cannot be invoiced (1.223375ms)
+✖ tax is on the subtotal after the discount (0.187708ms)
+✔ an empty cart cannot be invoiced (0.446792ms)
+✔ money keeps whole cents and its currency (0.790333ms)
+✔ add and subtract stay in one currency (0.105167ms)
+✔ multiply rounds halves away from zero (0.089708ms)
+✔ sum, compare and equals (0.092833ms)
+✔ parseCatalog reads SKU,Name,price lines (14.037583ms)
+✔ format writes two decimals and the symbol (0.077375ms)
+✔ parse reads at most two decimals (0.15025ms)
+✔ parseCatalog prices in the catalog's currency (0.096291ms)
+ℹ tests 28
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.416625ms)
+✖ one line per invoice, then the total, amounts without a symbol (0.37925ms)
+✔ an empty report is a zero total (0.140375ms)
+✔ a percent discount takes that share, rounded to cents (0.660791ms)
+ℹ suites 0
+✖ mixed currencies are refused (0.107625ms)
+✔ a fixed discount never takes more than the subtotal (0.076125ms)
+✔ flat shipping by region (0.731917ms)
+ℹ pass 27
+ℹ fail 1
+✖ an invoice adds tax on the subtotal and flat shipping (1.844167ms)
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 655.513792
+✖ one line per invoice, then the total, amounts without a symbol (3.525542ms)
+✖ tax is on the subtotal after the discount (1.2545ms)
+✔ an empty report is a zero total (1.346666ms)
+✔ an empty cart cannot be invoiced (0.250708ms)
+✖ mixed currencies are refused (0.25775ms)
+✔ money keeps whole cents and its currency (1.644ms)
+✔ flat shipping by region (0.725084ms)
+✔ add and subtract stay in one currency (0.576167ms)
+✔ multiply rounds halves away from zero (0.357125ms)
+✔ sales tax by region, rounded to cents (0.666959ms)
+✔ sum, compare and equals (0.161709ms)
+✔ a region with no rate is refused (0.169291ms)
+✔ format writes two decimals and the symbol (0.112458ms)
+✔ parse reads at most two decimals (0.175791ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.5645ms)
+✔ an empty report is a zero total (23.163541ms)
+✔ mixed currencies are refused (15.891292ms)
+
+✖ failing tests:
+
+test at test/cart.test.ts:24:1
+✖ bad quantities and currencies are refused (0.338333ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception (RangeError).
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793951000-0/test/cart.test.ts:25:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+✔ flat shipping by region (0.697583ms)
+✔ sales tax by region, rounded to cents (0.690959ms)
+✔ a region with no rate is refused (0.172042ms)
+ℹ tests 26
+ℹ tests 28
+ℹ suites 0
+ℹ pass 16
+ℹ fail 10
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 656.809458
+ℹ suites 0
+ℹ pass 23
+ℹ fail 5
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 654.1895
+✔ parseCatalog reads SKU,Name,price lines (1.055791ms)
+✔ parseCatalog prices in the catalog's currency (0.098417ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.2325ms)
+✔ a percent discount takes that share, rounded to cents (0.664666ms)
+✔ a fixed discount never takes more than the subtotal (0.078917ms)
+file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793956000-3/src/cart.ts:27
+  if (!Number.isSafeInteger(quantity) || quantity <= 1) throw new RangeError(`cart: quantity ${quantity} is not a positive whole number`);
+                                                              ^
+
+RangeError: cart: quantity 1 is not a positive whole number
+    at addToCart (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793956000-3/src/cart.ts:27:63)
+    at file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793956000-3/test/invoice.test.ts:9:14
+    at ModuleJob.run (node:internal/modules/esm/module_job:561:25)
+    at async node:internal/modules/esm/loader:647:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)
+
+Node.js v24.22.1
+✖ test/invoice.test.ts (612.185792ms)
+✔ money keeps whole cents and its currency (0.84275ms)
+✔ add and subtract stay in one currency (0.103ms)
+✔ multiply rounds halves away from zero (0.08725ms)
+✔ sum, compare and equals (0.095ms)
+✔ format writes two decimals and the symbol (0.076792ms)
+✔ parse reads at most two decimals (0.147958ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.761084ms)
+✔ an empty report is a zero total (11.491625ms)
+✖ mixed currencies are refused (0.170125ms)
+✔ flat shipping by region (10.42225ms)
+✔ sales tax by region, rounded to cents (0.69225ms)
+✔ a region with no rate is refused (0.171958ms)
+✔ money keeps whole cents and its currency (0.751083ms)
+✔ add and subtract stay in one currency (0.108792ms)
+ℹ tests 26
+✔ multiply rounds halves away from zero (0.092292ms)
+✔ sum, compare and equals (0.099041ms)
+✔ format writes two decimals and the symbol (0.079375ms)
+ℹ suites 0
+✔ parse reads at most two decimals (0.155084ms)
+ℹ pass 19
+ℹ fail 7
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 654.082167
+
+✖ failing tests:
+
+test at test/cart.test.ts:9:1
+✖ adding merges lines by SKU (1.315541ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+  +   cents: 1800,
+  -   cents: 2550,
+      currency: 'USD'
+    }
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793955000-1/test/cart.test.ts:14:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { cents: 1800, currency: 'USD' },
+    expected: { cents: 2550, currency: 'USD' },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at test/cart.test.ts:30:1
+✖ mergeCarts combines lines for same SKU at a's position (0.164416ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  1 !== 2
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793955000-1/test/cart.test.ts:34:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 1,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/cart.test.ts:41:1
+✖ mergeCarts appends lines only in b (0.093084ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  2 !== 3
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793955000-1/test/cart.test.ts:45:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 2,
+    expected: 3,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/invoice.test.ts:11:1
+✖ an invoice adds tax on the subtotal and flat shipping (1.844167ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    [
+      [
+        'TEA',
+  +     3,
+  +     1350
+  -     2,
+  -     900
+      ],
+  -   [
+  -     'POT',
+  -     1,
+  -     2999
+  -   ]
+    ]
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793955000-1/test/invoice.test.ts:13:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [ [ 'TEA', 3, 1350 ] ],
+    expected: [ [ 'TEA', 2, 900 ], [ 'POT', 1, 2999 ] ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at test/invoice.test.ts:21:1
+✖ tax is on the subtotal after the discount (1.2545ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+  +   cents: 135,
+  -   cents: 390,
+      currency: 'USD'
+    }
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793955000-1/test/invoice.test.ts:23:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { cents: 135, currency: 'USD' },
+    expected: { cents: 390, currency: 'USD' },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+✔ sales tax by region, rounded to cents (0.634958ms)
+✔ a region with no rate is refused (0.169875ms)
+
+✖ failing tests:
+
+test at test/cart.test.ts:9:1
+✖ adding merges lines by SKU (0.429292ms)
+  TypeError [Error]: cart: TEA is priced in USD, the cart in USD
+      at addToCart (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793966000-5/src/cart.ts:28:55)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793966000-5/test/cart.test.ts:10:36)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17)
+
+test at test/cart.test.ts:17:1
+✖ carts are values (0.057417ms)
+  TypeError [Error]: cart: TEA is priced in USD, the cart in USD
+      at addToCart (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793966000-5/src/cart.ts:28:55)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793966000-5/test/cart.test.ts:19:3)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3)
+
+test at test/cart.test.ts:24:1
+✖ bad quantities and currencies are refused (0.364208ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception (TypeError).
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793966000-5/test/cart.test.ts:27:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at test/cart.test.ts:30:1
+✖ mergeCarts combines lines for same SKU at a's position (0.055584ms)
+  TypeError [Error]: cart: TEA is priced in USD, the cart in USD
+      at addToCart (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793966000-5/src/cart.ts:28:55)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793966000-5/test/cart.test.ts:31:27)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/cart.test.ts:41:1
+✖ mergeCarts appends lines only in b (0.050625ms)
+  TypeError [Error]: cart: TEA is priced in USD, the cart in USD
+      at addToCart (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793966000-5/src/cart.ts:28:55)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793966000-5/test/cart.test.ts:42:17)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/cart.test.ts:51:1
+✖ mergeCarts caps quantity at 99 (0.038708ms)
+  TypeError [Error]: cart: TEA is priced in USD, the cart in USD
+      at addToCart (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793966000-5/src/cart.ts:28:55)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793966000-5/test/cart.test.ts:52:17)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/cart.test.ts:68:1
+✖ mergeCarts keeps a's product in merged lines (0.048292ms)
+  TypeError [Error]: cart: TEA is priced in USD, the cart in USD
+      at addToCart (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793966000-5/src/cart.ts:28:55)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793966000-5/test/cart.test.ts:71:17)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/invoice.test.ts:1:1
+✖ test/invoice.test.ts (481.192709ms)
+  'test failed'
+
+test at test/report.test.ts:10:1
+✖ one line per invoice, then the total, amounts without a symbol (3.525542ms)
+  TypeError [Error]: cart: TEA is priced in USD, the cart in USD
+      at addToCart (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793966000-5/src/cart.ts:28:55)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793966000-5/test/report.test.ts:11:35)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17)
+
+test at test/report.test.ts:20:1
+✖ mixed currencies are refused (0.25775ms)
+  TypeError [Error]: cart: TEA is priced in USD, the cart in USD
+      at addToCart (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793966000-5/src/cart.ts:28:55)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793966000-5/test/report.test.ts:21:37)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 19
+ℹ fail 9
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 655.149334
+
+✖ failing tests:
+
+test at test/cart.test.ts:9:1
+✖ adding merges lines by SKU (0.427209ms)
+  RangeError [Error]: cart: quantity 1 is not a positive whole number
+      at addToCart (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793956000-3/src/cart.ts:27:63)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793956000-3/test/cart.test.ts:10:26)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17)
+
+test at test/cart.test.ts:17:1
+✖ carts are values (0.057542ms)
+  RangeError [Error]: cart: quantity 1 is not a positive whole number
+      at addToCart (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793956000-3/src/cart.ts:27:63)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793956000-3/test/cart.test.ts:19:3)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3)
+
+test at test/cart.test.ts:24:1
+✖ bad quantities and currencies are refused (0.354125ms)
+  AssertionError [ERR_ASSERTION]: The error is expected to be an instance of "TypeError". Received "RangeError"
+  
+  Error message:
+  
+  cart: quantity 1 is not a positive whole number
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793956000-3/test/cart.test.ts:27:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: RangeError: cart: quantity 1 is not a positive whole number
+        at addToCart (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793956000-3/src/cart.ts:27:63)
+        at file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793956000-3/test/cart.test.ts:27:23
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793956000-3/test/cart.test.ts:27:10)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1402:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+        at Test.postRun (node:internal/test_runner/test:1542:19)
+        at Test.run (node:internal/test_runner/test:1467:12),
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at test/cart.test.ts:30:1
+✖ mergeCarts combines lines for same SKU at a's position (0.058958ms)
+  RangeError [Error]: cart: quantity 1 is not a positive whole number
+      at addToCart (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793956000-3/src/cart.ts:27:63)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793956000-3/test/cart.test.ts:31:17)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/cart.test.ts:41:1
+✖ mergeCarts appends lines only in b (0.048792ms)
+  RangeError [Error]: cart: quantity 1 is not a positive whole number
+      at addToCart (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793956000-3/src/cart.ts:27:63)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793956000-3/test/cart.test.ts:42:17)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/invoice.test.ts:1:1
+✖ test/invoice.test.ts (612.185792ms)
+  'test failed'
+
+test at test/report.test.ts:20:1
+✖ mixed currencies are refused (0.170125ms)
+  RangeError [Error]: cart: quantity 1 is not a positive whole number
+      at addToCart (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793956000-3/src/cart.ts:27:63)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793956000-3/test/report.test.ts:21:37)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+✔ one line per invoice, then the total, amounts without a symbol (1.261167ms)
+✔ an empty report is a zero total (0.117459ms)
+✔ mixed currencies are refused (0.241667ms)
+✔ flat shipping by region (0.718708ms)
+✔ sales tax by region, rounded to cents (1.472417ms)
+✔ a region with no rate is refused (3.61875ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 27
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 659.069542
+
+✖ failing tests:
+
+test at test/cart.test.ts:9:1
+✖ adding merges lines by SKU (0.749917ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 2
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793956000-2/test/cart.test.ts:11:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/cart.test.ts:30:1
+✖ mergeCarts combines lines for same SKU at a's position (0.123875ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 2
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793956000-2/test/cart.test.ts:34:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/cart.test.ts:41:1
+✖ mergeCarts appends lines only in b (0.09275ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 3
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793956000-2/test/cart.test.ts:45:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 3,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/cart.test.ts:51:1
+✖ mergeCarts caps quantity at 99 (0.06325ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 1
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793956000-2/test/cart.test.ts:55:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/cart.test.ts:68:1
+✖ mergeCarts keeps a's product in merged lines (0.120333ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + undefined
+  - 'Green tea A'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793956000-2/test/cart.test.ts:74:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: 'Green tea A',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/invoice.test.ts:11:1
+✖ an invoice adds tax on the subtotal and flat shipping (0.542708ms)
+  RangeError [Error]: invoice INV-1: the cart is empty
+      at buildInvoice (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793956000-2/src/invoice.ts:37:38)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793956000-2/test/invoice.test.ts:12:15)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17)
+
+test at test/invoice.test.ts:21:1
+✖ tax is on the subtotal after the discount (0.187708ms)
+  RangeError [Error]: invoice INV-2: the cart is empty
+      at buildInvoice (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793956000-2/src/invoice.ts:37:38)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793956000-2/test/invoice.test.ts:22:15)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3)
+
+test at test/report.test.ts:10:1
+✖ one line per invoice, then the total, amounts without a symbol (0.37925ms)
+  RangeError [Error]: invoice INV-1: the cart is empty
+      at buildInvoice (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793956000-2/src/invoice.ts:37:38)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793956000-2/test/report.test.ts:11:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17)
+
+test at test/report.test.ts:20:1
+✖ mixed currencies are refused (0.107625ms)
+  RangeError [Error]: invoice INV-1: the cart is empty
+      at buildInvoice (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793956000-2/src/invoice.ts:37:38)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793956000-2/test/report.test.ts:21:15)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+✖ failing tests:
+
+test at test/cart.test.ts:9:1
+✖ adding merges lines by SKU (0.756292ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  2 !== 3
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920552793960000-4/test/cart.test.ts:12:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 2,
+    expected: 3,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+✔ adding merges lines by SKU (0.7795ms)
+✔ carts are values (0.067042ms)
+✔ bad quantities and currencies are refused (0.177125ms)
+✖ mergeCarts combines lines for same SKU at a's position (0.428292ms)
+✔ mergeCarts appends lines only in b (0.07675ms)
+✖ mergeCarts caps quantity at 99 (0.09125ms)
+✔ mergeCarts throws TypeError for different currencies (0.054709ms)
+✖ mergeCarts keeps a's product in merged lines (2.447334ms)
+✔ adding merges lines by SKU (0.767959ms)
+✔ carts are values (0.069ms)
+✔ bad quantities and currencies are refused (0.179958ms)
+✖ mergeCarts combines lines for same SKU at a's position (0.108ms)
+✖ mergeCarts appends lines only in b (0.06375ms)
+✖ mergeCarts caps quantity at 99 (0.049875ms)
+✖ mergeCarts throws TypeError for different currencies (0.242167ms)
+✖ mergeCarts keeps a's product in merged lines (0.049167ms)
+✔ parseCatalog reads SKU,Name,price lines (0.795416ms)
+✔ parseCatalog prices in the catalog's currency (0.067917ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.216791ms)
+✔ parseCatalog reads SKU,Name,price lines (0.82925ms)
+✔ parseCatalog prices in the catalog's currency (0.0695ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.217791ms)
+✔ a percent discount takes that share, rounded to cents (0.680125ms)
+✔ a fixed discount never takes more than the subtotal (0.073125ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.800542ms)
+✔ tax is on the subtotal after the discount (0.106833ms)
+✔ an empty cart cannot be invoiced (3.819667ms)
+✔ money keeps whole cents and its currency (1.195667ms)
+✔ add and subtract stay in one currency (0.278333ms)
+✔ multiply rounds halves away from zero (0.224375ms)
+✔ sum, compare and equals (0.352916ms)
+✔ format writes two decimals and the symbol (0.138208ms)
+✔ parse reads at most two decimals (0.1915ms)
+✔ a percent discount takes that share, rounded to cents (1.53ms)
+✔ one line per invoice, then the total, amounts without a symbol (8.083834ms)
+✔ an empty report is a zero total (2.020125ms)
+✔ mixed currencies are refused (0.504625ms)
+✔ a fixed discount never takes more than the subtotal (0.205541ms)
+✔ flat shipping by region (0.7245ms)
+✔ sales tax by region, rounded to cents (0.666375ms)
+✔ a region with no rate is refused (0.172041ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 23
+ℹ fail 5
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 229.256708
+
+✖ failing tests:
+
+test at test/cart.test.ts:30:1
+✖ mergeCarts combines lines for same SKU at a's position (0.108ms)
+  TypeError [Error]: cart: cannot merge carts in different currencies: USD and USD
+      at mergeCarts (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920553532207000-6/src/cart.ts:52:11)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920553532207000-6/test/cart.test.ts:33:18)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/cart.test.ts:41:1
+✖ mergeCarts appends lines only in b (0.06375ms)
+  TypeError [Error]: cart: cannot merge carts in different currencies: USD and USD
+      at mergeCarts (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920553532207000-6/src/cart.ts:52:11)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920553532207000-6/test/cart.test.ts:44:18)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/cart.test.ts:51:1
+✖ mergeCarts caps quantity at 99 (0.049875ms)
+  TypeError [Error]: cart: cannot merge carts in different currencies: USD and USD
+      at mergeCarts (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920553532207000-6/src/cart.ts:52:11)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920553532207000-6/test/cart.test.ts:54:18)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/cart.test.ts:59:1
+✖ mergeCarts throws TypeError for different currencies (0.242167ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception (TypeError).
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920553532207000-6/test/cart.test.ts:62:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at test/cart.test.ts:68:1
+✖ mergeCarts keeps a's product in merged lines (0.049167ms)
+  TypeError [Error]: cart: cannot merge carts in different currencies: USD and USD
+      at mergeCarts (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920553532207000-6/src/cart.ts:52:11)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920553532207000-6/test/cart.test.ts:73:18)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+✔ an invoice adds tax on the subtotal and flat shipping (0.684125ms)
+✔ tax is on the subtotal after the discount (0.454167ms)
+✔ an empty cart cannot be invoiced (0.191417ms)
+✔ money keeps whole cents and its currency (0.797792ms)
+✔ add and subtract stay in one currency (0.12925ms)
+✔ multiply rounds halves away from zero (0.125083ms)
+✔ sum, compare and equals (0.098208ms)
+✔ format writes two decimals and the symbol (0.089417ms)
+✔ parse reads at most two decimals (0.154834ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.610125ms)
+✔ an empty report is a zero total (0.554917ms)
+✔ mixed currencies are refused (0.192834ms)
+✔ flat shipping by region (0.76875ms)
+✔ sales tax by region, rounded to cents (0.66525ms)
+✔ a region with no rate is refused (0.166333ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 25
+ℹ fail 3
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 244.328
+
+✖ failing tests:
+
+test at test/cart.test.ts:30:1
+✖ mergeCarts combines lines for same SKU at a's position (0.428292ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  2 !== 5
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920553534708000-7/test/cart.test.ts:35:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 2,
+    expected: 5,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/cart.test.ts:51:1
+✖ mergeCarts caps quantity at 99 (0.09125ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  60 !== 99
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920553534708000-7/test/cart.test.ts:56:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 60,
+    expected: 99,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/cart.test.ts:68:1
+✖ mergeCarts keeps a's product in merged lines (2.447334ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  2 !== 5
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41520-1792920553534708000-7/test/cart.test.ts:75:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 2,
+    expected: 5,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

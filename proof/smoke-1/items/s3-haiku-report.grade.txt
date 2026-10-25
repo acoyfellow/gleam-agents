@@ -1,0 +1,25 @@
+.X.
+
+Failed tests:
+
+✖ report: mixed currencies, blocks in first-seen order (0.522042ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'E1 OR 25.99\nE2 OR 25.99\nTOTAL 51.98\n\nU1 OR 15.99\nTOTAL 15.99'
+  - 'E1 OR 25.99\nE2 OR 25.99\nTOTAL EUR 51.98\n\nU1 OR 15.99\nTOTAL USD 15.99'
+  
+      at TestContext.<anonymous> (file://$REPO/proof/smoke-1/work/s3-haiku-report/test/accept/report-currency-mix.test.ts:16:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'E1 OR 25.99\nE2 OR 25.99\nTOTAL 51.98\n\nU1 OR 15.99\nTOTAL 15.99',
+    expected: 'E1 OR 25.99\nE2 OR 25.99\nTOTAL EUR 51.98\n\nU1 OR 15.99\nTOTAL USD 15.99',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

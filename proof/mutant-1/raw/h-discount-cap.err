@@ -1,0 +1,588 @@
+✔ adding merges lines by SKU (0.873ms)
+✔ carts are values (0.074334ms)
+✔ bad quantities and currencies are refused (0.245542ms)
+✔ parseCatalog reads SKU,Name,price lines (0.763459ms)
+✔ parseCatalog prices in the catalog's currency (0.06475ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.216875ms)
+✔ a percent discount takes that share, rounded to cents (0.6355ms)
+✔ a fixed discount never takes more than the subtotal (0.06425ms)
+✔ stackDiscounts with empty list returns zero (0.075458ms)
+✔ stackDiscounts applies percent discounts in order (0.0595ms)
+✔ stackDiscounts applies fixed discounts after percent discounts (0.053209ms)
+✔ stackDiscounts caps at half the subtotal (0.057ms)
+✔ stackDiscounts never makes result negative (0.531084ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.829917ms)
+✔ tax is on the subtotal after the discount (0.143584ms)
+✔ an empty cart cannot be invoiced (0.168ms)
+✔ money keeps whole cents and its currency (0.740292ms)
+✔ add and subtract stay in one currency (0.097125ms)
+✔ multiply rounds halves away from zero (0.107875ms)
+✔ sum, compare and equals (0.094042ms)
+✔ format writes two decimals and the symbol (0.081666ms)
+✔ parse reads at most two decimals (0.147459ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.963375ms)
+✔ an empty report is a zero total (0.078208ms)
+✔ mixed currencies are refused (0.224875ms)
+✔ flat shipping by region (0.64275ms)
+✔ sales tax by region, rounded to cents (0.682375ms)
+✔ a region with no rate is refused (0.172ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 28
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 197.5275
+✔ adding merges lines by SKU (1.820458ms)
+✔ carts are values (0.102375ms)
+✔ bad quantities and currencies are refused (0.229125ms)
+✔ adding merges lines by SKU (1.442625ms)
+✔ carts are values (0.245417ms)
+✔ bad quantities and currencies are refused (8.318ms)
+✔ parseCatalog reads SKU,Name,price lines (2.110917ms)
+✔ parseCatalog prices in the catalog's currency (0.13025ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.249708ms)
+✔ parseCatalog reads SKU,Name,price lines (0.839916ms)
+✔ parseCatalog prices in the catalog's currency (0.256875ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.312292ms)
+✔ adding merges lines by SKU (4.19225ms)
+✔ carts are values (0.080792ms)
+✔ bad quantities and currencies are refused (0.186ms)
+✔ adding merges lines by SKU (0.804625ms)
+✔ carts are values (0.070875ms)
+✔ bad quantities and currencies are refused (0.180917ms)
+✔ a percent discount takes that share, rounded to cents (0.700375ms)
+✔ a fixed discount never takes more than the subtotal (0.073833ms)
+✔ stackDiscounts with empty list returns zero (0.090209ms)
+✖ stackDiscounts applies percent discounts in order (0.611916ms)
+✖ stackDiscounts applies fixed discounts after percent discounts (0.643584ms)
+✖ stackDiscounts caps at half the subtotal (0.308542ms)
+✖ stackDiscounts never makes result negative (1.899375ms)
+✔ a percent discount takes that share, rounded to cents (0.708458ms)
+✔ a fixed discount never takes more than the subtotal (0.073834ms)
+✔ stackDiscounts with empty list returns zero (0.083084ms)
+✔ stackDiscounts applies percent discounts in order (0.066458ms)
+✔ stackDiscounts applies fixed discounts after percent discounts (0.060667ms)
+✔ stackDiscounts caps at half the subtotal (0.17775ms)
+✔ stackDiscounts never makes result negative (0.05325ms)
+✔ an invoice adds tax on the subtotal and flat shipping (18.777708ms)
+✔ tax is on the subtotal after the discount (5.651875ms)
+✔ an empty cart cannot be invoiced (0.81325ms)
+✔ an invoice adds tax on the subtotal and flat shipping (2.488625ms)
+✔ tax is on the subtotal after the discount (1.005333ms)
+✔ an empty cart cannot be invoiced (0.251958ms)
+✔ adding merges lines by SKU (1.564708ms)
+✔ carts are values (0.105958ms)
+✔ bad quantities and currencies are refused (0.22625ms)
+✔ parseCatalog reads SKU,Name,price lines (0.895375ms)
+✔ parseCatalog prices in the catalog's currency (0.074458ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.241834ms)
+✔ money keeps whole cents and its currency (0.77125ms)
+✔ add and subtract stay in one currency (0.1135ms)
+✔ multiply rounds halves away from zero (0.093916ms)
+✔ sum, compare and equals (0.098334ms)
+✔ format writes two decimals and the symbol (0.081875ms)
+✔ parse reads at most two decimals (0.150709ms)
+✔ parseCatalog reads SKU,Name,price lines (0.79ms)
+✔ parseCatalog prices in the catalog's currency (0.068958ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.226167ms)
+✔ a percent discount takes that share, rounded to cents (0.725125ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.546875ms)
+✔ a fixed discount never takes more than the subtotal (0.075708ms)
+✔ an empty report is a zero total (1.61175ms)
+✔ mixed currencies are refused (0.4645ms)
+✔ flat shipping by region (11.002042ms)
+✔ stackDiscounts with empty list returns zero (0.080542ms)
+✖ stackDiscounts applies percent discounts in order (0.564042ms)
+✖ stackDiscounts applies fixed discounts after percent discounts (0.053334ms)
+✖ stackDiscounts caps at half the subtotal (0.888625ms)
+✖ stackDiscounts never makes result negative (0.186542ms)
+✔ adding merges lines by SKU (0.757208ms)
+✔ carts are values (0.078375ms)
+✔ parseCatalog reads SKU,Name,price lines (0.801459ms)
+✔ parseCatalog prices in the catalog's currency (0.068042ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.221834ms)
+✔ money keeps whole cents and its currency (0.986958ms)
+✔ add and subtract stay in one currency (0.818125ms)
+✔ multiply rounds halves away from zero (0.121083ms)
+✔ sum, compare and equals (0.11225ms)
+✔ format writes two decimals and the symbol (0.091959ms)
+✔ parse reads at most two decimals (0.148083ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.623291ms)
+✔ an empty report is a zero total (0.498292ms)
+✔ mixed currencies are refused (0.263792ms)
+✔ flat shipping by region (0.722791ms)
+✔ bad quantities and currencies are refused (21.126875ms)
+✖ a percent discount takes that share, rounded to cents (0.5455ms)
+✖ a fixed discount never takes more than the subtotal (0.082708ms)
+✔ stackDiscounts with empty list returns zero (0.604417ms)
+✔ stackDiscounts applies percent discounts in order (0.201208ms)
+✔ stackDiscounts applies fixed discounts after percent discounts (0.069959ms)
+✔ stackDiscounts caps at half the subtotal (0.067042ms)
+✔ stackDiscounts never makes result negative (0.051375ms)
+✔ an invoice adds tax on the subtotal and flat shipping (30.412583ms)
+✖ tax is on the subtotal after the discount (0.896292ms)
+✔ an empty cart cannot be invoiced (8.230667ms)
+✔ sales tax by region, rounded to cents (0.662542ms)
+✔ a region with no rate is refused (0.167625ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 24
+ℹ fail 4
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 648.737417
+✔ money keeps whole cents and its currency (0.85ms)
+✔ add and subtract stay in one currency (0.121667ms)
+✔ multiply rounds halves away from zero (0.100375ms)
+✔ sum, compare and equals (0.097125ms)
+✔ format writes two decimals and the symbol (0.849ms)
+✔ parse reads at most two decimals (0.178ms)
+✔ one line per invoice, then the total, amounts without a symbol (1.47075ms)
+
+✖ failing tests:
+
+test at test/discount.test.ts:22:1
+✖ stackDiscounts applies percent discounts in order (0.611916ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+  +   cents: 0,
+  -   cents: 470,
+      currency: 'USD'
+    }
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44119-1792920620218605000-4/test/discount.test.ts:26:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { cents: 0, currency: 'USD' },
+    expected: { cents: 470, currency: 'USD' },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at test/discount.test.ts:32:1
+✖ stackDiscounts applies fixed discounts after percent discounts (0.643584ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+  +   cents: 0,
+  -   cents: 500,
+      currency: 'USD'
+    }
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44119-1792920620218605000-4/test/discount.test.ts:35:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { cents: 0, currency: 'USD' },
+    expected: { cents: 500, currency: 'USD' },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at test/discount.test.ts:41:1
+✖ stackDiscounts caps at half the subtotal (0.308542ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+  +   cents: 0,
+  -   cents: 1000,
+      currency: 'USD'
+    }
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44119-1792920620218605000-4/test/discount.test.ts:43:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { cents: 0, currency: 'USD' },
+    expected: { cents: 1000, currency: 'USD' },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at test/discount.test.ts:59:1
+✖ stackDiscounts never makes result negative (1.899375ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+  +   cents: 0,
+  -   cents: 1000,
+      currency: 'USD'
+    }
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44119-1792920620218605000-4/test/discount.test.ts:61:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { cents: 0, currency: 'USD' },
+    expected: { cents: 1000, currency: 'USD' },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+✔ an empty report is a zero total (0.564333ms)
+✔ mixed currencies are refused (0.248583ms)
+✔ flat shipping by region (0.737417ms)
+✔ sales tax by region, rounded to cents (0.675958ms)
+✔ a region with no rate is refused (0.167416ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 28
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 650.931625
+✔ a percent discount takes that share, rounded to cents (0.75675ms)
+✔ a fixed discount never takes more than the subtotal (0.102125ms)
+✔ stackDiscounts with empty list returns zero (0.099875ms)
+✖ stackDiscounts applies percent discounts in order (0.867208ms)
+✖ stackDiscounts applies fixed discounts after percent discounts (0.138542ms)
+✖ stackDiscounts caps at half the subtotal (0.171917ms)
+✖ stackDiscounts never makes result negative (0.119ms)
+✔ an invoice adds tax on the subtotal and flat shipping (45.987ms)
+✔ tax is on the subtotal after the discount (0.139916ms)
+✔ an empty cart cannot be invoiced (0.927875ms)
+✔ money keeps whole cents and its currency (0.779458ms)
+✔ add and subtract stay in one currency (0.109375ms)
+✔ multiply rounds halves away from zero (0.086ms)
+✔ sum, compare and equals (0.090167ms)
+✔ format writes two decimals and the symbol (0.072083ms)
+✔ parse reads at most two decimals (0.147042ms)
+✔ one line per invoice, then the total, amounts without a symbol (3.92925ms)
+✔ an empty report is a zero total (0.087083ms)
+✔ mixed currencies are refused (0.563667ms)
+✔ flat shipping by region (0.74525ms)
+✔ sales tax by region, rounded to cents (0.6455ms)
+✔ a region with no rate is refused (0.167833ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 24
+ℹ fail 4
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 655.03375
+✔ parseCatalog reads SKU,Name,price lines (0.803542ms)
+✔ parseCatalog prices in the catalog's currency (0.071042ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.223916ms)
+✔ a percent discount takes that share, rounded to cents (0.735875ms)
+✔ a fixed discount never takes more than the subtotal (0.079333ms)
+✔ stackDiscounts with empty list returns zero (0.08525ms)
+✔ stackDiscounts applies percent discounts in order (0.066542ms)
+✔ stackDiscounts applies fixed discounts after percent discounts (0.062166ms)
+✔ stackDiscounts caps at half the subtotal (0.062917ms)
+✔ stackDiscounts never makes result negative (0.046583ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.766583ms)
+✔ tax is on the subtotal after the discount (0.10625ms)
+✔ an empty cart cannot be invoiced (0.674292ms)
+✔ sales tax by region, rounded to cents (0.658834ms)
+✔ a region with no rate is refused (0.163ms)
+
+✖ failing tests:
+
+test at test/discount.test.ts:22:1
+✖ stackDiscounts applies percent discounts in order (0.867208ms)
+  TypeError [Error]: Cannot read properties of undefined (reading 'currency')
+      at sameCurrency (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44119-1792920620218585000-0/src/core/money.ts:28:24)
+      at add (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44119-1792920620218585000-0/src/core/money.ts:33:3)
+      at stackDiscounts (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44119-1792920620218585000-0/src/discount.ts:41:18)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44119-1792920620218585000-0/test/discount.test.ts:26:20)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/discount.test.ts:32:1
+✖ stackDiscounts applies fixed discounts after percent discounts (0.138542ms)
+  TypeError [Error]: Cannot read properties of undefined (reading 'currency')
+      at sameCurrency (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44119-1792920620218585000-0/src/core/money.ts:28:24)
+      at add (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44119-1792920620218585000-0/src/core/money.ts:33:3)
+      at stackDiscounts (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44119-1792920620218585000-0/src/discount.ts:41:18)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44119-1792920620218585000-0/test/discount.test.ts:35:20)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/discount.test.ts:41:1
+✖ stackDiscounts caps at half the subtotal (0.171917ms)
+  TypeError [Error]: Cannot read properties of undefined (reading 'currency')
+      at sameCurrency (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44119-1792920620218585000-0/src/core/money.ts:28:24)
+      at add (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44119-1792920620218585000-0/src/core/money.ts:33:3)
+      at stackDiscounts (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44119-1792920620218585000-0/src/discount.ts:41:18)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44119-1792920620218585000-0/test/discount.test.ts:43:20)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/discount.test.ts:59:1
+✖ stackDiscounts never makes result negative (0.119ms)
+  TypeError [Error]: Cannot read properties of undefined (reading 'currency')
+      at sameCurrency (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44119-1792920620218585000-0/src/core/money.ts:28:24)
+      at add (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44119-1792920620218585000-0/src/core/money.ts:33:3)
+      at stackDiscounts (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44119-1792920620218585000-0/src/discount.ts:41:18)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44119-1792920620218585000-0/test/discount.test.ts:61:20)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 25
+ℹ fail 3
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 653.118125
+
+✖ failing tests:
+
+test at test/discount.test.ts:6:1
+✖ a percent discount takes that share, rounded to cents (0.5455ms)
+  TypeError [Error]: Cannot read properties of undefined (reading 'currency')
+      at sameCurrency (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44119-1792920620218605000-3/src/core/money.ts:28:9)
+      at compare (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44119-1792920620218605000-3/src/core/money.ts:65:3)
+      at discountAmount (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44119-1792920620218605000-3/src/discount.ts:10:10)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44119-1792920620218605000-3/test/discount.test.ts:7:20)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17)
+
+test at test/discount.test.ts:12:1
+✖ a fixed discount never takes more than the subtotal (0.082708ms)
+  RangeError [Error]: money: NaN is not a whole number of cents
+      at money (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44119-1792920620218605000-3/src/core/money.ts:18:43)
+      at percentOf (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44119-1792920620218605000-3/src/core/money.ts:55:10)
+      at discountAmount (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44119-1792920620218605000-3/src/discount.ts:9:61)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44119-1792920620218605000-3/test/discount.test.ts:13:20)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3)
+
+test at test/invoice.test.ts:21:1
+✖ tax is on the subtotal after the discount (0.896292ms)
+  TypeError [Error]: Cannot read properties of undefined (reading 'currency')
+      at sameCurrency (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44119-1792920620218605000-3/src/core/money.ts:28:9)
+      at compare (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44119-1792920620218605000-3/src/core/money.ts:65:3)
+      at discountAmount (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44119-1792920620218605000-3/src/discount.ts:10:10)
+      at buildInvoice (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44119-1792920620218605000-3/src/invoice.ts:40:26)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44119-1792920620218605000-3/test/invoice.test.ts:22:15)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+✔ money keeps whole cents and its currency (0.786417ms)
+✔ add and subtract stay in one currency (0.11225ms)
+✔ multiply rounds halves away from zero (0.090542ms)
+✔ sum, compare and equals (0.095917ms)
+✔ format writes two decimals and the symbol (0.078ms)
+✔ parse reads at most two decimals (0.151125ms)
+✔ one line per invoice, then the total, amounts without a symbol (2.247458ms)
+✔ an empty report is a zero total (0.106375ms)
+✔ mixed currencies are refused (0.22625ms)
+✔ flat shipping by region (0.749708ms)
+✔ sales tax by region, rounded to cents (0.672958ms)
+✔ a region with no rate is refused (0.169333ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 28
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 657.855959
+✔ an invoice adds tax on the subtotal and flat shipping (0.881209ms)
+✔ tax is on the subtotal after the discount (0.149042ms)
+✔ an empty cart cannot be invoiced (0.186417ms)
+✔ money keeps whole cents and its currency (0.753708ms)
+✔ add and subtract stay in one currency (0.109625ms)
+✔ multiply rounds halves away from zero (0.090791ms)
+✔ sum, compare and equals (0.095875ms)
+✔ format writes two decimals and the symbol (0.07675ms)
+✔ parse reads at most two decimals (0.138208ms)
+✔ one line per invoice, then the total, amounts without a symbol (1.1575ms)
+✔ an empty report is a zero total (2.192291ms)
+✔ mixed currencies are refused (1.060334ms)
+✔ flat shipping by region (0.7585ms)
+✔ sales tax by region, rounded to cents (0.673958ms)
+✔ a region with no rate is refused (0.169875ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 24
+ℹ fail 4
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 665.655208
+
+✖ failing tests:
+
+test at test/discount.test.ts:22:1
+✖ stackDiscounts applies percent discounts in order (0.564042ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+  +   cents: 0,
+  -   cents: 470,
+      currency: 'USD'
+    }
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44119-1792920620218622000-5/test/discount.test.ts:26:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { cents: 0, currency: 'USD' },
+    expected: { cents: 470, currency: 'USD' },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at test/discount.test.ts:32:1
+✖ stackDiscounts applies fixed discounts after percent discounts (0.053334ms)
+  RangeError [Error]: money: NaN is not a whole number of cents
+      at money (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44119-1792920620218622000-5/src/core/money.ts:18:43)
+      at percentOf (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44119-1792920620218622000-5/src/core/money.ts:55:10)
+      at stackDiscounts (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44119-1792920620218622000-5/src/discount.ts:31:24)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44119-1792920620218622000-5/test/discount.test.ts:35:20)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/discount.test.ts:41:1
+✖ stackDiscounts caps at half the subtotal (0.888625ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+  +   cents: 0,
+  -   cents: 1000,
+      currency: 'USD'
+    }
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44119-1792920620218622000-5/test/discount.test.ts:43:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { cents: 0, currency: 'USD' },
+    expected: { cents: 1000, currency: 'USD' },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at test/discount.test.ts:59:1
+✖ stackDiscounts never makes result negative (0.186542ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+  +   cents: 0,
+  -   cents: 1000,
+      currency: 'USD'
+    }
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44119-1792920620218622000-5/test/discount.test.ts:61:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { cents: 0, currency: 'USD' },
+    expected: { cents: 1000, currency: 'USD' },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+✔ adding merges lines by SKU (0.70775ms)
+✔ carts are values (0.067084ms)
+✔ bad quantities and currencies are refused (0.178833ms)
+✔ parseCatalog reads SKU,Name,price lines (0.830666ms)
+✔ parseCatalog prices in the catalog's currency (0.0685ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.22825ms)
+✔ a percent discount takes that share, rounded to cents (0.693083ms)
+✔ a fixed discount never takes more than the subtotal (0.071459ms)
+✔ stackDiscounts with empty list returns zero (0.081958ms)
+✔ stackDiscounts applies percent discounts in order (0.064625ms)
+✔ stackDiscounts applies fixed discounts after percent discounts (0.056417ms)
+✔ stackDiscounts caps at half the subtotal (0.057542ms)
+✔ stackDiscounts never makes result negative (0.043875ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.812542ms)
+✔ tax is on the subtotal after the discount (0.6065ms)
+✔ an empty cart cannot be invoiced (0.221917ms)
+✔ money keeps whole cents and its currency (0.800417ms)
+✔ add and subtract stay in one currency (0.100708ms)
+✔ multiply rounds halves away from zero (0.093084ms)
+✔ sum, compare and equals (0.103ms)
+✔ format writes two decimals and the symbol (0.081708ms)
+✔ parse reads at most two decimals (0.201458ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.57775ms)
+✔ an empty report is a zero total (0.490583ms)
+✔ mixed currencies are refused (0.199833ms)
+✔ flat shipping by region (0.7095ms)
+✔ sales tax by region, rounded to cents (0.685833ms)
+✔ a region with no rate is refused (0.171625ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 28
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 127.544459

@@ -1,0 +1,1 @@
+{"schema_version":2,"total":3,"killed":3,"survived":0,"timeout":0,"error":0,"evaluated":3,"score":1,"mutants":[{"id":"c5aeda0808d1bbef","line":10,"operator":"equality-strict-to-loose-neg","status":"killed"},{"id":"3028fa4a7f808fe2","line":22,"operator":"logical-or-to-and","status":"killed"},{"id":"be8661970dfcffe4","line":22,"operator":"cond-boundary-lt","status":"killed"}]}

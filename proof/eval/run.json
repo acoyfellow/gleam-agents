@@ -1,0 +1,1 @@
+{"plan":"hard-17x1-haiku45","baseline":"swarm-desk Elixir native loop, evals/baseline-hard-final.json: haiku45-full 45/51 = 0.882 hidden pass, $0.153 per seat","seats":17,"graded":17,"passed":14,"usd":2.8504,"wall_ms":172210,"errors":[]}

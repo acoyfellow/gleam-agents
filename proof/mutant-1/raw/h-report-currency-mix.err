@@ -1,0 +1,202 @@
+✔ adding merges lines by SKU (0.779833ms)
+✔ carts are values (0.466583ms)
+✔ bad quantities and currencies are refused (0.498291ms)
+✔ parseCatalog reads SKU,Name,price lines (0.839959ms)
+✔ parseCatalog prices in the catalog's currency (0.073625ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.219542ms)
+✔ a percent discount takes that share, rounded to cents (0.7055ms)
+✔ a fixed discount never takes more than the subtotal (0.074208ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.996875ms)
+✔ tax is on the subtotal after the discount (0.123917ms)
+✔ an empty cart cannot be invoiced (0.758167ms)
+✔ money keeps whole cents and its currency (0.8ms)
+✔ add and subtract stay in one currency (0.119833ms)
+✔ multiply rounds halves away from zero (0.096334ms)
+✔ sum, compare and equals (0.097292ms)
+✔ format writes two decimals and the symbol (0.08725ms)
+✔ parse reads at most two decimals (0.150042ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.928917ms)
+✔ an empty report is a zero total (0.05175ms)
+✔ mixed currencies produce separate blocks (0.092583ms)
+✔ flat shipping by region (1.439042ms)
+✔ sales tax by region, rounded to cents (1.193708ms)
+✔ a region with no rate is refused (0.289209ms)
+ℹ tests 23
+ℹ suites 0
+ℹ pass 23
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 150.852083
+✔ adding merges lines by SKU (7.8475ms)
+✔ carts are values (2.186792ms)
+✔ bad quantities and currencies are refused (0.29625ms)
+✔ adding merges lines by SKU (0.723667ms)
+✔ carts are values (0.068833ms)
+✔ bad quantities and currencies are refused (0.18525ms)
+✔ parseCatalog reads SKU,Name,price lines (0.83675ms)
+✔ parseCatalog prices in the catalog's currency (0.074959ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.222875ms)
+✔ a percent discount takes that share, rounded to cents (0.677209ms)
+✔ a fixed discount never takes more than the subtotal (0.07775ms)
+✔ an invoice adds tax on the subtotal and flat shipping (1.270167ms)
+✔ tax is on the subtotal after the discount (0.123666ms)
+✔ an empty cart cannot be invoiced (0.225709ms)
+✔ parseCatalog reads SKU,Name,price lines (0.77575ms)
+✔ parseCatalog prices in the catalog's currency (0.077625ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.218458ms)
+✔ a percent discount takes that share, rounded to cents (0.659167ms)
+✔ a fixed discount never takes more than the subtotal (0.072625ms)
+✔ money keeps whole cents and its currency (1.372708ms)
+✔ add and subtract stay in one currency (0.203458ms)
+✔ multiply rounds halves away from zero (0.232583ms)
+✔ sum, compare and equals (0.121375ms)
+✔ format writes two decimals and the symbol (0.415959ms)
+✔ parse reads at most two decimals (0.180583ms)
+✖ one line per invoice, then the total, amounts without a symbol (0.964ms)
+✖ an empty report is a zero total (0.102958ms)
+✖ mixed currencies produce separate blocks (0.11175ms)
+✔ an invoice adds tax on the subtotal and flat shipping (1.002042ms)
+✔ tax is on the subtotal after the discount (1.998708ms)
+✔ an empty cart cannot be invoiced (0.234208ms)
+✔ money keeps whole cents and its currency (1.025792ms)
+✔ add and subtract stay in one currency (0.229041ms)
+✔ multiply rounds halves away from zero (0.10925ms)
+✔ sum, compare and equals (0.1055ms)
+✔ format writes two decimals and the symbol (0.083209ms)
+✔ parse reads at most two decimals (0.312042ms)
+✖ one line per invoice, then the total, amounts without a symbol (1.669833ms)
+✔ an empty report is a zero total (0.10325ms)
+✖ mixed currencies produce separate blocks (0.165584ms)
+✔ flat shipping by region (0.737709ms)
+✔ sales tax by region, rounded to cents (4.434125ms)
+✔ a region with no rate is refused (0.218ms)
+ℹ tests 23
+ℹ suites 0
+ℹ pass 21
+✔ flat shipping by region (0.730875ms)
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 235.636209
+✔ sales tax by region, rounded to cents (0.753792ms)
+✔ a region with no rate is refused (0.193916ms)
+ℹ tests 23
+ℹ suites 0
+ℹ pass 20
+ℹ fail 3
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 236.4995
+
+✖ failing tests:
+
+test at test/report.test.ts:10:1
+✖ one line per invoice, then the total, amounts without a symbol (1.669833ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'INV-1 OR 14.99\nINV-2 CA 54.25\nTOTAL USD 69.24'
+  - 'INV-1 OR 14.99\nINV-2 CA 54.25\nTOTAL 69.24'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44951-1792920630770738000-1/test/report.test.ts:13:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'INV-1 OR 14.99\nINV-2 CA 54.25\nTOTAL USD 69.24',
+    expected: 'INV-1 OR 14.99\nINV-2 CA 54.25\nTOTAL 69.24',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/report.test.ts:20:1
+✖ mixed currencies produce separate blocks (0.165584ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  1 !== 2
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44951-1792920630770738000-1/test/report.test.ts:25:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 1,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+✖ failing tests:
+
+test at test/report.test.ts:10:1
+✖ one line per invoice, then the total, amounts without a symbol (0.964ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'TOTAL 0.00'
+  - 'INV-1 OR 14.99\nINV-2 CA 54.25\nTOTAL 69.24'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44951-1792920630770720000-0/test/report.test.ts:13:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'TOTAL 0.00',
+    expected: 'INV-1 OR 14.99\nINV-2 CA 54.25\nTOTAL 69.24',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/report.test.ts:16:1
+✖ an empty report is a zero total (0.102958ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  '' !== 'TOTAL 0.00'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44951-1792920630770720000-0/test/report.test.ts:17:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '',
+    expected: 'TOTAL 0.00',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/report.test.ts:20:1
+✖ mixed currencies produce separate blocks (0.11175ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  1 !== 2
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44951-1792920630770720000-0/test/report.test.ts:25:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 1,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

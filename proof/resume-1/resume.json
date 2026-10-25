@@ -1,0 +1,12 @@
+{
+ "claim": "a pi seat killed mid-run resumes the same session and finishes",
+ "turns_before_kill": 3,
+ "first_outcome": "killed",
+ "second_outcome": "done",
+ "resumed": true,
+ "same_session": true,
+ "session_files": 1,
+ "hidden_pass": true,
+ "usd": 0.066,
+ "verdict": "proven"
+}

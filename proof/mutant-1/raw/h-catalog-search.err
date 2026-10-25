@@ -1,0 +1,1282 @@
+✔ adding merges lines by SKU (0.8945ms)
+✔ carts are values (0.082125ms)
+✔ bad quantities and currencies are refused (0.209375ms)
+✔ parseCatalog reads SKU,Name,price lines (0.8385ms)
+✔ parseCatalog prices in the catalog's currency (0.068208ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.30625ms)
+✔ searchCatalog returns empty list for empty or whitespace-only query (0.247292ms)
+✔ searchCatalog finds products by single word (1.171083ms)
+✔ searchCatalog is case-insensitive (0.244084ms)
+✔ searchCatalog ignores accents (0.119709ms)
+✔ searchCatalog requires all words to match (0.085708ms)
+✔ searchCatalog allows words in any order (0.064333ms)
+✔ searchCatalog returns nothing if a word doesn't match (0.087416ms)
+✔ searchCatalog sorts by first query word position (0.061375ms)
+✔ searchCatalog sorts by folded name when first word position is same (5.771167ms)
+✔ searchCatalog sorts by SKU when folded name is same (0.114333ms)
+✔ searchCatalog uses earliest word position when multiple query words match (0.046875ms)
+✔ a percent discount takes that share, rounded to cents (0.663667ms)
+✔ a fixed discount never takes more than the subtotal (0.077083ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.817666ms)
+✔ tax is on the subtotal after the discount (1.154791ms)
+✔ an empty cart cannot be invoiced (0.229375ms)
+✔ money keeps whole cents and its currency (0.7505ms)
+✔ add and subtract stay in one currency (0.101959ms)
+✔ multiply rounds halves away from zero (0.0895ms)
+✔ sum, compare and equals (0.09ms)
+✔ format writes two decimals and the symbol (0.078792ms)
+✔ parse reads at most two decimals (0.151834ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.542083ms)
+✔ an empty report is a zero total (0.091833ms)
+✔ mixed currencies are refused (0.238667ms)
+✔ flat shipping by region (0.697458ms)
+✔ sales tax by region, rounded to cents (0.694709ms)
+✔ a region with no rate is refused (0.241041ms)
+ℹ tests 34
+ℹ suites 0
+ℹ pass 34
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 131.953291
+✔ adding merges lines by SKU (12.190209ms)
+✔ carts are values (0.27025ms)
+✔ bad quantities and currencies are refused (0.342083ms)
+✔ adding merges lines by SKU (0.7665ms)
+✔ carts are values (0.07075ms)
+✔ bad quantities and currencies are refused (0.180209ms)
+✔ parseCatalog reads SKU,Name,price lines (1.957625ms)
+✔ parseCatalog prices in the catalog's currency (0.155167ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.263541ms)
+✔ searchCatalog returns empty list for empty or whitespace-only query (0.108208ms)
+✔ searchCatalog finds products by single word (0.171833ms)
+✔ searchCatalog is case-insensitive (0.104583ms)
+✔ searchCatalog ignores accents (0.078542ms)
+✔ searchCatalog requires all words to match (0.076625ms)
+✔ searchCatalog allows words in any order (0.063792ms)
+✔ searchCatalog returns nothing if a word doesn't match (0.087209ms)
+✔ searchCatalog sorts by first query word position (0.05625ms)
+✔ searchCatalog sorts by folded name when first word position is same (73.866583ms)
+✔ searchCatalog sorts by SKU when folded name is same (0.108042ms)
+✔ searchCatalog uses earliest word position when multiple query words match (0.043875ms)
+✔ a percent discount takes that share, rounded to cents (0.675334ms)
+✔ a fixed discount never takes more than the subtotal (0.078875ms)
+✔ adding merges lines by SKU (1.640541ms)
+✔ carts are values (0.228583ms)
+✔ bad quantities and currencies are refused (0.4365ms)
+✔ adding merges lines by SKU (1.063791ms)
+✔ carts are values (0.094583ms)
+✔ bad quantities and currencies are refused (0.196708ms)
+✔ an invoice adds tax on the subtotal and flat shipping (1.355167ms)
+✔ tax is on the subtotal after the discount (0.129833ms)
+✔ an empty cart cannot be invoiced (0.178583ms)
+✔ adding merges lines by SKU (0.804666ms)
+✔ carts are values (0.080208ms)
+✔ bad quantities and currencies are refused (0.190542ms)
+✔ adding merges lines by SKU (0.771542ms)
+✔ carts are values (0.072333ms)
+✔ money keeps whole cents and its currency (1.418709ms)
+✔ add and subtract stay in one currency (0.142584ms)
+✔ multiply rounds halves away from zero (0.107125ms)
+✔ sum, compare and equals (0.103958ms)
+✔ format writes two decimals and the symbol (0.081209ms)
+✔ parse reads at most two decimals (0.156083ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.586583ms)
+✔ an empty report is a zero total (12.283417ms)
+✔ mixed currencies are refused (0.274292ms)
+✔ bad quantities and currencies are refused (0.183541ms)
+✖ parseCatalog reads SKU,Name,price lines (37.285875ms)
+✖ parseCatalog prices in the catalog's currency (0.10975ms)
+✖ parseCatalog refuses malformed lines and repeated SKUs (3.130333ms)
+✖ searchCatalog returns empty list for empty or whitespace-only query (0.10275ms)
+✖ searchCatalog finds products by single word (0.064625ms)
+✖ parseCatalog reads SKU,Name,price lines (0.584833ms)
+✔ parseCatalog prices in the catalog's currency (0.446667ms)
+✖ parseCatalog refuses malformed lines and repeated SKUs (0.407708ms)
+✖ searchCatalog returns empty list for empty or whitespace-only query (0.049917ms)
+✖ searchCatalog finds products by single word (0.045125ms)
+✖ searchCatalog is case-insensitive (0.036333ms)
+✔ searchCatalog ignores accents (0.740875ms)
+✖ searchCatalog requires all words to match (0.041667ms)
+✖ searchCatalog allows words in any order (0.046041ms)
+✖ searchCatalog returns nothing if a word doesn't match (0.076417ms)
+✔ searchCatalog sorts by first query word position (0.096958ms)
+✔ searchCatalog sorts by folded name when first word position is same (5.391084ms)
+✔ searchCatalog sorts by SKU when folded name is same (0.07825ms)
+✔ searchCatalog uses earliest word position when multiple query words match (0.053166ms)
+✔ a percent discount takes that share, rounded to cents (0.668667ms)
+✖ searchCatalog is case-insensitive (0.045709ms)
+✔ a fixed discount never takes more than the subtotal (0.074208ms)
+✔ an invoice adds tax on the subtotal and flat shipping (41.966375ms)
+✔ tax is on the subtotal after the discount (5.714208ms)
+✔ an empty cart cannot be invoiced (18.60475ms)
+✔ money keeps whole cents and its currency (0.763417ms)
+✔ add and subtract stay in one currency (0.099667ms)
+✔ multiply rounds halves away from zero (0.083416ms)
+✔ sum, compare and equals (0.091959ms)
+✔ format writes two decimals and the symbol (0.075084ms)
+✔ parse reads at most two decimals (0.147ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.563625ms)
+✔ an empty report is a zero total (0.469917ms)
+✔ mixed currencies are refused (0.206625ms)
+✔ flat shipping by region (1.873291ms)
+✔ sales tax by region, rounded to cents (0.687916ms)
+✔ a region with no rate is refused (0.172125ms)
+ℹ tests 34
+ℹ suites 0
+ℹ pass 26
+ℹ fail 8
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 704.714667
+✖ searchCatalog ignores accents (0.048083ms)
+✖ searchCatalog requires all words to match (2.490916ms)
+✖ searchCatalog allows words in any order (0.122875ms)
+✖ searchCatalog returns nothing if a word doesn't match (0.12775ms)
+✖ searchCatalog sorts by first query word position (0.069667ms)
+✖ searchCatalog sorts by folded name when first word position is same (0.050583ms)
+✖ searchCatalog sorts by SKU when folded name is same (0.038417ms)
+✖ searchCatalog uses earliest word position when multiple query words match (0.038417ms)
+
+✖ failing tests:
+
+test at test/catalog.test.ts:8:1
+✖ parseCatalog reads SKU,Name,price lines (0.584833ms)
+  SyntaxError [Error]: catalog: "# the shop" is not SKU,Name,price
+      at parseCatalog (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151338000-0/src/catalog.ts:23:63)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151338000-0/test/catalog.test.ts:9:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17)
+
+test at test/catalog.test.ts:20:1
+✖ parseCatalog refuses malformed lines and repeated SKUs (0.407708ms)
+  AssertionError [ERR_ASSERTION]: The error is expected to be an instance of "RangeError". Received "SyntaxError"
+  
+  Error message:
+  
+  catalog: "# the shop" is not SKU,Name,price
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151338000-0/test/catalog.test.ts:24:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: SyntaxError: catalog: "# the shop" is not SKU,Name,price
+        at parseCatalog (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151338000-0/src/catalog.ts:23:63)
+        at file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151338000-0/test/catalog.test.ts:24:31
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151338000-0/test/catalog.test.ts:24:10)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1402:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+        at Test.postRun (node:internal/test_runner/test:1542:19)
+        at Test.run (node:internal/test_runner/test:1467:12),
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at test/catalog.test.ts:27:1
+✖ searchCatalog returns empty list for empty or whitespace-only query (0.049917ms)
+  SyntaxError [Error]: catalog: "# the shop" is not SKU,Name,price
+      at parseCatalog (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151338000-0/src/catalog.ts:23:63)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151338000-0/test/catalog.test.ts:28:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/catalog.test.ts:34:1
+✖ searchCatalog finds products by single word (0.045125ms)
+  SyntaxError [Error]: catalog: "# the shop" is not SKU,Name,price
+      at parseCatalog (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151338000-0/src/catalog.ts:23:63)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151338000-0/test/catalog.test.ts:35:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/catalog.test.ts:43:1
+✖ searchCatalog is case-insensitive (0.036333ms)
+  SyntaxError [Error]: catalog: "# the shop" is not SKU,Name,price
+      at parseCatalog (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151338000-0/src/catalog.ts:23:63)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151338000-0/test/catalog.test.ts:44:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/catalog.test.ts:58:1
+✖ searchCatalog requires all words to match (0.041667ms)
+  SyntaxError [Error]: catalog: "# the shop" is not SKU,Name,price
+      at parseCatalog (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151338000-0/src/catalog.ts:23:63)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151338000-0/test/catalog.test.ts:59:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/catalog.test.ts:65:1
+✖ searchCatalog allows words in any order (0.046041ms)
+  SyntaxError [Error]: catalog: "# the shop" is not SKU,Name,price
+      at parseCatalog (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151338000-0/src/catalog.ts:23:63)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151338000-0/test/catalog.test.ts:66:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/catalog.test.ts:74:1
+✖ searchCatalog returns nothing if a word doesn't match (0.076417ms)
+  SyntaxError [Error]: catalog: "# the shop" is not SKU,Name,price
+      at parseCatalog (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151338000-0/src/catalog.ts:23:63)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151338000-0/test/catalog.test.ts:75:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+✔ flat shipping by region (0.787166ms)
+✔ sales tax by region, rounded to cents (0.68125ms)
+✔ a region with no rate is refused (0.173959ms)
+ℹ tests 34
+ℹ suites 0
+ℹ pass 34
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 714.343417
+✔ a percent discount takes that share, rounded to cents (0.699834ms)
+✔ a fixed discount never takes more than the subtotal (0.076084ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.765875ms)
+✔ tax is on the subtotal after the discount (0.716083ms)
+✔ an empty cart cannot be invoiced (0.160167ms)
+✔ money keeps whole cents and its currency (0.844792ms)
+✔ add and subtract stay in one currency (0.104625ms)
+✔ multiply rounds halves away from zero (0.085834ms)
+✔ sum, compare and equals (0.1015ms)
+✔ format writes two decimals and the symbol (0.077291ms)
+✔ parse reads at most two decimals (0.145875ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.605041ms)
+✔ an empty report is a zero total (0.699792ms)
+✔ mixed currencies are refused (0.208917ms)
+✔ flat shipping by region (1.747958ms)
+✔ sales tax by region, rounded to cents (0.675833ms)
+✔ a region with no rate is refused (0.504166ms)
+✖ parseCatalog reads SKU,Name,price lines (0.493833ms)
+ℹ tests 34
+✖ parseCatalog prices in the catalog's currency (0.064417ms)
+ℹ suites 0
+ℹ pass 20
+✖ parseCatalog refuses malformed lines and repeated SKUs (0.289959ms)
+ℹ fail 14
+✖ searchCatalog returns empty list for empty or whitespace-only query (0.049709ms)
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+✖ searchCatalog finds products by single word (0.048958ms)
+ℹ duration_ms 700.83675
+✖ searchCatalog is case-insensitive (0.071ms)
+✖ searchCatalog ignores accents (0.281958ms)
+✖ searchCatalog requires all words to match (0.107958ms)
+✖ searchCatalog allows words in any order (0.072916ms)
+✖ searchCatalog returns nothing if a word doesn't match (0.09425ms)
+✖ searchCatalog sorts by first query word position (0.171083ms)
+✖ searchCatalog sorts by folded name when first word position is same (0.091125ms)
+✖ searchCatalog sorts by SKU when folded name is same (0.069417ms)
+✖ searchCatalog uses earliest word position when multiple query words match (0.075083ms)
+✔ a percent discount takes that share, rounded to cents (0.721875ms)
+✔ a fixed discount never takes more than the subtotal (0.156667ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.7675ms)
+✔ tax is on the subtotal after the discount (0.113375ms)
+✔ an empty cart cannot be invoiced (0.17975ms)
+✔ parseCatalog reads SKU,Name,price lines (0.874958ms)
+✔ money keeps whole cents and its currency (0.796958ms)
+✔ add and subtract stay in one currency (0.11975ms)
+✔ multiply rounds halves away from zero (0.095875ms)
+✔ sum, compare and equals (0.095042ms)
+✔ format writes two decimals and the symbol (0.073625ms)
+✔ parseCatalog prices in the catalog's currency (0.070167ms)
+✔ parse reads at most two decimals (0.150416ms)
+✔ one line per invoice, then the total, amounts without a symbol (1.2515ms)
+✔ an empty report is a zero total (0.298208ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.22325ms)
+✔ mixed currencies are refused (0.600959ms)
+✔ flat shipping by region (4.7375ms)
+✔ searchCatalog returns empty list for empty or whitespace-only query (1.013667ms)
+✔ sales tax by region, rounded to cents (1.9515ms)
+✔ a region with no rate is refused (0.232792ms)
+✔ searchCatalog finds products by single word (0.189083ms)
+✔ searchCatalog is case-insensitive (0.091334ms)
+✔ searchCatalog ignores accents (0.074709ms)
+ℹ tests 34
+ℹ suites 0
+ℹ pass 20
+ℹ fail 14
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 701.675417
+✔ searchCatalog requires all words to match (0.074208ms)
+✔ searchCatalog allows words in any order (0.073917ms)
+✔ searchCatalog returns nothing if a word doesn't match (0.0895ms)
+✔ searchCatalog sorts by first query word position (0.055042ms)
+✔ searchCatalog sorts by folded name when first word position is same (5.244625ms)
+✔ searchCatalog sorts by SKU when folded name is same (0.074208ms)
+✔ searchCatalog uses earliest word position when multiple query words match (0.038083ms)
+
+✖ failing tests:
+
+test at test/catalog.test.ts:8:1
+✖ parseCatalog reads SKU,Name,price lines (37.285875ms)
+  SyntaxError [Error]: catalog: "TEA,Green tea,4.50" is not SKU,Name,price
+      at parseCatalog (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151365000-2/src/catalog.ts:23:63)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151365000-2/test/catalog.test.ts:9:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17)
+
+test at test/catalog.test.ts:15:1
+✖ parseCatalog prices in the catalog's currency (0.10975ms)
+  SyntaxError [Error]: catalog: "TEA,Green tea,4.50" is not SKU,Name,price
+      at parseCatalog (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151365000-2/src/catalog.ts:23:63)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151365000-2/test/catalog.test.ts:16:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3)
+
+test at test/catalog.test.ts:20:1
+✖ parseCatalog refuses malformed lines and repeated SKUs (3.130333ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /listed twice/. Input:
+  
+  'SyntaxError: catalog: "TEA,Green tea,1" is not SKU,Name,price'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151365000-2/test/catalog.test.ts:23:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: SyntaxError: catalog: "TEA,Green tea,1" is not SKU,Name,price
+        at parseCatalog (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151365000-2/src/catalog.ts:23:63)
+        at file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151365000-2/test/catalog.test.ts:23:23
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151365000-2/test/catalog.test.ts:23:10)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1402:25)
+        at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+        at Test.postRun (node:internal/test_runner/test:1542:19)
+        at Test.run (node:internal/test_runner/test:1467:12),
+    expected: /listed twice/,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at test/catalog.test.ts:27:1
+✖ searchCatalog returns empty list for empty or whitespace-only query (0.10275ms)
+  SyntaxError [Error]: catalog: "TEA,Green tea,4.50" is not SKU,Name,price
+      at parseCatalog (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151365000-2/src/catalog.ts:23:63)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151365000-2/test/catalog.test.ts:28:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/catalog.test.ts:34:1
+✖ searchCatalog finds products by single word (0.064625ms)
+  SyntaxError [Error]: catalog: "TEA,Green tea,4.50" is not SKU,Name,price
+      at parseCatalog (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151365000-2/src/catalog.ts:23:63)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151365000-2/test/catalog.test.ts:35:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/catalog.test.ts:43:1
+✖ searchCatalog is case-insensitive (0.045709ms)
+  SyntaxError [Error]: catalog: "TEA,Green tea,4.50" is not SKU,Name,price
+      at parseCatalog (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151365000-2/src/catalog.ts:23:63)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151365000-2/test/catalog.test.ts:44:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/catalog.test.ts:51:1
+✖ searchCatalog ignores accents (0.048083ms)
+  SyntaxError [Error]: catalog: "CAFE,Café,5.00" is not SKU,Name,price
+      at parseCatalog (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151365000-2/src/catalog.ts:23:63)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151365000-2/test/catalog.test.ts:52:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/catalog.test.ts:58:1
+✖ searchCatalog requires all words to match (2.490916ms)
+  SyntaxError [Error]: catalog: "TEA,Green tea,4.50" is not SKU,Name,price
+      at parseCatalog (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151365000-2/src/catalog.ts:23:63)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151365000-2/test/catalog.test.ts:59:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/catalog.test.ts:65:1
+✖ searchCatalog allows words in any order (0.122875ms)
+  SyntaxError [Error]: catalog: "TEA,Green tea,4.50" is not SKU,Name,price
+      at parseCatalog (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151365000-2/src/catalog.ts:23:63)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151365000-2/test/catalog.test.ts:66:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/catalog.test.ts:74:1
+✖ searchCatalog returns nothing if a word doesn't match (0.12775ms)
+  SyntaxError [Error]: catalog: "TEA,Green tea,4.50" is not SKU,Name,price
+      at parseCatalog (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151365000-2/src/catalog.ts:23:63)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151365000-2/test/catalog.test.ts:75:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/catalog.test.ts:80:1
+✖ searchCatalog sorts by first query word position (0.069667ms)
+  SyntaxError [Error]: catalog: "A,tea green,1" is not SKU,Name,price
+      at parseCatalog (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151365000-2/src/catalog.ts:23:63)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151365000-2/test/catalog.test.ts:81:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/catalog.test.ts:89:1
+✖ searchCatalog sorts by folded name when first word position is same (0.050583ms)
+  SyntaxError [Error]: catalog: "A,Zebra tea,1" is not SKU,Name,price
+      at parseCatalog (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151365000-2/src/catalog.ts:23:63)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151365000-2/test/catalog.test.ts:90:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/catalog.test.ts:98:1
+✖ searchCatalog sorts by SKU when folded name is same (0.038417ms)
+  SyntaxError [Error]: catalog: "B,Tea,1" is not SKU,Name,price
+      at parseCatalog (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151365000-2/src/catalog.ts:23:63)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151365000-2/test/catalog.test.ts:99:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/catalog.test.ts:107:1
+✖ searchCatalog uses earliest word position when multiple query words match (0.038417ms)
+  SyntaxError [Error]: catalog: "A,tea green cup,1" is not SKU,Name,price
+      at parseCatalog (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151365000-2/src/catalog.ts:23:63)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151365000-2/test/catalog.test.ts:108:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+✖ failing tests:
+
+test at test/catalog.test.ts:8:1
+✖ parseCatalog reads SKU,Name,price lines (0.493833ms)
+  SyntaxError [Error]: catalog: "" is not SKU,Name,price
+      at parseCatalog (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151340000-1/src/catalog.ts:23:63)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151340000-1/test/catalog.test.ts:9:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17)
+
+test at test/catalog.test.ts:15:1
+✖ parseCatalog prices in the catalog's currency (0.064417ms)
+  RangeError [Error]: catalog: no product TEA
+      at product (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151340000-1/src/catalog.ts:33:21)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151340000-1/test/catalog.test.ts:17:20)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3)
+
+test at test/catalog.test.ts:20:1
+✖ parseCatalog refuses malformed lines and repeated SKUs (0.289959ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception (SyntaxError).
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151340000-1/test/catalog.test.ts:21:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at test/catalog.test.ts:27:1
+✖ searchCatalog returns empty list for empty or whitespace-only query (0.049709ms)
+  SyntaxError [Error]: catalog: "" is not SKU,Name,price
+      at parseCatalog (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151340000-1/src/catalog.ts:23:63)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151340000-1/test/catalog.test.ts:28:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/catalog.test.ts:34:1
+✖ searchCatalog finds products by single word (0.048958ms)
+  SyntaxError [Error]: catalog: "" is not SKU,Name,price
+      at parseCatalog (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151340000-1/src/catalog.ts:23:63)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151340000-1/test/catalog.test.ts:35:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/catalog.test.ts:43:1
+✖ searchCatalog is case-insensitive (0.071ms)
+  SyntaxError [Error]: catalog: "" is not SKU,Name,price
+      at parseCatalog (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151340000-1/src/catalog.ts:23:63)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151340000-1/test/catalog.test.ts:44:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/catalog.test.ts:51:1
+✖ searchCatalog ignores accents (0.281958ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 1
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151340000-1/test/catalog.test.ts:54:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/catalog.test.ts:58:1
+✖ searchCatalog requires all words to match (0.107958ms)
+  SyntaxError [Error]: catalog: "" is not SKU,Name,price
+      at parseCatalog (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151340000-1/src/catalog.ts:23:63)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151340000-1/test/catalog.test.ts:59:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/catalog.test.ts:65:1
+✖ searchCatalog allows words in any order (0.072916ms)
+  SyntaxError [Error]: catalog: "" is not SKU,Name,price
+      at parseCatalog (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151340000-1/src/catalog.ts:23:63)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151340000-1/test/catalog.test.ts:66:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/catalog.test.ts:74:1
+✖ searchCatalog returns nothing if a word doesn't match (0.09425ms)
+  SyntaxError [Error]: catalog: "" is not SKU,Name,price
+      at parseCatalog (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151340000-1/src/catalog.ts:23:63)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151340000-1/test/catalog.test.ts:75:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/catalog.test.ts:80:1
+✖ searchCatalog sorts by first query word position (0.171083ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 2
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151340000-1/test/catalog.test.ts:83:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/catalog.test.ts:89:1
+✖ searchCatalog sorts by folded name when first word position is same (0.091125ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 2
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151340000-1/test/catalog.test.ts:92:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/catalog.test.ts:98:1
+✖ searchCatalog sorts by SKU when folded name is same (0.069417ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 2
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151340000-1/test/catalog.test.ts:101:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/catalog.test.ts:107:1
+✖ searchCatalog uses earliest word position when multiple query words match (0.075083ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 2
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554151340000-1/test/catalog.test.ts:110:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+✔ parseCatalog reads SKU,Name,price lines (0.929666ms)
+✔ parseCatalog prices in the catalog's currency (0.1335ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.264125ms)
+✔ searchCatalog returns empty list for empty or whitespace-only query (0.119792ms)
+✔ searchCatalog finds products by single word (0.272542ms)
+✔ searchCatalog is case-insensitive (0.107375ms)
+✔ searchCatalog ignores accents (0.081833ms)
+✔ searchCatalog requires all words to match (0.070584ms)
+✔ searchCatalog allows words in any order (0.067959ms)
+✔ searchCatalog returns nothing if a word doesn't match (0.085708ms)
+✔ searchCatalog sorts by first query word position (0.058708ms)
+✔ searchCatalog sorts by folded name when first word position is same (5.862375ms)
+✔ searchCatalog sorts by SKU when folded name is same (0.104791ms)
+✔ searchCatalog uses earliest word position when multiple query words match (0.0465ms)
+✔ a percent discount takes that share, rounded to cents (0.705125ms)
+✔ a fixed discount never takes more than the subtotal (0.069459ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.752167ms)
+✔ tax is on the subtotal after the discount (0.1165ms)
+✔ an empty cart cannot be invoiced (0.15625ms)
+✔ money keeps whole cents and its currency (2.509ms)
+✔ add and subtract stay in one currency (0.116042ms)
+✔ multiply rounds halves away from zero (0.098291ms)
+✔ sum, compare and equals (0.100292ms)
+✔ format writes two decimals and the symbol (0.084792ms)
+✔ parse reads at most two decimals (0.162542ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.605042ms)
+✔ an empty report is a zero total (0.641167ms)
+✔ mixed currencies are refused (0.196583ms)
+✔ flat shipping by region (0.7185ms)
+✔ sales tax by region, rounded to cents (0.641542ms)
+✔ a region with no rate is refused (0.173542ms)
+ℹ tests 34
+ℹ suites 0
+ℹ pass 34
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 695.490209
+✔ a percent discount takes that share, rounded to cents (0.697708ms)
+✔ a fixed discount never takes more than the subtotal (0.073834ms)
+✔ an invoice adds tax on the subtotal and flat shipping (1.99325ms)
+✔ tax is on the subtotal after the discount (0.489875ms)
+✔ an empty cart cannot be invoiced (0.224083ms)
+✔ money keeps whole cents and its currency (0.778208ms)
+✔ add and subtract stay in one currency (0.106583ms)
+✔ multiply rounds halves away from zero (0.0905ms)
+✔ sum, compare and equals (0.095916ms)
+✔ format writes two decimals and the symbol (0.081583ms)
+✔ parse reads at most two decimals (0.154208ms)
+✔ one line per invoice, then the total, amounts without a symbol (7.602166ms)
+✔ an empty report is a zero total (9.982042ms)
+✔ mixed currencies are refused (0.462833ms)
+✔ flat shipping by region (0.731166ms)
+✔ sales tax by region, rounded to cents (0.660833ms)
+✔ a region with no rate is refused (0.170958ms)
+ℹ tests 34
+ℹ suites 0
+ℹ pass 34
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 708.34775
+✔ adding merges lines by SKU (36.318833ms)
+✔ carts are values (1.471917ms)
+✔ bad quantities and currencies are refused (10.979417ms)
+✔ parseCatalog reads SKU,Name,price lines (0.84325ms)
+✔ parseCatalog prices in the catalog's currency (0.064125ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.208083ms)
+✔ searchCatalog returns empty list for empty or whitespace-only query (0.638625ms)
+✖ searchCatalog finds products by single word (0.481083ms)
+✖ searchCatalog is case-insensitive (0.129917ms)
+✖ searchCatalog ignores accents (0.116375ms)
+✖ searchCatalog requires all words to match (0.103459ms)
+✔ searchCatalog allows words in any order (0.06875ms)
+✖ searchCatalog returns nothing if a word doesn't match (54.714375ms)
+✖ searchCatalog sorts by first query word position (0.126167ms)
+✖ searchCatalog sorts by folded name when first word position is same (0.068041ms)
+✖ searchCatalog sorts by SKU when folded name is same (0.056666ms)
+✖ searchCatalog uses earliest word position when multiple query words match (0.057625ms)
+✔ adding merges lines by SKU (6.867541ms)
+✔ carts are values (0.109833ms)
+✔ bad quantities and currencies are refused (0.206792ms)
+✔ adding merges lines by SKU (0.729833ms)
+✔ carts are values (0.068166ms)
+✔ bad quantities and currencies are refused (0.18325ms)
+✔ a percent discount takes that share, rounded to cents (0.670708ms)
+✔ a fixed discount never takes more than the subtotal (0.075ms)
+✔ parseCatalog reads SKU,Name,price lines (0.879834ms)
+✔ parseCatalog prices in the catalog's currency (0.067417ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.212167ms)
+✔ searchCatalog returns empty list for empty or whitespace-only query (0.108167ms)
+✖ searchCatalog finds products by single word (10.028792ms)
+✖ searchCatalog is case-insensitive (0.893792ms)
+✔ searchCatalog ignores accents (0.432708ms)
+✔ searchCatalog requires all words to match (2.022083ms)
+✔ searchCatalog allows words in any order (2.265708ms)
+✔ an invoice adds tax on the subtotal and flat shipping (4.787167ms)
+✔ searchCatalog returns nothing if a word doesn't match (0.429208ms)
+✔ searchCatalog sorts by first query word position (0.100459ms)
+✔ tax is on the subtotal after the discount (0.152417ms)
+✔ an empty cart cannot be invoiced (0.179083ms)
+✖ searchCatalog sorts by folded name when first word position is same (0.15825ms)
+✖ searchCatalog sorts by SKU when folded name is same (0.0845ms)
+✖ searchCatalog uses earliest word position when multiple query words match (0.073334ms)
+✔ parseCatalog reads SKU,Name,price lines (0.893959ms)
+✔ parseCatalog prices in the catalog's currency (0.073667ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.219083ms)
+✔ searchCatalog returns empty list for empty or whitespace-only query (0.099ms)
+✔ searchCatalog finds products by single word (0.136666ms)
+✔ searchCatalog is case-insensitive (0.329125ms)
+✔ searchCatalog ignores accents (0.461416ms)
+✔ searchCatalog requires all words to match (0.208625ms)
+✔ searchCatalog allows words in any order (0.211708ms)
+✔ searchCatalog returns nothing if a word doesn't match (0.212875ms)
+✔ searchCatalog sorts by first query word position (0.125167ms)
+✖ searchCatalog sorts by folded name when first word position is same (8.431125ms)
+✖ searchCatalog sorts by SKU when folded name is same (0.125125ms)
+✔ searchCatalog uses earliest word position when multiple query words match (0.061542ms)
+✔ a percent discount takes that share, rounded to cents (1.341667ms)
+✔ a fixed discount never takes more than the subtotal (0.6425ms)
+✔ an invoice adds tax on the subtotal and flat shipping (5.255958ms)
+✔ tax is on the subtotal after the discount (0.130583ms)
+✔ an empty cart cannot be invoiced (3.498042ms)
+✔ money keeps whole cents and its currency (1.000792ms)
+✔ a percent discount takes that share, rounded to cents (0.719ms)
+✔ add and subtract stay in one currency (0.150458ms)
+✔ a fixed discount never takes more than the subtotal (0.078834ms)
+✔ multiply rounds halves away from zero (0.096834ms)
+✔ sum, compare and equals (0.101375ms)
+✔ format writes two decimals and the symbol (0.08425ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.796083ms)
+✔ parse reads at most two decimals (0.14975ms)
+✔ tax is on the subtotal after the discount (0.9825ms)
+✔ an empty cart cannot be invoiced (0.679792ms)
+✔ one line per invoice, then the total, amounts without a symbol (1.451125ms)
+✔ money keeps whole cents and its currency (1.061291ms)
+✔ an empty report is a zero total (0.066875ms)
+✔ add and subtract stay in one currency (0.114291ms)
+✔ mixed currencies are refused (0.192042ms)
+✔ multiply rounds halves away from zero (0.098709ms)
+✔ sum, compare and equals (0.096375ms)
+✔ flat shipping by region (0.737708ms)
+✔ format writes two decimals and the symbol (0.086542ms)
+✔ parse reads at most two decimals (0.144625ms)
+✔ sales tax by region, rounded to cents (2.752ms)
+✔ one line per invoice, then the total, amounts without a symbol (18.7175ms)
+✔ a region with no rate is refused (1.488792ms)
+✔ an empty report is a zero total (0.08275ms)
+✔ mixed currencies are refused (0.213292ms)
+✔ flat shipping by region (0.800417ms)
+✔ sales tax by region, rounded to cents (1.881542ms)
+✔ a region with no rate is refused (0.433709ms)
+ℹ tests 34
+ℹ suites 0
+ℹ pass 25
+ℹ tests 34
+ℹ fail 9
+ℹ suites 0
+✔ money keeps whole cents and its currency (0.767792ms)
+ℹ pass 29
+ℹ cancelled 0
+ℹ fail 5
+ℹ skipped 0
+ℹ cancelled 0
+ℹ todo 0
+✔ add and subtract stay in one currency (0.102833ms)
+ℹ duration_ms 339.322375
+ℹ skipped 0
+✔ multiply rounds halves away from zero (0.09075ms)
+ℹ todo 0
+✔ sum, compare and equals (0.098334ms)
+ℹ duration_ms 339.432667
+✔ format writes two decimals and the symbol (0.078ms)
+✔ parse reads at most two decimals (0.137833ms)
+✔ one line per invoice, then the total, amounts without a symbol (1.092333ms)
+✔ an empty report is a zero total (0.0575ms)
+✔ mixed currencies are refused (0.182917ms)
+✔ flat shipping by region (0.7795ms)
+✔ sales tax by region, rounded to cents (0.677292ms)
+✔ a region with no rate is refused (0.169041ms)
+ℹ tests 34
+ℹ suites 0
+ℹ pass 32
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 335.747375
+
+✖ failing tests:
+
+test at test/catalog.test.ts:89:1
+✖ searchCatalog sorts by folded name when first word position is same (8.431125ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'A' !== 'B'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554938692000-8/test/catalog.test.ts:94:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'A',
+    expected: 'B',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/catalog.test.ts:98:1
+✖ searchCatalog sorts by SKU when folded name is same (0.125125ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'B' !== 'A'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554938692000-8/test/catalog.test.ts:103:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'B',
+    expected: 'A',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+✖ failing tests:
+
+test at test/catalog.test.ts:34:1
+✖ searchCatalog finds products by single word (10.028792ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'TEA' !== 'POT'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554935486000-7/test/catalog.test.ts:39:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'TEA',
+    expected: 'POT',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/catalog.test.ts:43:1
+✖ searchCatalog is case-insensitive (0.893792ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'TEA' !== 'POT'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554935486000-7/test/catalog.test.ts:48:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'TEA',
+    expected: 'POT',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/catalog.test.ts:89:1
+✖ searchCatalog sorts by folded name when first word position is same (0.15825ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'A' !== 'B'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554935486000-7/test/catalog.test.ts:94:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'A',
+    expected: 'B',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/catalog.test.ts:98:1
+✖ searchCatalog sorts by SKU when folded name is same (0.0845ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'B' !== 'A'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554935486000-7/test/catalog.test.ts:103:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'B',
+    expected: 'A',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/catalog.test.ts:107:1
+✖ searchCatalog uses earliest word position when multiple query words match (0.073334ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'B' !== 'A'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554935486000-7/test/catalog.test.ts:112:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'B',
+    expected: 'A',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+✖ failing tests:
+
+test at test/catalog.test.ts:34:1
+✖ searchCatalog finds products by single word (0.481083ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  1 !== 2
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554930926000-6/test/catalog.test.ts:37:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 1,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/catalog.test.ts:43:1
+✖ searchCatalog is case-insensitive (0.129917ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  1 !== 2
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554930926000-6/test/catalog.test.ts:46:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 1,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/catalog.test.ts:51:1
+✖ searchCatalog ignores accents (0.116375ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 1
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554930926000-6/test/catalog.test.ts:54:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/catalog.test.ts:58:1
+✖ searchCatalog requires all words to match (0.103459ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  'MUG' !== 'TEA'
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554930926000-6/test/catalog.test.ts:62:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'MUG',
+    expected: 'TEA',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/catalog.test.ts:74:1
+✖ searchCatalog returns nothing if a word doesn't match (54.714375ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  2 !== 0
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554930926000-6/test/catalog.test.ts:77:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 2,
+    expected: 0,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/catalog.test.ts:80:1
+✖ searchCatalog sorts by first query word position (0.126167ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 2
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554930926000-6/test/catalog.test.ts:83:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/catalog.test.ts:89:1
+✖ searchCatalog sorts by folded name when first word position is same (0.068041ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 2
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554930926000-6/test/catalog.test.ts:92:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/catalog.test.ts:98:1
+✖ searchCatalog sorts by SKU when folded name is same (0.056666ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 2
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554930926000-6/test/catalog.test.ts:101:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/catalog.test.ts:107:1
+✖ searchCatalog uses earliest word position when multiple query words match (0.057625ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 2
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/41620-1792920554930926000-6/test/catalog.test.ts:110:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 2,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

@@ -1,0 +1,19 @@
+{
+  "name": "smoke-kv-retry",
+  "baseline": "swarm-desk Elixir native loop, hard-final.json (sonnet5-full 100%, haiku45-full 88% hidden pass on bench/hard)",
+  "seats": [
+    {
+      "id": "s4-sonnet-kv",
+      "shape": "sonnet5-native",
+      "goal": "cf-build-bench/kv-crud",
+      "prompt_file": "prompts/kv-crud.md",
+      "seed": "kv-seed",
+      "writable": [
+        "src/",
+        "wrangler.jsonc"
+      ],
+      "test_command": "cd \"${CF_BUILD_BENCH:?set CF_BUILD_BENCH}\" && npx tsx src/cli.ts gate --task kv-crud --candidate \"$OLDPWD/src\" --run-tests 2>&1 | tail -25",
+      "grade_command": "cd \"${CF_BUILD_BENCH:?set CF_BUILD_BENCH}\" && npx tsx src/cli.ts gate --task kv-crud --candidate \"$OLDPWD/src\" --run-tests --json 2>&1 | tail -8 | grep -q '\"pass\":true' && echo PASS || { echo FAIL; exit 1; }"
+    }
+  ]
+}

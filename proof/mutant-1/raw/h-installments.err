@@ -1,0 +1,561 @@
+✔ adding merges lines by SKU (0.792625ms)
+✔ carts are values (0.14ms)
+✔ bad quantities and currencies are refused (0.375291ms)
+✔ parseCatalog reads SKU,Name,price lines (0.761875ms)
+✔ parseCatalog prices in the catalog's currency (0.071292ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.21875ms)
+✔ a percent discount takes that share, rounded to cents (0.636834ms)
+✔ a fixed discount never takes more than the subtotal (0.075291ms)
+✔ installments with zero interest (0.871625ms)
+✔ installments with interest (0.1255ms)
+✔ installments validation (0.284459ms)
+✔ installments single month (0.082209ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.788458ms)
+✔ tax is on the subtotal after the discount (0.541209ms)
+✔ an empty cart cannot be invoiced (0.162542ms)
+✔ money keeps whole cents and its currency (0.765958ms)
+✔ add and subtract stay in one currency (0.1045ms)
+✔ multiply rounds halves away from zero (0.088708ms)
+✔ sum, compare and equals (0.090541ms)
+✔ format writes two decimals and the symbol (0.082333ms)
+✔ parse reads at most two decimals (0.154167ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.539125ms)
+✔ an empty report is a zero total (0.0605ms)
+✔ mixed currencies are refused (0.733709ms)
+✔ flat shipping by region (0.704292ms)
+✔ sales tax by region, rounded to cents (0.643708ms)
+✔ a region with no rate is refused (0.162875ms)
+ℹ tests 27
+ℹ suites 0
+ℹ pass 27
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 141.379166
+✔ adding merges lines by SKU (1.186333ms)
+✔ carts are values (0.178959ms)
+✔ adding merges lines by SKU (0.736583ms)
+✔ carts are values (0.067125ms)
+✔ bad quantities and currencies are refused (0.181667ms)
+✔ bad quantities and currencies are refused (0.619542ms)
+✔ parseCatalog reads SKU,Name,price lines (0.890667ms)
+✔ parseCatalog prices in the catalog's currency (5.141042ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.640709ms)
+✔ parseCatalog reads SKU,Name,price lines (9.197208ms)
+✔ parseCatalog prices in the catalog's currency (1.61475ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.623542ms)
+✔ adding merges lines by SKU (0.766ms)
+✔ carts are values (0.072709ms)
+✔ bad quantities and currencies are refused (0.18525ms)
+✔ a percent discount takes that share, rounded to cents (0.704084ms)
+✔ a fixed discount never takes more than the subtotal (0.075584ms)
+✔ parseCatalog reads SKU,Name,price lines (0.771541ms)
+✔ parseCatalog prices in the catalog's currency (0.068125ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.210167ms)
+✖ installments with zero interest (0.398416ms)
+✔ installments with interest (0.44575ms)
+✔ installments validation (0.203791ms)
+✔ installments single month (0.07225ms)
+✔ a percent discount takes that share, rounded to cents (0.649125ms)
+✔ a fixed discount never takes more than the subtotal (0.0705ms)
+✔ adding merges lines by SKU (0.715375ms)
+✔ carts are values (0.066834ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.802584ms)
+✔ tax is on the subtotal after the discount (0.178791ms)
+✔ an empty cart cannot be invoiced (0.186ms)
+✔ bad quantities and currencies are refused (0.188542ms)
+✔ installments with zero interest (0.774417ms)
+✔ installments with interest (0.106583ms)
+✔ installments validation (0.21ms)
+✔ installments single month (0.064083ms)
+✔ parseCatalog reads SKU,Name,price lines (0.826042ms)
+✔ parseCatalog prices in the catalog's currency (0.077292ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.216667ms)
+✔ a percent discount takes that share, rounded to cents (0.6715ms)
+✔ a fixed discount never takes more than the subtotal (0.0735ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.744125ms)
+✔ tax is on the subtotal after the discount (8.249958ms)
+✔ an empty cart cannot be invoiced (5.569584ms)
+✔ adding merges lines by SKU (15.585ms)
+✔ carts are values (0.126875ms)
+✔ bad quantities and currencies are refused (0.211291ms)
+✔ money keeps whole cents and its currency (0.768875ms)
+✔ add and subtract stay in one currency (0.105833ms)
+✔ multiply rounds halves away from zero (0.08725ms)
+✔ adding merges lines by SKU (0.764958ms)
+✔ carts are values (0.071875ms)
+✔ a percent discount takes that share, rounded to cents (0.756458ms)
+✔ bad quantities and currencies are refused (0.187667ms)
+✔ a fixed discount never takes more than the subtotal (0.085667ms)
+✔ money keeps whole cents and its currency (0.787292ms)
+✔ add and subtract stay in one currency (0.105166ms)
+✔ multiply rounds halves away from zero (0.089917ms)
+✔ sum, compare and equals (0.094167ms)
+✔ format writes two decimals and the symbol (0.079541ms)
+✔ parse reads at most two decimals (0.136792ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.54975ms)
+✔ an empty report is a zero total (6.863209ms)
+✔ mixed currencies are refused (0.310125ms)
+✔ flat shipping by region (0.833625ms)
+✔ installments with zero interest (0.806458ms)
+✔ sum, compare and equals (0.092833ms)
+✔ installments with interest (0.108458ms)
+✔ installments validation (7.837625ms)
+✔ format writes two decimals and the symbol (0.078041ms)
+✔ parse reads at most two decimals (0.145708ms)
+✖ installments single month (1.840375ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.768958ms)
+✔ tax is on the subtotal after the discount (0.099959ms)
+✔ an empty cart cannot be invoiced (0.153042ms)
+✔ money keeps whole cents and its currency (0.795208ms)
+✔ add and subtract stay in one currency (0.097541ms)
+✔ multiply rounds halves away from zero (0.0845ms)
+✔ sum, compare and equals (0.094ms)
+✔ format writes two decimals and the symbol (0.073292ms)
+✔ parse reads at most two decimals (0.133875ms)
+✔ parseCatalog reads SKU,Name,price lines (0.876791ms)
+✔ parseCatalog prices in the catalog's currency (0.071208ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.222292ms)
+✔ a percent discount takes that share, rounded to cents (15.112583ms)
+✔ a fixed discount never takes more than the subtotal (0.104208ms)
+✔ installments with zero interest (0.767083ms)
+✔ installments with interest (0.112167ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.551209ms)
+✖ installments validation (0.643042ms)
+✔ installments single month (0.127667ms)
+✔ an empty report is a zero total (0.483959ms)
+✔ mixed currencies are refused (0.202916ms)
+✔ sales tax by region, rounded to cents (0.652709ms)
+✔ a region with no rate is refused (0.177167ms)
+ℹ tests 27
+ℹ suites 0
+ℹ pass 26
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 719.822542
+✔ installments with zero interest (3.361959ms)
+✔ installments with interest (0.132584ms)
+✔ one line per invoice, then the total, amounts without a symbol (70.201292ms)
+✔ an empty report is a zero total (0.603417ms)
+✖ installments validation (0.499917ms)
+✔ installments single month (0.072958ms)
+✔ mixed currencies are refused (0.219125ms)
+✔ parseCatalog reads SKU,Name,price lines (0.839917ms)
+
+✖ failing tests:
+
+test at test/installments.test.ts:7:1
+✖ installments with zero interest (0.398416ms)
+  RangeError [Error]: installments: apr must be non-negative and finite, got 0
+      at installments (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44328-1792920622921932000-5/src/installments.ts:29:11)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44328-1792920622921932000-5/test/installments.test.ts:8:18)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17)
+✔ parseCatalog prices in the catalog's currency (0.070458ms)
+✔ flat shipping by region (0.717333ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.804542ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.224333ms)
+✔ tax is on the subtotal after the discount (8.769459ms)
+✔ an empty cart cannot be invoiced (1.455667ms)
+✔ money keeps whole cents and its currency (0.782875ms)
+✔ sales tax by region, rounded to cents (0.709167ms)
+✔ add and subtract stay in one currency (0.105167ms)
+✔ a percent discount takes that share, rounded to cents (25.107917ms)
+✔ a region with no rate is refused (0.285583ms)
+✔ a fixed discount never takes more than the subtotal (2.527625ms)
+✔ multiply rounds halves away from zero (0.094708ms)
+✔ sum, compare and equals (0.09625ms)
+✔ installments with zero interest (3.221542ms)
+✔ format writes two decimals and the symbol (0.078625ms)
+✔ installments with interest (0.142833ms)
+✔ parse reads at most two decimals (0.145708ms)
+ℹ tests 27
+✖ installments validation (0.474542ms)
+✔ installments single month (0.069083ms)
+ℹ suites 0
+✔ one line per invoice, then the total, amounts without a symbol (5.840166ms)
+ℹ pass 27
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+✔ an empty report is a zero total (8.737209ms)
+ℹ todo 0
+✔ mixed currencies are refused (2.114625ms)
+ℹ duration_ms 715.570542
+✔ flat shipping by region (0.723833ms)
+✔ sales tax by region, rounded to cents (0.661209ms)
+✔ a region with no rate is refused (0.167334ms)
+ℹ tests 27
+ℹ suites 0
+ℹ pass 26
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 722.8795
+
+✖ failing tests:
+
+test at test/installments.test.ts:41:1
+✖ installments validation (0.499917ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception (RangeError).
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44328-1792920622921913000-0/test/installments.test.ts:44:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+✔ an invoice adds tax on the subtotal and flat shipping (0.761125ms)
+✔ tax is on the subtotal after the discount (0.10625ms)
+✔ an empty cart cannot be invoiced (0.164709ms)
+✔ money keeps whole cents and its currency (0.794292ms)
+✔ add and subtract stay in one currency (0.125208ms)
+✔ multiply rounds halves away from zero (0.088ms)
+✔ sum, compare and equals (0.100292ms)
+✔ format writes two decimals and the symbol (0.084333ms)
+✔ parse reads at most two decimals (0.143584ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.85425ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.564416ms)
+✔ tax is on the subtotal after the discount (0.333875ms)
+✔ an empty cart cannot be invoiced (6.88925ms)
+✔ money keeps whole cents and its currency (0.761292ms)
+✔ an empty report is a zero total (0.963667ms)
+✔ add and subtract stay in one currency (0.102792ms)
+✔ mixed currencies are refused (0.532791ms)
+✔ multiply rounds halves away from zero (0.087458ms)
+✔ sum, compare and equals (0.098708ms)
+✔ flat shipping by region (0.908ms)
+✔ format writes two decimals and the symbol (4.345917ms)
+✔ parse reads at most two decimals (1.0425ms)
+✔ sales tax by region, rounded to cents (0.64275ms)
+✔ a region with no rate is refused (0.169209ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.567125ms)
+✔ an empty report is a zero total (0.460667ms)
+✔ mixed currencies are refused (0.203417ms)
+✔ flat shipping by region (0.800791ms)
+✔ flat shipping by region (0.723542ms)
+✔ sales tax by region, rounded to cents (59.112125ms)
+✔ sales tax by region, rounded to cents (0.66ms)
+ℹ tests 27
+✔ a region with no rate is refused (31.788583ms)
+✔ a region with no rate is refused (0.176166ms)
+ℹ suites 0
+ℹ pass 26
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ tests 27
+ℹ todo 0
+ℹ suites 0
+ℹ tests 27
+ℹ duration_ms 716.781
+ℹ pass 26
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ suites 0
+ℹ duration_ms 727.318917
+ℹ pass 26
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 723.854625
+
+✖ failing tests:
+
+test at test/installments.test.ts:41:1
+✖ installments validation (0.474542ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception (RangeError).
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44328-1792920622921930000-4/test/installments.test.ts:45:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+✖ failing tests:
+
+test at test/installments.test.ts:41:1
+✖ installments validation (0.643042ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception (RangeError).
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44328-1792920622921927000-2/test/installments.test.ts:48:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+✖ failing tests:
+
+test at test/installments.test.ts:57:1
+✖ installments single month (1.840375ms)
+  RangeError [Error]: installments: months must be an integer from 1 to 360, got 1
+      at installments (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44328-1792920622921920000-1/src/installments.ts:25:11)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44328-1792920622921920000-1/test/installments.test.ts:58:18)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+✔ adding merges lines by SKU (0.766958ms)
+✔ carts are values (0.073209ms)
+✔ adding merges lines by SKU (1.533917ms)
+✔ carts are values (0.11525ms)
+✔ bad quantities and currencies are refused (0.2125ms)
+✔ bad quantities and currencies are refused (0.18425ms)
+✔ parseCatalog reads SKU,Name,price lines (0.781875ms)
+✔ parseCatalog prices in the catalog's currency (0.065834ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.215375ms)
+✔ parseCatalog reads SKU,Name,price lines (5.242709ms)
+✔ parseCatalog prices in the catalog's currency (0.119334ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.262166ms)
+✔ a percent discount takes that share, rounded to cents (0.65375ms)
+✔ a fixed discount never takes more than the subtotal (0.071916ms)
+✔ a percent discount takes that share, rounded to cents (0.678833ms)
+✔ a fixed discount never takes more than the subtotal (0.071542ms)
+✖ installments with zero interest (0.454209ms)
+✔ installments with interest (0.492917ms)
+✔ installments validation (0.213041ms)
+✔ installments single month (0.076042ms)
+✖ installments with zero interest (1.239666ms)
+✖ installments with interest (0.154334ms)
+✔ installments validation (0.242209ms)
+✔ installments single month (0.070042ms)
+✔ an invoice adds tax on the subtotal and flat shipping (3.467458ms)
+✔ tax is on the subtotal after the discount (0.304333ms)
+✔ an empty cart cannot be invoiced (0.210709ms)
+✔ money keeps whole cents and its currency (0.786166ms)
+✔ add and subtract stay in one currency (0.11125ms)
+✔ multiply rounds halves away from zero (0.094541ms)
+✔ sum, compare and equals (0.09525ms)
+✔ format writes two decimals and the symbol (0.080375ms)
+✔ parse reads at most two decimals (0.147625ms)
+✔ one line per invoice, then the total, amounts without a symbol (1.204292ms)
+✔ an empty report is a zero total (0.067917ms)
+✔ mixed currencies are refused (0.195541ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.985417ms)
+✔ tax is on the subtotal after the discount (0.122125ms)
+✔ an empty cart cannot be invoiced (0.19925ms)
+✔ money keeps whole cents and its currency (0.787458ms)
+✔ add and subtract stay in one currency (0.105375ms)
+✔ multiply rounds halves away from zero (0.090666ms)
+✔ sum, compare and equals (0.097583ms)
+✔ format writes two decimals and the symbol (0.078917ms)
+✔ parse reads at most two decimals (3.42425ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.552959ms)
+✔ an empty report is a zero total (4.507625ms)
+✔ mixed currencies are refused (0.263875ms)
+✔ flat shipping by region (0.713375ms)
+✔ flat shipping by region (0.70825ms)
+✔ adding merges lines by SKU (0.730083ms)
+✔ carts are values (0.062625ms)
+✔ bad quantities and currencies are refused (0.176916ms)
+✔ sales tax by region, rounded to cents (0.657667ms)
+✔ a region with no rate is refused (0.168583ms)
+ℹ tests 27
+ℹ suites 0
+ℹ pass 26
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 389.391083
+
+✖ failing tests:
+
+test at test/installments.test.ts:7:1
+✖ installments with zero interest (0.454209ms)
+  RangeError [Error]: money: NaN is not a whole number of cents
+      at money (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44328-1792920623725764000-6/src/core/money.ts:18:43)
+      at installments (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44328-1792920623725764000-6/src/installments.ts:55:23)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44328-1792920623725764000-6/test/installments.test.ts:8:18)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17)
+✔ sales tax by region, rounded to cents (0.858917ms)
+✔ a region with no rate is refused (0.219083ms)
+✔ parseCatalog reads SKU,Name,price lines (3.032666ms)
+✔ parseCatalog prices in the catalog's currency (0.275ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.303084ms)
+✔ a percent discount takes that share, rounded to cents (3.789584ms)
+✔ a fixed discount never takes more than the subtotal (0.087042ms)
+ℹ tests 27
+ℹ suites 0
+✖ installments with zero interest (1.766875ms)
+ℹ pass 25
+✖ installments with interest (0.285708ms)
+ℹ fail 2
+✔ installments validation (0.491916ms)
+ℹ cancelled 0
+ℹ skipped 0
+✖ installments single month (0.159625ms)
+ℹ todo 0
+ℹ duration_ms 391.620875
+✔ an invoice adds tax on the subtotal and flat shipping (0.77ms)
+✔ tax is on the subtotal after the discount (0.112584ms)
+✔ an empty cart cannot be invoiced (0.252042ms)
+✔ money keeps whole cents and its currency (0.758083ms)
+✔ add and subtract stay in one currency (0.102458ms)
+✔ multiply rounds halves away from zero (0.092166ms)
+✔ sum, compare and equals (0.093167ms)
+✔ format writes two decimals and the symbol (0.079292ms)
+✔ parse reads at most two decimals (0.157542ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.720416ms)
+✔ an empty report is a zero total (0.094667ms)
+✔ mixed currencies are refused (0.231167ms)
+✔ flat shipping by region (0.687125ms)
+✔ sales tax by region, rounded to cents (0.619167ms)
+✔ a region with no rate is refused (0.162167ms)
+
+✖ failing tests:
+
+test at test/installments.test.ts:7:1
+✖ installments with zero interest (1.239666ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+  +   cents: 12000,
+  -   cents: 1000,
+      currency: 'USD'
+    }
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44328-1792920623727704000-8/test/installments.test.ts:14:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { cents: 12000, currency: 'USD' },
+    expected: { cents: 1000, currency: 'USD' },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at test/installments.test.ts:23:1
+✖ installments with interest (0.154334ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+  +   cents: 0,
+  -   cents: 10042,
+      currency: 'USD'
+    }
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44328-1792920623727704000-8/test/installments.test.ts:30:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { cents: 0, currency: 'USD' },
+    expected: { cents: 10042, currency: 'USD' },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+ℹ tests 27
+ℹ suites 0
+ℹ pass 24
+ℹ fail 3
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 391.619333
+
+✖ failing tests:
+
+test at test/installments.test.ts:7:1
+✖ installments with zero interest (1.766875ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  13 !== 12
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44328-1792920623726751000-7/test/installments.test.ts:9:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 13,
+    expected: 12,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/installments.test.ts:23:1
+✖ installments with interest (0.285708ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  13 !== 12
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44328-1792920623726751000-7/test/installments.test.ts:25:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 13,
+    expected: 12,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/installments.test.ts:57:1
+✖ installments single month (0.159625ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  2 !== 1
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44328-1792920623726751000-7/test/installments.test.ts:59:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 2,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

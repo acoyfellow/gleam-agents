@@ -1,0 +1,67 @@
+{
+ "plan": "smoke-1x",
+ "baseline": "swarm-desk Elixir native loop, hard-final.json (sonnet5-full 100%, haiku45-full 88% hidden pass on bench/hard)",
+ "seats": 4,
+ "graded": 4,
+ "passed": 0,
+ "visible_passed": 4,
+ "scope_denials": 0,
+ "usd": 0.2332,
+ "wall_ms": 39814,
+ "errors": [],
+ "per_seat": [
+  {
+   "seat": "s1-sonnet-catalog",
+   "shape": "sonnet5-native",
+   "goal": "catalog-search",
+   "outcome": "model_error",
+   "turns": 1,
+   "tests_run": 0,
+   "scope_denials": 0,
+   "usd": 0.0053,
+   "ms": 1868,
+   "visible_pass": true,
+   "graded_pass": false
+  },
+  {
+   "seat": "s2-haiku-catalog",
+   "shape": "haiku45-native",
+   "goal": "catalog-search",
+   "outcome": "done",
+   "turns": 11,
+   "tests_run": 3,
+   "scope_denials": 0,
+   "usd": 0.0927,
+   "ms": 34725,
+   "visible_pass": true,
+   "graded_pass": false
+  },
+  {
+   "seat": "s3-haiku-report",
+   "shape": "haiku45-native",
+   "goal": "report-currency-mix",
+   "outcome": "done",
+   "turns": 15,
+   "tests_run": 3,
+   "scope_denials": 0,
+   "usd": 0.13,
+   "ms": 39408,
+   "visible_pass": true,
+   "graded_pass": false
+  },
+  {
+   "seat": "s4-sonnet-kv",
+   "shape": "sonnet5-native",
+   "goal": "cf-build-bench/kv-crud",
+   "outcome": "model_error",
+   "turns": 1,
+   "tests_run": 0,
+   "scope_denials": 0,
+   "usd": 0.0052,
+   "ms": 1659,
+   "visible_pass": true,
+   "graded_pass": false
+  }
+ ],
+ "agrees_with_run_json": true
+}

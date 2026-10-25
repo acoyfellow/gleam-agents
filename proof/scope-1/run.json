@@ -1,0 +1,1 @@
+{"plan":"scope-probe","baseline":"scope must refuse writes outside writable","seats":1,"graded":1,"passed":1,"usd":0.0084,"wall_ms":5972,"errors":[]}

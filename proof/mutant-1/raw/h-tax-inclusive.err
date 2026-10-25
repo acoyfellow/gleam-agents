@@ -1,0 +1,266 @@
+✔ adding merges lines by SKU (0.898333ms)
+✔ carts are values (0.078333ms)
+✔ bad quantities and currencies are refused (0.199208ms)
+✔ parseCatalog reads SKU,Name,price lines (0.786125ms)
+✔ parseCatalog prices in the catalog's currency (0.069458ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.216625ms)
+✔ a percent discount takes that share, rounded to cents (0.971792ms)
+✔ a fixed discount never takes more than the subtotal (0.08475ms)
+✔ an invoice adds tax on the subtotal and flat shipping (1.287416ms)
+✔ tax is on the subtotal after the discount (0.112792ms)
+✔ an empty cart cannot be invoiced (0.157209ms)
+✔ money keeps whole cents and its currency (0.922125ms)
+✔ add and subtract stay in one currency (0.111791ms)
+✔ multiply rounds halves away from zero (0.095542ms)
+✔ sum, compare and equals (0.0935ms)
+✔ format writes two decimals and the symbol (0.08775ms)
+✔ parse reads at most two decimals (0.152792ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.703041ms)
+✔ an empty report is a zero total (0.071542ms)
+✔ mixed currencies are refused (0.280959ms)
+✔ flat shipping by region (0.719ms)
+✔ sales tax by region, rounded to cents (0.674708ms)
+✔ a region with no rate is refused (0.168459ms)
+✔ tax included in gross price (0.072667ms)
+✔ tax included: net plus tax equals gross (0.069ms)
+✔ tax included: zero rate gives zero (0.051417ms)
+✔ tax included: unknown region throws RangeError (0.045208ms)
+ℹ tests 27
+ℹ suites 0
+ℹ pass 27
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 134.650708
+✔ adding merges lines by SKU (0.70525ms)
+✔ carts are values (0.063958ms)
+✔ bad quantities and currencies are refused (0.178416ms)
+✔ parseCatalog reads SKU,Name,price lines (1.339459ms)
+✔ parseCatalog prices in the catalog's currency (0.105208ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.243625ms)
+✔ a percent discount takes that share, rounded to cents (0.66425ms)
+✔ a fixed discount never takes more than the subtotal (0.072542ms)
+✔ adding merges lines by SKU (0.72475ms)
+✔ carts are values (0.0645ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.77925ms)
+✔ tax is on the subtotal after the discount (0.106083ms)
+✔ an empty cart cannot be invoiced (0.669666ms)
+✔ money keeps whole cents and its currency (0.758625ms)
+✔ add and subtract stay in one currency (0.09725ms)
+✔ multiply rounds halves away from zero (0.082458ms)
+✔ sum, compare and equals (0.090625ms)
+✔ format writes two decimals and the symbol (0.0735ms)
+✔ parse reads at most two decimals (0.135417ms)
+✔ adding merges lines by SKU (0.706833ms)
+✔ bad quantities and currencies are refused (0.179166ms)
+✔ carts are values (0.067917ms)
+✔ bad quantities and currencies are refused (0.173459ms)
+✔ parseCatalog reads SKU,Name,price lines (0.807625ms)
+✔ parseCatalog prices in the catalog's currency (0.07025ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.218ms)
+✔ a percent discount takes that share, rounded to cents (0.635292ms)
+✔ a fixed discount never takes more than the subtotal (0.074667ms)
+✔ parseCatalog reads SKU,Name,price lines (0.807875ms)
+✔ parseCatalog prices in the catalog's currency (0.071083ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.489958ms)
+✖ an invoice adds tax on the subtotal and flat shipping (0.455417ms)
+✖ tax is on the subtotal after the discount (0.093625ms)
+✔ an empty cart cannot be invoiced (0.185417ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.52575ms)
+✔ an empty report is a zero total (0.492375ms)
+✔ mixed currencies are refused (0.207166ms)
+✔ a percent discount takes that share, rounded to cents (0.708541ms)
+✔ a fixed discount never takes more than the subtotal (0.076708ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.74425ms)
+✔ tax is on the subtotal after the discount (0.115875ms)
+✔ an empty cart cannot be invoiced (0.706ms)
+✔ money keeps whole cents and its currency (0.776708ms)
+✔ add and subtract stay in one currency (0.114125ms)
+✔ multiply rounds halves away from zero (0.093ms)
+✔ sum, compare and equals (0.095583ms)
+✔ format writes two decimals and the symbol (0.079791ms)
+✔ parse reads at most two decimals (0.143125ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.605125ms)
+✔ an empty report is a zero total (0.092584ms)
+✔ mixed currencies are refused (0.236584ms)
+✔ flat shipping by region (0.708667ms)
+✔ sales tax by region, rounded to cents (0.689459ms)
+✔ a region with no rate is refused (0.169458ms)
+✖ tax included in gross price (0.593042ms)
+✔ tax included: net plus tax equals gross (0.077625ms)
+✔ tax included: zero rate gives zero (0.051792ms)
+✔ tax included: unknown region throws RangeError (0.047958ms)
+ℹ tests 27
+ℹ suites 0
+ℹ pass 26
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 311.629625
+
+✖ failing tests:
+
+test at test/tax.test.ts:19:1
+✖ tax included in gross price (0.593042ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+  +   cents: 0,
+  -   cents: 725,
+      currency: 'USD'
+    }
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45603-1792920638620615000-1/test/tax.test.ts:20:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { cents: 0, currency: 'USD' },
+    expected: { cents: 725, currency: 'USD' },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+✔ money keeps whole cents and its currency (0.745875ms)
+✔ add and subtract stay in one currency (0.118542ms)
+✔ multiply rounds halves away from zero (0.091041ms)
+✔ sum, compare and equals (0.095542ms)
+✔ format writes two decimals and the symbol (0.086541ms)
+✔ parse reads at most two decimals (0.150666ms)
+✖ one line per invoice, then the total, amounts without a symbol (0.445167ms)
+✔ an empty report is a zero total (0.608834ms)
+✖ mixed currencies are refused (0.06575ms)
+✔ flat shipping by region (0.712125ms)
+✖ sales tax by region, rounded to cents (0.366375ms)
+✔ a region with no rate is refused (0.203167ms)
+✔ tax included in gross price (0.332875ms)
+✔ tax included: net plus tax equals gross (0.072583ms)
+✔ tax included: zero rate gives zero (0.049291ms)
+✔ tax included: unknown region throws RangeError (0.050792ms)
+ℹ tests 27
+ℹ suites 0
+ℹ pass 22
+ℹ fail 5
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 318.565334
+✔ flat shipping by region (0.712416ms)
+✔ sales tax by region, rounded to cents (0.716583ms)
+✔ a region with no rate is refused (0.177ms)
+✖ tax included in gross price (0.100125ms)
+✖ tax included: net plus tax equals gross (0.04925ms)
+✖ tax included: zero rate gives zero (0.054542ms)
+✔ tax included: unknown region throws RangeError (0.0545ms)
+ℹ tests 27
+ℹ suites 0
+ℹ pass 24
+ℹ fail 3
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 318.757625
+
+✖ failing tests:
+
+test at test/invoice.test.ts:11:1
+✖ an invoice adds tax on the subtotal and flat shipping (0.455417ms)
+  RangeError [Error]: tax: no rate for region CA
+      at taxFor (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45603-1792920638620603000-0/src/tax.ts:10:33)
+      at buildInvoice (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45603-1792920638620603000-0/src/invoice.ts:42:15)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45603-1792920638620603000-0/test/invoice.test.ts:12:15)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17)
+
+test at test/invoice.test.ts:21:1
+✖ tax is on the subtotal after the discount (0.093625ms)
+  RangeError [Error]: tax: no rate for region NY
+      at taxFor (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45603-1792920638620603000-0/src/tax.ts:10:33)
+      at buildInvoice (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45603-1792920638620603000-0/src/invoice.ts:42:15)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45603-1792920638620603000-0/test/invoice.test.ts:22:15)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3)
+
+test at test/report.test.ts:10:1
+✖ one line per invoice, then the total, amounts without a symbol (0.445167ms)
+  RangeError [Error]: tax: no rate for region OR
+      at taxFor (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45603-1792920638620603000-0/src/tax.ts:10:33)
+      at buildInvoice (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45603-1792920638620603000-0/src/invoice.ts:42:15)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45603-1792920638620603000-0/test/report.test.ts:11:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17)
+
+test at test/report.test.ts:20:1
+✖ mixed currencies are refused (0.06575ms)
+  RangeError [Error]: tax: no rate for region OR
+      at taxFor (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45603-1792920638620603000-0/src/tax.ts:10:33)
+      at buildInvoice (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45603-1792920638620603000-0/src/invoice.ts:42:15)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45603-1792920638620603000-0/test/report.test.ts:21:15)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/tax.test.ts:6:1
+✖ sales tax by region, rounded to cents (0.366375ms)
+  RangeError [Error]: tax: no rate for region CA
+      at taxFor (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45603-1792920638620603000-0/src/tax.ts:10:33)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45603-1792920638620603000-0/test/tax.test.ts:7:20)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17)
+
+✖ failing tests:
+
+test at test/tax.test.ts:19:1
+✖ tax included in gross price (0.100125ms)
+  RangeError [Error]: tax: no rate for region CA
+      at taxIncluded (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45603-1792920638620616000-2/src/tax.ts:17:33)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45603-1792920638620616000-2/test/tax.test.ts:20:20)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/tax.test.ts:24:1
+✖ tax included: net plus tax equals gross (0.04925ms)
+  RangeError [Error]: tax: no rate for region CA
+      at taxIncluded (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45603-1792920638620616000-2/src/tax.ts:17:33)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45603-1792920638620616000-2/test/tax.test.ts:26:15)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/tax.test.ts:31:1
+✖ tax included: zero rate gives zero (0.054542ms)
+  RangeError [Error]: tax: no rate for region OR
+      at taxIncluded (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45603-1792920638620616000-2/src/tax.ts:17:33)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/45603-1792920638620616000-2/test/tax.test.ts:32:20)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)

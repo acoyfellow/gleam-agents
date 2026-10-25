@@ -1,0 +1,12 @@
+{
+  "name": "gleam-agents",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "description": "Run N coding agents with their own goals, shapes and file scopes, graded by real benchmarks. Gleam on the BEAM. Includes a Pi extension that publishes eval reports.",
+  "license": "MIT",
+  "keywords": ["pi-package", "gleam", "evals", "agents"],
+  "repository": { "type": "git", "url": "git+https://github.com/acoyfellow/gleam-agents.git" },
+  "pi": { "extensions": ["./pi/index.ts"] },
+  "peerDependencies": { "@earendil-works/pi-coding-agent": "*", "typebox": "*" }
+}

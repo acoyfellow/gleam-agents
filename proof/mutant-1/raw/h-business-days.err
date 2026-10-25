@@ -1,0 +1,2603 @@
+✔ adding merges lines by SKU (0.760167ms)
+✔ carts are values (0.069125ms)
+✔ bad quantities and currencies are refused (0.196292ms)
+✔ parseCatalog reads SKU,Name,price lines (0.805167ms)
+✔ parseCatalog prices in the catalog's currency (0.0695ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.220041ms)
+✔ basic business day addition (1.345209ms)
+✔ zero days returns the date if it's a business day (0.073833ms)
+✔ zero days returns next business day if current is not a business day (0.056209ms)
+✔ negative days count backward (0.082417ms)
+✔ skip weekends correctly going forward (0.052834ms)
+✔ skip weekends correctly going backward (0.045042ms)
+✔ holidays are not business days (forward) (0.064166ms)
+✔ holidays are not business days (backward) (0.042375ms)
+✔ zero days with holidays (0.04775ms)
+✔ multiple holidays (0.081917ms)
+✔ rejects non-integer days (0.178542ms)
+✔ rejects invalid date format (0.063583ms)
+✔ rejects non-existent dates (0.05825ms)
+✔ handles leap years correctly (0.036084ms)
+✔ large positive day counts (0.225208ms)
+✔ large negative day counts (0.14775ms)
+✔ edge case: starting on Friday with 1 business day should go to Monday (0.037208ms)
+✔ edge case: starting on Monday with -1 business day should go to Friday (0.03375ms)
+✔ a percent discount takes that share, rounded to cents (1.736291ms)
+✔ a fixed discount never takes more than the subtotal (0.152958ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.838042ms)
+✔ tax is on the subtotal after the discount (0.10975ms)
+✔ an empty cart cannot be invoiced (0.735958ms)
+✔ money keeps whole cents and its currency (0.766542ms)
+✔ add and subtract stay in one currency (0.102292ms)
+✔ multiply rounds halves away from zero (0.087417ms)
+✔ sum, compare and equals (0.096ms)
+✔ format writes two decimals and the symbol (0.077875ms)
+✔ parse reads at most two decimals (0.159583ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.902208ms)
+✔ an empty report is a zero total (0.054333ms)
+✔ mixed currencies are refused (0.187916ms)
+✔ flat shipping by region (0.721042ms)
+✔ sales tax by region, rounded to cents (0.637584ms)
+✔ a region with no rate is refused (0.172083ms)
+ℹ tests 41
+ℹ suites 0
+ℹ pass 41
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 177.097042
+✔ adding merges lines by SKU (0.734541ms)
+✔ carts are values (0.074208ms)
+✔ bad quantities and currencies are refused (0.177041ms)
+✔ adding merges lines by SKU (0.78575ms)
+✔ carts are values (0.067458ms)
+✔ bad quantities and currencies are refused (0.177833ms)
+✔ parseCatalog reads SKU,Name,price lines (0.795708ms)
+✔ parseCatalog prices in the catalog's currency (0.072209ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.221ms)
+✖ basic business day addition (31.710792ms)
+✖ zero days returns the date if it's a business day (0.1475ms)
+✖ zero days returns next business day if current is not a business day (0.083167ms)
+✖ negative days count backward (0.082709ms)
+✖ skip weekends correctly going forward (0.068458ms)
+✖ skip weekends correctly going backward (0.062292ms)
+✖ holidays are not business days (forward) (7.336041ms)
+✖ holidays are not business days (backward) (0.232125ms)
+✖ zero days with holidays (1.925917ms)
+✖ multiple holidays (2.562833ms)
+✔ rejects non-integer days (0.247625ms)
+✔ rejects invalid date format (0.082334ms)
+✔ adding merges lines by SKU (1.721042ms)
+✔ rejects non-existent dates (0.057916ms)
+✔ carts are values (0.2125ms)
+✖ handles leap years correctly (0.0695ms)
+✔ large positive day counts (0.47975ms)
+✔ large negative day counts (0.467083ms)
+✖ edge case: starting on Friday with 1 business day should go to Monday (0.058125ms)
+✖ edge case: starting on Monday with -1 business day should go to Friday (0.049167ms)
+✔ bad quantities and currencies are refused (2.487458ms)
+✔ adding merges lines by SKU (0.72675ms)
+✔ carts are values (0.070584ms)
+✔ bad quantities and currencies are refused (0.18675ms)
+✔ adding merges lines by SKU (45.803292ms)
+✔ carts are values (0.105416ms)
+✔ bad quantities and currencies are refused (35.041125ms)
+✔ adding merges lines by SKU (0.745791ms)
+✔ carts are values (0.072375ms)
+✔ a percent discount takes that share, rounded to cents (0.655875ms)
+✔ a fixed discount never takes more than the subtotal (0.076958ms)
+✔ parseCatalog reads SKU,Name,price lines (0.795ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.753209ms)
+✔ parseCatalog prices in the catalog's currency (0.073416ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.228834ms)
+✔ tax is on the subtotal after the discount (0.107375ms)
+✔ an empty cart cannot be invoiced (0.159875ms)
+✔ money keeps whole cents and its currency (3.281334ms)
+✔ add and subtract stay in one currency (0.126042ms)
+✔ multiply rounds halves away from zero (0.092542ms)
+✔ sum, compare and equals (1.0875ms)
+✔ format writes two decimals and the symbol (0.109792ms)
+✔ parse reads at most two decimals (0.17325ms)
+✔ one line per invoice, then the total, amounts without a symbol (1.629375ms)
+✔ an empty report is a zero total (1.047292ms)
+✔ mixed currencies are refused (0.918791ms)
+✖ basic business day addition (9.583083ms)
+✔ zero days returns the date if it's a business day (0.250917ms)
+✖ zero days returns next business day if current is not a business day (0.240791ms)
+✖ negative days count backward (0.195625ms)
+✖ skip weekends correctly going forward (0.160375ms)
+✖ skip weekends correctly going backward (0.337459ms)
+✔ holidays are not business days (forward) (4.8715ms)
+✔ holidays are not business days (backward) (0.115625ms)
+✔ zero days with holidays (0.078708ms)
+✔ multiple holidays (0.100541ms)
+✔ rejects non-integer days (0.305334ms)
+✔ rejects invalid date format (0.08725ms)
+✔ rejects non-existent dates (0.063959ms)
+✔ handles leap years correctly (0.045792ms)
+✖ large positive day counts (5.015417ms)
+✖ large negative day counts (0.31175ms)
+✖ edge case: starting on Friday with 1 business day should go to Monday (0.086208ms)
+✖ edge case: starting on Monday with -1 business day should go to Friday (0.069041ms)
+✔ a percent discount takes that share, rounded to cents (0.658083ms)
+✔ a fixed discount never takes more than the subtotal (0.077125ms)
+✔ an invoice adds tax on the subtotal and flat shipping (4.932542ms)
+✔ tax is on the subtotal after the discount (0.13775ms)
+✔ an empty cart cannot be invoiced (0.171375ms)
+✔ parseCatalog reads SKU,Name,price lines (48.595041ms)
+✔ parseCatalog prices in the catalog's currency (0.150333ms)
+✔ parseCatalog reads SKU,Name,price lines (0.800375ms)
+✔ parseCatalog reads SKU,Name,price lines (0.827125ms)
+✔ parseCatalog prices in the catalog's currency (0.126167ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.261458ms)
+✔ basic business day addition (9.567625ms)
+✔ zero days returns the date if it's a business day (0.075042ms)
+✔ zero days returns next business day if current is not a business day (0.057084ms)
+✔ negative days count backward (0.078875ms)
+✔ skip weekends correctly going forward (0.053042ms)
+✔ skip weekends correctly going backward (0.048166ms)
+✖ holidays are not business days (forward) (1.775667ms)
+✖ holidays are not business days (backward) (0.141708ms)
+✖ zero days with holidays (0.091333ms)
+✖ multiple holidays (0.11175ms)
+✔ rejects non-integer days (0.193875ms)
+✔ rejects invalid date format (0.065125ms)
+✔ rejects non-existent dates (0.0545ms)
+✔ handles leap years correctly (0.046292ms)
+✔ large positive day counts (0.162834ms)
+✔ large negative day counts (0.123583ms)
+✔ edge case: starting on Friday with 1 business day should go to Monday (0.0445ms)
+✔ edge case: starting on Monday with -1 business day should go to Friday (0.034375ms)
+✔ a percent discount takes that share, rounded to cents (0.662916ms)
+✔ a fixed discount never takes more than the subtotal (0.080709ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.274875ms)
+✔ money keeps whole cents and its currency (0.800375ms)
+✔ add and subtract stay in one currency (0.107334ms)
+✔ multiply rounds halves away from zero (0.091208ms)
+✔ sum, compare and equals (0.090916ms)
+✔ format writes two decimals and the symbol (0.07825ms)
+✔ parse reads at most two decimals (0.1505ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.774958ms)
+✔ tax is on the subtotal after the discount (0.104375ms)
+✔ an empty cart cannot be invoiced (0.266084ms)
+✖ basic business day addition (5.851666ms)
+✖ zero days returns the date if it's a business day (0.15175ms)
+✖ zero days returns next business day if current is not a business day (0.054875ms)
+✖ negative days count backward (0.047667ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.594167ms)
+✖ skip weekends correctly going forward (0.043584ms)
+✔ an empty report is a zero total (0.620041ms)
+✔ mixed currencies are refused (0.197667ms)
+✖ skip weekends correctly going backward (0.038125ms)
+✖ holidays are not business days (forward) (0.040375ms)
+✖ holidays are not business days (backward) (0.036542ms)
+✖ zero days with holidays (0.048667ms)
+✖ multiple holidays (0.84025ms)
+✔ rejects non-integer days (0.310709ms)
+✔ rejects invalid date format (0.102458ms)
+✖ rejects non-existent dates (0.350375ms)
+✖ handles leap years correctly (0.04625ms)
+✖ large positive day counts (0.033708ms)
+✖ large negative day counts (0.029625ms)
+✖ edge case: starting on Friday with 1 business day should go to Monday (0.027333ms)
+✖ edge case: starting on Monday with -1 business day should go to Friday (0.030125ms)
+✔ a percent discount takes that share, rounded to cents (3.666459ms)
+✔ a fixed discount never takes more than the subtotal (0.181042ms)
+✔ parseCatalog prices in the catalog's currency (0.069ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.227958ms)
+✔ bad quantities and currencies are refused (0.182041ms)
+✔ flat shipping by region (0.739625ms)
+✔ money keeps whole cents and its currency (0.791792ms)
+✔ add and subtract stay in one currency (0.106291ms)
+✔ multiply rounds halves away from zero (0.089167ms)
+✔ sum, compare and equals (0.092375ms)
+✔ format writes two decimals and the symbol (0.074709ms)
+✔ parse reads at most two decimals (0.141042ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.572375ms)
+✔ an empty report is a zero total (0.617667ms)
+✔ mixed currencies are refused (0.203375ms)
+✔ flat shipping by region (1.087875ms)
+✔ an invoice adds tax on the subtotal and flat shipping (5.448417ms)
+✔ tax is on the subtotal after the discount (0.74475ms)
+✔ flat shipping by region (0.738708ms)
+✔ sales tax by region, rounded to cents (0.663584ms)
+✔ a region with no rate is refused (0.16825ms)
+✔ sales tax by region, rounded to cents (0.656041ms)
+✔ a region with no rate is refused (0.1715ms)
+ℹ tests 41
+ℹ suites 0
+ℹ pass 28
+ℹ fail 13
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 738.159833
+✔ an empty cart cannot be invoiced (0.219625ms)
+
+✖ failing tests:
+
+test at test/dates.test.ts:5:1
+✖ basic business day addition (31.710792ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-07'
+  - '2024-01-02'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549645000-4/test/dates.test.ts:7:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-07',
+    expected: '2024-01-02',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:12:1
+✖ zero days returns the date if it's a business day (0.1475ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-07'
+  - '2024-01-01'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549645000-4/test/dates.test.ts:14:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-07',
+    expected: '2024-01-01',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:19:1
+✖ zero days returns next business day if current is not a business day (0.083167ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-07'
+  - '2024-01-08'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549645000-4/test/dates.test.ts:21:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-07',
+    expected: '2024-01-08',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:26:1
+✖ negative days count backward (0.082709ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-07'
+  - '2024-01-05'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549645000-4/test/dates.test.ts:28:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-07',
+    expected: '2024-01-05',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:33:1
+✖ skip weekends correctly going forward (0.068458ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-07'
+  - '2024-01-08'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549645000-4/test/dates.test.ts:35:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-07',
+    expected: '2024-01-08',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:39:1
+✖ skip weekends correctly going backward (0.062292ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-07'
+  - '2024-01-05'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549645000-4/test/dates.test.ts:41:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-07',
+    expected: '2024-01-05',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:46:1
+✖ holidays are not business days (forward) (7.336041ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-07'
+  - '2024-01-03'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549645000-4/test/dates.test.ts:48:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-07',
+    expected: '2024-01-03',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:58:1
+✖ holidays are not business days (backward) (0.232125ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2023-12-31'
+  - '2024-01-03'
+        ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549645000-4/test/dates.test.ts:60:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2023-12-31',
+    expected: '2024-01-03',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:70:1
+✖ zero days with holidays (1.925917ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-07'
+  - '2024-01-03'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549645000-4/test/dates.test.ts:72:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-07',
+    expected: '2024-01-03',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:78:1
+✖ multiple holidays (2.562833ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-07'
+  - '2024-01-04'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549645000-4/test/dates.test.ts:80:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-07',
+    expected: '2024-01-04',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:104:1
+✖ handles leap years correctly (0.0695ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-03-03'
+  - '2024-03-01'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549645000-4/test/dates.test.ts:106:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-03-03',
+    expected: '2024-03-01',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:125:1
+✖ edge case: starting on Friday with 1 business day should go to Monday (0.058125ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-07'
+  - '2024-01-08'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549645000-4/test/dates.test.ts:127:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-07',
+    expected: '2024-01-08',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:130:1
+✖ edge case: starting on Monday with -1 business day should go to Friday (0.049167ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-07'
+  - '2024-01-05'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549645000-4/test/dates.test.ts:132:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-07',
+    expected: '2024-01-05',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+✔ sales tax by region, rounded to cents (0.641083ms)
+✔ a region with no rate is refused (3.209959ms)
+ℹ tests 41
+ℹ suites 0
+ℹ pass 32
+ℹ fail 9
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 717.721666
+✖ basic business day addition (39.205834ms)
+✖ zero days returns the date if it's a business day (0.1655ms)
+✖ zero days returns next business day if current is not a business day (0.084208ms)
+✖ negative days count backward (0.080416ms)
+✖ skip weekends correctly going forward (0.068ms)
+✖ skip weekends correctly going backward (0.062ms)
+
+✖ failing tests:
+
+test at test/dates.test.ts:5:1
+✖ basic business day addition (9.583083ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-06'
+  - '2024-01-08'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549648000-5/test/dates.test.ts:9:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-06',
+    expected: '2024-01-08',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:19:1
+✖ zero days returns next business day if current is not a business day (0.240791ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-06'
+  - '2024-01-08'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549648000-5/test/dates.test.ts:21:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-06',
+    expected: '2024-01-08',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:26:1
+✖ negative days count backward (0.195625ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-07'
+  - '2024-01-05'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549648000-5/test/dates.test.ts:28:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-07',
+    expected: '2024-01-05',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:33:1
+✖ skip weekends correctly going forward (0.160375ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-06'
+  - '2024-01-08'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549648000-5/test/dates.test.ts:35:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-06',
+    expected: '2024-01-08',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:39:1
+✖ skip weekends correctly going backward (0.337459ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-07'
+  - '2024-01-05'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549648000-5/test/dates.test.ts:41:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-07',
+    expected: '2024-01-05',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:111:1
+✖ large positive day counts (5.015417ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(result > "2024-05-01")
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549648000-5/test/dates.test.ts:115:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:118:1
+✖ large negative day counts (0.31175ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(result < "2024-09-01")
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549648000-5/test/dates.test.ts:122:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:125:1
+✖ edge case: starting on Friday with 1 business day should go to Monday (0.086208ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-06'
+  - '2024-01-08'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549648000-5/test/dates.test.ts:127:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-06',
+    expected: '2024-01-08',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:130:1
+✖ edge case: starting on Monday with -1 business day should go to Friday (0.069041ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-07'
+  - '2024-01-05'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549648000-5/test/dates.test.ts:132:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-07',
+    expected: '2024-01-05',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+✔ parseCatalog reads SKU,Name,price lines (0.837125ms)
+✔ parseCatalog prices in the catalog's currency (0.068917ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.218208ms)
+✖ holidays are not business days (forward) (0.717209ms)
+✖ holidays are not business days (backward) (0.077292ms)
+✖ zero days with holidays (0.075458ms)
+✖ multiple holidays (0.114417ms)
+✔ rejects non-integer days (0.232625ms)
+✔ rejects invalid date format (0.07875ms)
+✔ rejects non-existent dates (0.058209ms)
+ℹ tests 41
+ℹ suites 0
+ℹ pass 37
+ℹ fail 4
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 718.051833
+✖ handles leap years correctly (0.08825ms)
+✔ large positive day counts (1.098167ms)
+
+✖ failing tests:
+
+test at test/dates.test.ts:46:1
+✖ holidays are not business days (forward) (1.775667ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-02'
+  - '2024-01-03'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549645000-3/test/dates.test.ts:48:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-02',
+    expected: '2024-01-03',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:58:1
+✖ holidays are not business days (backward) (0.141708ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-02'
+  - '2024-01-01'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549645000-3/test/dates.test.ts:64:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-02',
+    expected: '2024-01-01',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:70:1
+✖ zero days with holidays (0.091333ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-02'
+  - '2024-01-03'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549645000-3/test/dates.test.ts:72:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-02',
+    expected: '2024-01-03',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:78:1
+✖ multiple holidays (0.11175ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-02'
+  - '2024-01-04'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549645000-3/test/dates.test.ts:80:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-02',
+    expected: '2024-01-04',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+✔ large negative day counts (0.475458ms)
+✔ money keeps whole cents and its currency (1.032416ms)
+✔ add and subtract stay in one currency (0.117375ms)
+✔ multiply rounds halves away from zero (0.093042ms)
+✔ sum, compare and equals (0.09625ms)
+✔ format writes two decimals and the symbol (0.077208ms)
+✔ parse reads at most two decimals (0.154625ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.613958ms)
+✔ an empty report is a zero total (0.623041ms)
+✔ mixed currencies are refused (0.199875ms)
+✔ flat shipping by region (0.871333ms)
+✔ sales tax by region, rounded to cents (0.655209ms)
+✖ edge case: starting on Friday with 1 business day should go to Monday (0.096208ms)
+✖ edge case: starting on Monday with -1 business day should go to Friday (0.061041ms)
+✔ a region with no rate is refused (0.160417ms)
+ℹ tests 41
+ℹ suites 0
+ℹ pass 25
+ℹ fail 16
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 747.47875
+
+✖ failing tests:
+
+test at test/dates.test.ts:5:1
+✖ basic business day addition (5.851666ms)
+  RangeError [Error]: date does not exist
+      at addBusinessDays (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549628000-2/src/dates.ts:34:11)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549628000-2/test/dates.test.ts:7:16)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17)
+
+test at test/dates.test.ts:12:1
+✖ zero days returns the date if it's a business day (0.15175ms)
+  RangeError [Error]: date does not exist
+      at addBusinessDays (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549628000-2/src/dates.ts:34:11)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549628000-2/test/dates.test.ts:14:16)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3)
+
+test at test/dates.test.ts:19:1
+✖ zero days returns next business day if current is not a business day (0.054875ms)
+  RangeError [Error]: date does not exist
+      at addBusinessDays (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549628000-2/src/dates.ts:34:11)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549628000-2/test/dates.test.ts:21:16)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/dates.test.ts:26:1
+✖ negative days count backward (0.047667ms)
+  RangeError [Error]: date does not exist
+      at addBusinessDays (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549628000-2/src/dates.ts:34:11)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549628000-2/test/dates.test.ts:28:16)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/dates.test.ts:33:1
+✖ skip weekends correctly going forward (0.043584ms)
+  RangeError [Error]: date does not exist
+      at addBusinessDays (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549628000-2/src/dates.ts:34:11)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549628000-2/test/dates.test.ts:35:16)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/dates.test.ts:39:1
+✖ skip weekends correctly going backward (0.038125ms)
+  RangeError [Error]: date does not exist
+      at addBusinessDays (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549628000-2/src/dates.ts:34:11)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549628000-2/test/dates.test.ts:41:16)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/dates.test.ts:46:1
+✖ holidays are not business days (forward) (0.040375ms)
+  RangeError [Error]: date does not exist
+      at addBusinessDays (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549628000-2/src/dates.ts:34:11)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549628000-2/test/dates.test.ts:49:5)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/dates.test.ts:58:1
+✖ holidays are not business days (backward) (0.036542ms)
+  RangeError [Error]: date does not exist
+      at addBusinessDays (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549628000-2/src/dates.ts:34:11)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549628000-2/test/dates.test.ts:61:5)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/dates.test.ts:70:1
+✖ zero days with holidays (0.048667ms)
+  RangeError [Error]: date does not exist
+      at addBusinessDays (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549628000-2/src/dates.ts:34:11)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549628000-2/test/dates.test.ts:73:5)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/dates.test.ts:78:1
+✖ multiple holidays (0.84025ms)
+  RangeError [Error]: date does not exist
+      at addBusinessDays (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549628000-2/src/dates.ts:34:11)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549628000-2/test/dates.test.ts:81:5)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/dates.test.ts:98:1
+✖ rejects non-existent dates (0.350375ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception (RangeError).
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549628000-2/test/dates.test.ts:99:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:104:1
+✖ handles leap years correctly (0.04625ms)
+  RangeError [Error]: date does not exist
+      at addBusinessDays (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549628000-2/src/dates.ts:34:11)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549628000-2/test/dates.test.ts:106:16)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/dates.test.ts:111:1
+✖ large positive day counts (0.033708ms)
+  RangeError [Error]: date does not exist
+      at addBusinessDays (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549628000-2/src/dates.ts:34:11)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549628000-2/test/dates.test.ts:113:18)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/dates.test.ts:118:1
+✖ large negative day counts (0.029625ms)
+  RangeError [Error]: date does not exist
+      at addBusinessDays (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549628000-2/src/dates.ts:34:11)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549628000-2/test/dates.test.ts:120:18)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/dates.test.ts:125:1
+✖ edge case: starting on Friday with 1 business day should go to Monday (0.027333ms)
+  RangeError [Error]: date does not exist
+      at addBusinessDays (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549628000-2/src/dates.ts:34:11)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549628000-2/test/dates.test.ts:127:16)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/dates.test.ts:130:1
+✖ edge case: starting on Monday with -1 business day should go to Friday (0.030125ms)
+  RangeError [Error]: date does not exist
+      at addBusinessDays (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549628000-2/src/dates.ts:34:11)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549628000-2/test/dates.test.ts:132:16)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+✖ basic business day addition (19.676042ms)
+✔ zero days returns the date if it's a business day (1.4795ms)
+✖ zero days returns next business day if current is not a business day (0.204625ms)
+✖ negative days count backward (0.108417ms)
+✖ skip weekends correctly going forward (0.147083ms)
+✖ skip weekends correctly going backward (0.105709ms)
+✔ holidays are not business days (forward) (0.630709ms)
+✔ holidays are not business days (backward) (0.063292ms)
+✔ zero days with holidays (0.064916ms)
+✔ multiple holidays (0.152208ms)
+✔ rejects non-integer days (0.252083ms)
+✔ rejects invalid date format (0.067375ms)
+✔ rejects non-existent dates (0.060833ms)
+✔ handles leap years correctly (0.039083ms)
+✖ large positive day counts (5.52775ms)
+✖ large negative day counts (0.287792ms)
+✖ edge case: starting on Friday with 1 business day should go to Monday (0.082375ms)
+✖ edge case: starting on Monday with -1 business day should go to Friday (0.067667ms)
+✔ a percent discount takes that share, rounded to cents (28.986875ms)
+✔ a fixed discount never takes more than the subtotal (0.091209ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.971917ms)
+✔ tax is on the subtotal after the discount (0.114625ms)
+✔ an empty cart cannot be invoiced (0.162708ms)
+✔ money keeps whole cents and its currency (1.54025ms)
+✔ add and subtract stay in one currency (0.115ms)
+✔ multiply rounds halves away from zero (0.089458ms)
+✔ sum, compare and equals (0.093333ms)
+✔ format writes two decimals and the symbol (0.07675ms)
+✔ parse reads at most two decimals (0.145083ms)
+✔ one line per invoice, then the total, amounts without a symbol (1.539625ms)
+✔ a percent discount takes that share, rounded to cents (1.43525ms)
+✔ a fixed discount never takes more than the subtotal (3.126959ms)
+✔ an empty report is a zero total (0.188667ms)
+✔ an invoice adds tax on the subtotal and flat shipping (1.349708ms)
+✔ tax is on the subtotal after the discount (0.129417ms)
+✔ an empty cart cannot be invoiced (1.311416ms)
+✔ money keeps whole cents and its currency (10.4325ms)
+✔ add and subtract stay in one currency (0.199667ms)
+✔ multiply rounds halves away from zero (0.119916ms)
+✔ sum, compare and equals (0.115833ms)
+✔ format writes two decimals and the symbol (0.096167ms)
+✔ parse reads at most two decimals (0.263625ms)
+✔ mixed currencies are refused (0.399541ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.560916ms)
+✔ an empty report is a zero total (0.647833ms)
+✔ mixed currencies are refused (0.265709ms)
+✔ flat shipping by region (0.72425ms)
+✔ sales tax by region, rounded to cents (0.644ms)
+✔ a region with no rate is refused (0.16425ms)
+ℹ tests 41
+ℹ suites 0
+ℹ pass 28
+ℹ fail 13
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 746.113375
+
+✖ failing tests:
+
+test at test/dates.test.ts:5:1
+✖ basic business day addition (39.205834ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-06'
+  - '2024-01-02'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549596000-0/test/dates.test.ts:7:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-06',
+    expected: '2024-01-02',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:12:1
+✖ zero days returns the date if it's a business day (0.1655ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-06'
+  - '2024-01-01'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549596000-0/test/dates.test.ts:14:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-06',
+    expected: '2024-01-01',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:19:1
+✖ zero days returns next business day if current is not a business day (0.084208ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-06'
+  - '2024-01-08'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549596000-0/test/dates.test.ts:21:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-06',
+    expected: '2024-01-08',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:26:1
+✖ negative days count backward (0.080416ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-06'
+  - '2024-01-05'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549596000-0/test/dates.test.ts:28:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-06',
+    expected: '2024-01-05',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:33:1
+✖ skip weekends correctly going forward (0.068ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-06'
+  - '2024-01-08'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549596000-0/test/dates.test.ts:35:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-06',
+    expected: '2024-01-08',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:39:1
+✖ skip weekends correctly going backward (0.062ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-06'
+  - '2024-01-05'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549596000-0/test/dates.test.ts:41:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-06',
+    expected: '2024-01-05',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:46:1
+✖ holidays are not business days (forward) (0.717209ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-06'
+  - '2024-01-03'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549596000-0/test/dates.test.ts:48:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-06',
+    expected: '2024-01-03',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:58:1
+✖ holidays are not business days (backward) (0.077292ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2023-12-30'
+  - '2024-01-03'
+        ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549596000-0/test/dates.test.ts:60:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2023-12-30',
+    expected: '2024-01-03',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:70:1
+✖ zero days with holidays (0.075458ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-06'
+  - '2024-01-03'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549596000-0/test/dates.test.ts:72:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-06',
+    expected: '2024-01-03',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:78:1
+✖ multiple holidays (0.114417ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-06'
+  - '2024-01-04'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549596000-0/test/dates.test.ts:80:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-06',
+    expected: '2024-01-04',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:104:1
+✖ handles leap years correctly (0.08825ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-03-02'
+  - '2024-03-01'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549596000-0/test/dates.test.ts:106:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-03-02',
+    expected: '2024-03-01',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:125:1
+✖ edge case: starting on Friday with 1 business day should go to Monday (0.096208ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-06'
+  - '2024-01-08'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549596000-0/test/dates.test.ts:127:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-06',
+    expected: '2024-01-08',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:130:1
+✖ edge case: starting on Monday with -1 business day should go to Friday (0.061041ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-06'
+  - '2024-01-05'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549596000-0/test/dates.test.ts:132:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-06',
+    expected: '2024-01-05',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+✔ flat shipping by region (0.742833ms)
+✔ sales tax by region, rounded to cents (0.700084ms)
+✔ a region with no rate is refused (0.171375ms)
+ℹ tests 41
+ℹ suites 0
+ℹ pass 32
+ℹ fail 9
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 736.85575
+
+✖ failing tests:
+
+test at test/dates.test.ts:5:1
+✖ basic business day addition (19.676042ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-06'
+  - '2024-01-08'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549609000-1/test/dates.test.ts:9:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-06',
+    expected: '2024-01-08',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:19:1
+✖ zero days returns next business day if current is not a business day (0.204625ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-06'
+  - '2024-01-08'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549609000-1/test/dates.test.ts:21:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-06',
+    expected: '2024-01-08',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:26:1
+✖ negative days count backward (0.108417ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-07'
+  - '2024-01-05'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549609000-1/test/dates.test.ts:28:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-07',
+    expected: '2024-01-05',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:33:1
+✖ skip weekends correctly going forward (0.147083ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-06'
+  - '2024-01-08'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549609000-1/test/dates.test.ts:35:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-06',
+    expected: '2024-01-08',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:39:1
+✖ skip weekends correctly going backward (0.105709ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-07'
+  - '2024-01-05'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549609000-1/test/dates.test.ts:41:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-07',
+    expected: '2024-01-05',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:111:1
+✖ large positive day counts (5.52775ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(result > "2024-05-01")
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549609000-1/test/dates.test.ts:115:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:118:1
+✖ large negative day counts (0.287792ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(result < "2024-09-01")
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549609000-1/test/dates.test.ts:122:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:125:1
+✖ edge case: starting on Friday with 1 business day should go to Monday (0.082375ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-06'
+  - '2024-01-08'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549609000-1/test/dates.test.ts:127:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-06',
+    expected: '2024-01-08',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:130:1
+✖ edge case: starting on Monday with -1 business day should go to Friday (0.067667ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-07'
+  - '2024-01-05'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920531549609000-1/test/dates.test.ts:132:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-07',
+    expected: '2024-01-05',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+✔ adding merges lines by SKU (0.769334ms)
+✔ carts are values (0.0715ms)
+✔ bad quantities and currencies are refused (0.180167ms)
+✔ parseCatalog reads SKU,Name,price lines (0.780083ms)
+✔ parseCatalog prices in the catalog's currency (0.117166ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (7.959458ms)
+✔ basic business day addition (5.213625ms)
+✔ zero days returns the date if it's a business day (0.096667ms)
+✔ zero days returns next business day if current is not a business day (0.112458ms)
+✔ negative days count backward (0.113291ms)
+✔ skip weekends correctly going forward (0.059584ms)
+✔ skip weekends correctly going backward (0.050125ms)
+✖ holidays are not business days (forward) (5.185083ms)
+✖ holidays are not business days (backward) (0.205625ms)
+✖ zero days with holidays (0.097625ms)
+✖ multiple holidays (0.110834ms)
+✔ rejects non-integer days (0.200791ms)
+✔ rejects invalid date format (0.06375ms)
+✔ rejects non-existent dates (0.0505ms)
+✔ handles leap years correctly (0.05ms)
+✔ large positive day counts (0.135334ms)
+✔ large negative day counts (0.114958ms)
+✔ edge case: starting on Friday with 1 business day should go to Monday (0.028792ms)
+✔ edge case: starting on Monday with -1 business day should go to Friday (0.0335ms)
+✔ adding merges lines by SKU (1.28025ms)
+✔ carts are values (0.086667ms)
+✔ bad quantities and currencies are refused (0.198792ms)
+✔ adding merges lines by SKU (1.339292ms)
+✔ carts are values (0.106041ms)
+✔ bad quantities and currencies are refused (0.207667ms)
+✔ adding merges lines by SKU (0.784208ms)
+✔ carts are values (0.070084ms)
+✔ bad quantities and currencies are refused (0.1775ms)
+✔ adding merges lines by SKU (0.785709ms)
+✔ carts are values (0.0715ms)
+✔ bad quantities and currencies are refused (0.177875ms)
+✔ parseCatalog reads SKU,Name,price lines (0.759417ms)
+✔ parseCatalog prices in the catalog's currency (0.068083ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.2125ms)
+✔ parseCatalog reads SKU,Name,price lines (0.787417ms)
+✔ parseCatalog prices in the catalog's currency (0.068041ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.229167ms)
+✔ basic business day addition (3.056333ms)
+✔ zero days returns the date if it's a business day (0.106292ms)
+✔ zero days returns next business day if current is not a business day (0.065583ms)
+✖ negative days count backward (0.512333ms)
+✔ skip weekends correctly going forward (0.080666ms)
+✖ skip weekends correctly going backward (0.098458ms)
+✔ holidays are not business days (forward) (0.82875ms)
+✖ holidays are not business days (backward) (0.164375ms)
+✔ zero days with holidays (0.082792ms)
+✔ multiple holidays (0.092916ms)
+✔ rejects non-integer days (0.201167ms)
+✔ rejects invalid date format (0.064542ms)
+✔ rejects non-existent dates (0.055ms)
+✔ handles leap years correctly (0.045ms)
+✔ large positive day counts (0.137ms)
+✔ large negative day counts (0.119875ms)
+✔ edge case: starting on Friday with 1 business day should go to Monday (0.03275ms)
+✖ edge case: starting on Monday with -1 business day should go to Friday (0.084916ms)
+✖ basic business day addition (4.076625ms)
+✔ zero days returns the date if it's a business day (0.320666ms)
+✔ zero days returns next business day if current is not a business day (56.406958ms)
+✔ negative days count backward (0.157958ms)
+✖ skip weekends correctly going forward (0.155541ms)
+✔ skip weekends correctly going backward (9.785042ms)
+✖ holidays are not business days (forward) (16.31925ms)
+✔ holidays are not business days (backward) (0.112834ms)
+✔ zero days with holidays (0.061791ms)
+✖ multiple holidays (0.145834ms)
+✔ rejects non-integer days (0.201917ms)
+✔ rejects invalid date format (0.065917ms)
+✔ rejects non-existent dates (0.052625ms)
+✔ adding merges lines by SKU (0.775167ms)
+✔ carts are values (0.069125ms)
+✔ bad quantities and currencies are refused (0.179375ms)
+✖ handles leap years correctly (0.068333ms)
+✔ large positive day counts (0.154541ms)
+✔ large negative day counts (0.116708ms)
+✖ edge case: starting on Friday with 1 business day should go to Monday (0.053875ms)
+✔ edge case: starting on Monday with -1 business day should go to Friday (0.037666ms)
+✔ parseCatalog reads SKU,Name,price lines (95.9005ms)
+✔ parseCatalog prices in the catalog's currency (0.104917ms)
+✔ parseCatalog reads SKU,Name,price lines (0.785292ms)
+✔ parseCatalog prices in the catalog's currency (0.07075ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.231333ms)
+✔ parseCatalog reads SKU,Name,price lines (0.782083ms)
+✔ parseCatalog prices in the catalog's currency (0.065625ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.581625ms)
+✔ basic business day addition (35.20875ms)
+✔ zero days returns the date if it's a business day (0.099917ms)
+✔ zero days returns next business day if current is not a business day (0.06525ms)
+✔ negative days count backward (0.084458ms)
+✔ skip weekends correctly going forward (0.053625ms)
+✔ skip weekends correctly going backward (1.235584ms)
+✔ holidays are not business days (forward) (0.114416ms)
+✔ holidays are not business days (backward) (0.063209ms)
+✔ zero days with holidays (0.062625ms)
+✔ multiple holidays (0.09075ms)
+✔ rejects non-integer days (0.194041ms)
+✔ rejects invalid date format (0.069375ms)
+✔ a percent discount takes that share, rounded to cents (0.711916ms)
+✔ rejects non-existent dates (0.064208ms)
+✔ handles leap years correctly (0.037542ms)
+✔ large positive day counts (0.149417ms)
+✔ a fixed discount never takes more than the subtotal (0.073584ms)
+✔ large negative day counts (0.126083ms)
+✔ edge case: starting on Friday with 1 business day should go to Monday (0.035333ms)
+✔ edge case: starting on Monday with -1 business day should go to Friday (0.031834ms)
+✔ a percent discount takes that share, rounded to cents (0.6605ms)
+✔ a fixed discount never takes more than the subtotal (0.074291ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.773708ms)
+✔ tax is on the subtotal after the discount (0.112417ms)
+✔ an empty cart cannot be invoiced (0.159541ms)
+✔ money keeps whole cents and its currency (0.80375ms)
+✔ add and subtract stay in one currency (0.109791ms)
+✔ multiply rounds halves away from zero (0.090583ms)
+✔ sum, compare and equals (0.10075ms)
+✔ format writes two decimals and the symbol (0.136375ms)
+✔ parse reads at most two decimals (0.51925ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.261208ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.565708ms)
+✔ an empty report is a zero total (15.360958ms)
+✔ mixed currencies are refused (0.278583ms)
+✔ flat shipping by region (0.771375ms)
+✔ sales tax by region, rounded to cents (0.646291ms)
+✔ a region with no rate is refused (0.169333ms)
+ℹ tests 41
+ℹ suites 0
+ℹ pass 41
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 726.473292
+✔ a percent discount takes that share, rounded to cents (1.826292ms)
+✔ a fixed discount never takes more than the subtotal (0.0995ms)
+✔ an invoice adds tax on the subtotal and flat shipping (2.035333ms)
+✔ tax is on the subtotal after the discount (0.168125ms)
+✔ an empty cart cannot be invoiced (0.186709ms)
+✔ money keeps whole cents and its currency (0.88725ms)
+✔ add and subtract stay in one currency (0.118375ms)
+✔ multiply rounds halves away from zero (0.096125ms)
+✔ sum, compare and equals (0.097ms)
+✖ basic business day addition (7.096292ms)
+✔ zero days returns the date if it's a business day (0.133542ms)
+✖ zero days returns next business day if current is not a business day (0.097708ms)
+✔ a percent discount takes that share, rounded to cents (2.726125ms)
+✖ negative days count backward (0.080167ms)
+✔ a fixed discount never takes more than the subtotal (0.190833ms)
+✖ skip weekends correctly going forward (0.074083ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.803458ms)
+✔ tax is on the subtotal after the discount (0.109ms)
+✖ skip weekends correctly going backward (0.068667ms)
+✔ an empty cart cannot be invoiced (0.159625ms)
+✖ holidays are not business days (forward) (0.643125ms)
+✖ holidays are not business days (backward) (0.069709ms)
+✖ zero days with holidays (0.08525ms)
+✔ format writes two decimals and the symbol (0.076709ms)
+✖ multiple holidays (0.105125ms)
+✔ money keeps whole cents and its currency (1.602333ms)
+✔ rejects non-integer days (0.198709ms)
+✔ parse reads at most two decimals (0.151833ms)
+✔ rejects invalid date format (0.0695ms)
+✔ rejects non-existent dates (0.057667ms)
+✖ handles leap years correctly (0.063708ms)
+✖ large positive day counts (1.786166ms)
+✖ large negative day counts (0.181084ms)
+✔ add and subtract stay in one currency (0.147084ms)
+✖ edge case: starting on Friday with 1 business day should go to Monday (0.071666ms)
+✔ multiply rounds halves away from zero (0.102333ms)
+✔ sum, compare and equals (0.104208ms)
+✔ format writes two decimals and the symbol (0.090125ms)
+✔ parse reads at most two decimals (0.1795ms)
+✔ one line per invoice, then the total, amounts without a symbol (1.680416ms)
+✔ an empty report is a zero total (0.108292ms)
+✔ mixed currencies are refused (0.449709ms)
+✔ flat shipping by region (0.781417ms)
+✔ sales tax by region, rounded to cents (0.973416ms)
+✔ a region with no rate is refused (0.231708ms)
+✖ edge case: starting on Monday with -1 business day should go to Friday (0.056333ms)
+✔ a percent discount takes that share, rounded to cents (0.639875ms)
+✔ a fixed discount never takes more than the subtotal (0.075708ms)
+✔ an invoice adds tax on the subtotal and flat shipping (7.796333ms)
+✔ tax is on the subtotal after the discount (0.188208ms)
+✔ an empty cart cannot be invoiced (0.191083ms)
+ℹ tests 41
+ℹ suites 0
+ℹ pass 37
+ℹ fail 4
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 730.1755
+
+✖ failing tests:
+
+test at test/dates.test.ts:26:1
+✖ negative days count backward (0.512333ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-04'
+  - '2024-01-05'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920532383181000-11/test/dates.test.ts:28:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-04',
+    expected: '2024-01-05',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:39:1
+✖ skip weekends correctly going backward (0.098458ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-04'
+  - '2024-01-05'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920532383181000-11/test/dates.test.ts:41:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-04',
+    expected: '2024-01-05',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:58:1
+✖ holidays are not business days (backward) (0.164375ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-01'
+  - '2024-01-03'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920532383181000-11/test/dates.test.ts:60:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-01',
+    expected: '2024-01-03',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:130:1
+✖ edge case: starting on Monday with -1 business day should go to Friday (0.084916ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-04'
+  - '2024-01-05'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920532383181000-11/test/dates.test.ts:132:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-04',
+    expected: '2024-01-05',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+✔ money keeps whole cents and its currency (0.770417ms)
+✔ add and subtract stay in one currency (0.108625ms)
+✔ multiply rounds halves away from zero (0.091958ms)
+✔ sum, compare and equals (0.092625ms)
+✔ format writes two decimals and the symbol (0.079542ms)
+✔ parse reads at most two decimals (0.159542ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.552625ms)
+✔ an empty report is a zero total (0.594916ms)
+✔ mixed currencies are refused (0.207792ms)
+✔ flat shipping by region (0.765959ms)
+✔ sales tax by region, rounded to cents (0.643875ms)
+✔ a region with no rate is refused (0.171292ms)
+ℹ tests 41
+ℹ suites 0
+ℹ pass 27
+ℹ fail 14
+✔ an invoice adds tax on the subtotal and flat shipping (8.031292ms)
+ℹ cancelled 0
+✔ tax is on the subtotal after the discount (0.134959ms)
+ℹ skipped 0
+ℹ todo 0
+✔ an empty cart cannot be invoiced (0.739875ms)
+ℹ duration_ms 737.488625
+✔ money keeps whole cents and its currency (0.815292ms)
+✔ add and subtract stay in one currency (0.108042ms)
+✔ multiply rounds halves away from zero (0.093541ms)
+✔ sum, compare and equals (0.103334ms)
+✔ format writes two decimals and the symbol (0.081541ms)
+✔ parse reads at most two decimals (0.141625ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.80825ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.563208ms)
+✔ an empty report is a zero total (0.943208ms)
+✔ an empty report is a zero total (1.160917ms)
+✔ mixed currencies are refused (5.883875ms)
+✔ mixed currencies are refused (0.253041ms)
+✔ flat shipping by region (157.401584ms)
+✔ flat shipping by region (0.770292ms)
+✔ sales tax by region, rounded to cents (0.699917ms)
+✔ a region with no rate is refused (0.279167ms)
+✔ sales tax by region, rounded to cents (0.658291ms)
+✔ a region with no rate is refused (0.179792ms)
+ℹ tests 41
+ℹ suites 0
+ℹ pass 35
+ℹ fail 6
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 730.229791
+ℹ tests 41
+ℹ suites 0
+ℹ pass 37
+ℹ fail 4
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 747.780333
+
+✖ failing tests:
+
+test at test/dates.test.ts:46:1
+✖ holidays are not business days (forward) (5.185083ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-02'
+  - '2024-01-03'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920532368463000-7/test/dates.test.ts:48:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-02',
+    expected: '2024-01-03',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:58:1
+✖ holidays are not business days (backward) (0.205625ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-02'
+  - '2024-01-01'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920532368463000-7/test/dates.test.ts:64:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-02',
+    expected: '2024-01-01',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:70:1
+✖ zero days with holidays (0.097625ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-02'
+  - '2024-01-03'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920532368463000-7/test/dates.test.ts:72:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-02',
+    expected: '2024-01-03',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:78:1
+✖ multiple holidays (0.110834ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-02'
+  - '2024-01-04'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920532368463000-7/test/dates.test.ts:80:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-02',
+    expected: '2024-01-04',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+✖ failing tests:
+
+test at test/dates.test.ts:5:1
+✖ basic business day addition (4.076625ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-03'
+  - '2024-01-02'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920532380400000-10/test/dates.test.ts:7:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-03',
+    expected: '2024-01-02',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:33:1
+✖ skip weekends correctly going forward (0.155541ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-09'
+  - '2024-01-08'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920532380400000-10/test/dates.test.ts:35:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-09',
+    expected: '2024-01-08',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:46:1
+✖ holidays are not business days (forward) (16.31925ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-04'
+  - '2024-01-03'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920532380400000-10/test/dates.test.ts:48:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-04',
+    expected: '2024-01-03',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:78:1
+✖ multiple holidays (0.145834ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-05'
+  - '2024-01-04'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920532380400000-10/test/dates.test.ts:80:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-05',
+    expected: '2024-01-04',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:104:1
+✖ handles leap years correctly (0.068333ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-03-04'
+  - '2024-03-01'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920532380400000-10/test/dates.test.ts:106:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-03-04',
+    expected: '2024-03-01',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:125:1
+✖ edge case: starting on Friday with 1 business day should go to Monday (0.053875ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-09'
+  - '2024-01-08'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920532380400000-10/test/dates.test.ts:127:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-09',
+    expected: '2024-01-08',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+✖ failing tests:
+
+test at test/dates.test.ts:5:1
+✖ basic business day addition (7.096292ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-01'
+  - '2024-01-02'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920532371702000-8/test/dates.test.ts:7:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-01',
+    expected: '2024-01-02',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:19:1
+✖ zero days returns next business day if current is not a business day (0.097708ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-06'
+  - '2024-01-08'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920532371702000-8/test/dates.test.ts:21:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-06',
+    expected: '2024-01-08',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:26:1
+✖ negative days count backward (0.080167ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-08'
+  - '2024-01-05'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920532371702000-8/test/dates.test.ts:28:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-08',
+    expected: '2024-01-05',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:33:1
+✖ skip weekends correctly going forward (0.074083ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-05'
+  - '2024-01-08'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920532371702000-8/test/dates.test.ts:35:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-05',
+    expected: '2024-01-08',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:39:1
+✖ skip weekends correctly going backward (0.068667ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-08'
+  - '2024-01-05'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920532371702000-8/test/dates.test.ts:41:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-08',
+    expected: '2024-01-05',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:46:1
+✖ holidays are not business days (forward) (0.643125ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-01'
+  - '2024-01-03'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920532371702000-8/test/dates.test.ts:48:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-01',
+    expected: '2024-01-03',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:58:1
+✖ holidays are not business days (backward) (0.069709ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-04'
+  - '2024-01-03'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920532371702000-8/test/dates.test.ts:60:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-04',
+    expected: '2024-01-03',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:70:1
+✖ zero days with holidays (0.08525ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-02'
+  - '2024-01-03'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920532371702000-8/test/dates.test.ts:72:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-02',
+    expected: '2024-01-03',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:78:1
+✖ multiple holidays (0.105125ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-01'
+  - '2024-01-04'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920532371702000-8/test/dates.test.ts:80:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-01',
+    expected: '2024-01-04',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:104:1
+✖ handles leap years correctly (0.063708ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-02-29'
+  - '2024-03-01'
+           ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920532371702000-8/test/dates.test.ts:106:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-02-29',
+    expected: '2024-03-01',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:111:1
+✖ large positive day counts (1.786166ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(result > "2024-05-01")
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920532371702000-8/test/dates.test.ts:115:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:118:1
+✖ large negative day counts (0.181084ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(result < "2024-09-01")
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920532371702000-8/test/dates.test.ts:122:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:125:1
+✖ edge case: starting on Friday with 1 business day should go to Monday (0.071666ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-05'
+  - '2024-01-08'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920532371702000-8/test/dates.test.ts:127:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-05',
+    expected: '2024-01-08',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/dates.test.ts:130:1
+✖ edge case: starting on Monday with -1 business day should go to Friday (0.056333ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + '2024-01-08'
+  - '2024-01-05'
+              ^
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/40109-1792920532371702000-8/test/dates.test.ts:132:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '2024-01-08',
+    expected: '2024-01-05',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

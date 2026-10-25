@@ -1,0 +1,16 @@
+{
+ "name": "mcp-in-shape-smoke",
+ "baseline": "none: capability probe. Pass = the word came from the MCP tool and the server logged the call",
+ "seats": [
+  {
+   "id": "mcp-word",
+   "shape": "haiku45-pi-mcp",
+   "goal": "mcp-word",
+   "prompt_file": "prompts/word.md",
+   "seed": "seed",
+   "writable": ["notes/"],
+   "test_command": "true",
+   "grade_command": "test \"$(tr -d '[:space:]' < notes/word.txt)\" = tangerine-41 && test -s ../mcp-word.pi/mcp-calls.jsonl"
+  }
+ ]
+}

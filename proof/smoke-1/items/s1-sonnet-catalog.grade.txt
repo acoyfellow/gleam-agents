@@ -1,0 +1,6 @@
+X
+
+Failed tests:
+
+✖ test/accept/catalog-search.test.ts (72.384ms)
+  'test failed'

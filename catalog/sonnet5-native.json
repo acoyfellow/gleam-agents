@@ -1,0 +1,20 @@
+{
+ "name": "sonnet5-native",
+ "harness": "native",
+ "model": "claude-sonnet-5",
+ "price_per_m": {
+  "in": 3,
+  "out": 15
+ },
+ "max_turns": 30,
+ "max_tokens": 16000,
+ "tools": [
+  "list_files",
+  "read_file",
+  "write_file",
+  "edit_file",
+  "grep",
+  "run_tests",
+  "done"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "name": "haiku45-native",
+ "harness": "native",
+ "model": "claude-haiku-4-5",
+ "price_per_m": {
+  "in": 1,
+  "out": 5
+ },
+ "max_turns": 30,
+ "max_tokens": 16000,
+ "tools": [
+  "list_files",
+  "read_file",
+  "write_file",
+  "edit_file",
+  "grep",
+  "run_tests",
+  "done"
+ ]
+}

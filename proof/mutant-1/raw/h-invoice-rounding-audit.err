@@ -1,0 +1,855 @@
+✔ adding merges lines by SKU (0.798041ms)
+✔ carts are values (0.06675ms)
+✔ bad quantities and currencies are refused (0.188333ms)
+✔ parseCatalog reads SKU,Name,price lines (0.756375ms)
+✔ parseCatalog prices in the catalog's currency (0.074666ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.241333ms)
+✔ a percent discount takes that share, rounded to cents (0.650417ms)
+✔ a fixed discount never takes more than the subtotal (0.074875ms)
+✔ an invoice adds tax on the subtotal and flat shipping (5.07725ms)
+✔ tax is on the subtotal after the discount (0.458125ms)
+✔ an empty cart cannot be invoiced (0.378042ms)
+✔ discountedLines contains line totals after their share of discount (0.096292ms)
+✔ discountedLines are allocated proportionally with remainder handling (0.110125ms)
+✔ discountedLines sum equals line totals minus discount (0.074875ms)
+✔ discountedLines with fixed discount (0.0855ms)
+✔ discountedLines with three lines (0.091333ms)
+✔ discountedLines with tied remainders go to earlier lines (0.546875ms)
+✔ money keeps whole cents and its currency (0.807625ms)
+✔ add and subtract stay in one currency (0.104541ms)
+✔ multiply rounds halves away from zero (0.09325ms)
+✔ sum, compare and equals (0.096ms)
+✔ format writes two decimals and the symbol (0.081542ms)
+✔ parse reads at most two decimals (0.159375ms)
+✔ one line per invoice, then the total, amounts without a symbol (2.262666ms)
+✔ an empty report is a zero total (0.086875ms)
+✔ mixed currencies are refused (0.502ms)
+✔ flat shipping by region (0.792083ms)
+✔ sales tax by region, rounded to cents (1.089208ms)
+✔ a region with no rate is refused (0.321458ms)
+ℹ tests 29
+ℹ suites 0
+ℹ pass 29
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 169.675084
+✔ adding merges lines by SKU (6.615834ms)
+✔ carts are values (0.119333ms)
+✔ bad quantities and currencies are refused (0.208125ms)
+✔ adding merges lines by SKU (2.025125ms)
+✔ carts are values (1.67725ms)
+✔ bad quantities and currencies are refused (0.321375ms)
+✔ parseCatalog reads SKU,Name,price lines (0.780333ms)
+✔ parseCatalog prices in the catalog's currency (0.064ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.209875ms)
+✔ a percent discount takes that share, rounded to cents (0.66625ms)
+✔ a fixed discount never takes more than the subtotal (0.071667ms)
+✔ adding merges lines by SKU (0.771ms)
+✔ carts are values (0.068542ms)
+✔ bad quantities and currencies are refused (0.180708ms)
+✔ adding merges lines by SKU (0.757042ms)
+✔ carts are values (0.067709ms)
+✔ bad quantities and currencies are refused (0.186167ms)
+✔ parseCatalog reads SKU,Name,price lines (0.785541ms)
+✔ parseCatalog prices in the catalog's currency (0.063917ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.223125ms)
+✔ an invoice adds tax on the subtotal and flat shipping (2.299625ms)
+✔ tax is on the subtotal after the discount (0.171375ms)
+✔ an empty cart cannot be invoiced (0.16725ms)
+✔ discountedLines contains line totals after their share of discount (0.070334ms)
+✖ discountedLines are allocated proportionally with remainder handling (0.602584ms)
+✔ discountedLines sum equals line totals minus discount (0.078167ms)
+✖ discountedLines with fixed discount (0.130291ms)
+✖ discountedLines with three lines (0.14ms)
+✔ discountedLines with tied remainders go to earlier lines (0.086666ms)
+✔ money keeps whole cents and its currency (0.762375ms)
+✔ add and subtract stay in one currency (0.104875ms)
+✔ multiply rounds halves away from zero (0.09125ms)
+✔ sum, compare and equals (0.093584ms)
+✔ format writes two decimals and the symbol (0.076875ms)
+✔ parse reads at most two decimals (0.156583ms)
+✔ a percent discount takes that share, rounded to cents (0.6805ms)
+✔ a fixed discount never takes more than the subtotal (0.0765ms)
+✔ adding merges lines by SKU (0.718833ms)
+✔ carts are values (0.071917ms)
+✔ one line per invoice, then the total, amounts without a symbol (1.482459ms)
+✔ an empty report is a zero total (0.170917ms)
+✔ mixed currencies are refused (0.247625ms)
+✔ adding merges lines by SKU (1.510334ms)
+✔ carts are values (0.162375ms)
+✔ parseCatalog reads SKU,Name,price lines (0.759083ms)
+✔ parseCatalog prices in the catalog's currency (0.065042ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.22625ms)
+✔ bad quantities and currencies are refused (0.655083ms)
+✔ a percent discount takes that share, rounded to cents (0.670708ms)
+✔ a fixed discount never takes more than the subtotal (0.075709ms)
+✔ an invoice adds tax on the subtotal and flat shipping (1.421458ms)
+✔ tax is on the subtotal after the discount (0.145125ms)
+✔ an empty cart cannot be invoiced (0.156833ms)
+✔ discountedLines contains line totals after their share of discount (0.067792ms)
+✔ discountedLines are allocated proportionally with remainder handling (0.09ms)
+✔ discountedLines sum equals line totals minus discount (0.07175ms)
+✔ discountedLines with fixed discount (0.073375ms)
+✔ discountedLines with three lines (0.095583ms)
+✔ discountedLines with tied remainders go to earlier lines (0.098541ms)
+✔ money keeps whole cents and its currency (30.947916ms)
+✔ add and subtract stay in one currency (0.306833ms)
+✔ multiply rounds halves away from zero (15.945666ms)
+✔ sum, compare and equals (6.500208ms)
+✔ format writes two decimals and the symbol (0.11225ms)
+✔ parse reads at most two decimals (0.164041ms)
+✔ one line per invoice, then the total, amounts without a symbol (1.1585ms)
+✔ an empty report is a zero total (0.065ms)
+✔ mixed currencies are refused (0.198834ms)
+✔ flat shipping by region (0.714792ms)
+✔ bad quantities and currencies are refused (0.191375ms)
+✔ parseCatalog reads SKU,Name,price lines (0.812416ms)
+✔ parseCatalog prices in the catalog's currency (0.06825ms)
+✔ parseCatalog reads SKU,Name,price lines (0.787584ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.23075ms)
+✔ parseCatalog prices in the catalog's currency (0.066041ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.225292ms)
+✔ a percent discount takes that share, rounded to cents (56.318583ms)
+✔ a fixed discount never takes more than the subtotal (11.168833ms)
+✔ an invoice adds tax on the subtotal and flat shipping (2.580667ms)
+✔ tax is on the subtotal after the discount (0.198792ms)
+✔ an empty cart cannot be invoiced (0.442667ms)
+✔ discountedLines contains line totals after their share of discount (0.194041ms)
+✖ discountedLines are allocated proportionally with remainder handling (1.344875ms)
+✖ discountedLines sum equals line totals minus discount (0.877167ms)
+✖ discountedLines with fixed discount (0.224334ms)
+✖ discountedLines with three lines (0.462ms)
+✖ discountedLines with tied remainders go to earlier lines (0.200666ms)
+✔ money keeps whole cents and its currency (0.817ms)
+✔ add and subtract stay in one currency (0.107584ms)
+✔ multiply rounds halves away from zero (0.088375ms)
+✔ sum, compare and equals (0.093667ms)
+✔ format writes two decimals and the symbol (0.084875ms)
+✔ parse reads at most two decimals (0.161084ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.584875ms)
+✔ an empty report is a zero total (38.402709ms)
+✔ mixed currencies are refused (0.266833ms)
+✔ flat shipping by region (0.733667ms)
+✔ sales tax by region, rounded to cents (0.638333ms)
+✔ a region with no rate is refused (0.174125ms)
+ℹ tests 29
+ℹ suites 0
+ℹ pass 24
+ℹ fail 5
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 638.231542
+✔ sales tax by region, rounded to cents (1.062375ms)
+✔ parseCatalog reads SKU,Name,price lines (0.800167ms)
+✔ parseCatalog prices in the catalog's currency (0.074834ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.210166ms)
+✔ a percent discount takes that share, rounded to cents (0.669ms)
+✔ a fixed discount never takes more than the subtotal (0.074209ms)
+✔ an invoice adds tax on the subtotal and flat shipping (1.33ms)
+✔ tax is on the subtotal after the discount (0.141333ms)
+✔ an empty cart cannot be invoiced (0.151583ms)
+✔ a percent discount takes that share, rounded to cents (0.706292ms)
+✔ a fixed discount never takes more than the subtotal (0.07775ms)
+
+✖ failing tests:
+
+test at test/invoice.test.ts:39:1
+✖ discountedLines are allocated proportionally with remainder handling (1.344875ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+  +   cents: 809,
+  -   cents: 810,
+      currency: 'USD'
+    }
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44499-1792920625170056000-5/test/invoice.test.ts:46:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { cents: 809, currency: 'USD' },
+    expected: { cents: 810, currency: 'USD' },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at test/invoice.test.ts:52:1
+✖ discountedLines sum equals line totals minus discount (0.877167ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  
+  3508 !== 3509
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44499-1792920625170056000-5/test/invoice.test.ts:56:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 3508,
+    expected: 3509,
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at test/invoice.test.ts:59:1
+✖ discountedLines with fixed discount (0.224334ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+  +   cents: 876,
+  -   cents: 877,
+      currency: 'USD'
+    }
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44499-1792920625170056000-5/test/invoice.test.ts:66:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { cents: 876, currency: 'USD' },
+    expected: { cents: 877, currency: 'USD' },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at test/invoice.test.ts:72:1
+✖ discountedLines with three lines (0.462ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+  +   cents: 764,
+  -   cents: 765,
+      currency: 'USD'
+    }
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44499-1792920625170056000-5/test/invoice.test.ts:85:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { cents: 764, currency: 'USD' },
+    expected: { cents: 765, currency: 'USD' },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at test/invoice.test.ts:92:1
+✖ discountedLines with tied remainders go to earlier lines (0.200666ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+  +   cents: 0,
+  -   cents: 1,
+      currency: 'USD'
+    }
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44499-1792920625170056000-5/test/invoice.test.ts:111:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { cents: 0, currency: 'USD' },
+    expected: { cents: 1, currency: 'USD' },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+✔ flat shipping by region (0.732709ms)
+✔ discountedLines contains line totals after their share of discount (0.060292ms)
+✔ sales tax by region, rounded to cents (0.702542ms)
+✖ an invoice adds tax on the subtotal and flat shipping (0.889792ms)
+✔ a region with no rate is refused (0.184041ms)
+✖ tax is on the subtotal after the discount (0.078ms)
+✖ an empty cart cannot be invoiced (0.405666ms)
+✖ discountedLines contains line totals after their share of discount (0.053208ms)
+✖ discountedLines are allocated proportionally with remainder handling (0.583416ms)
+✖ discountedLines are allocated proportionally with remainder handling (0.056917ms)
+✖ discountedLines sum equals line totals minus discount (0.044667ms)
+✖ discountedLines sum equals line totals minus discount (0.131875ms)
+✖ discountedLines with fixed discount (0.0485ms)
+✖ discountedLines with fixed discount (0.129542ms)
+✖ discountedLines with three lines (0.057458ms)
+ℹ tests 29
+✖ discountedLines with three lines (0.12875ms)
+✖ discountedLines with tied remainders go to earlier lines (0.12375ms)
+✖ discountedLines with tied remainders go to earlier lines (0.071125ms)
+✔ money keeps whole cents and its currency (0.774208ms)
+ℹ suites 0
+✔ add and subtract stay in one currency (0.107333ms)
+✔ money keeps whole cents and its currency (0.945375ms)
+ℹ pass 26
+✔ add and subtract stay in one currency (0.121667ms)
+ℹ fail 3
+✔ multiply rounds halves away from zero (0.100583ms)
+ℹ cancelled 0
+✔ sum, compare and equals (0.102459ms)
+ℹ skipped 0
+✔ format writes two decimals and the symbol (0.081459ms)
+ℹ todo 0
+✔ parse reads at most two decimals (0.199ms)
+✔ multiply rounds halves away from zero (0.084375ms)
+✔ sum, compare and equals (0.089916ms)
+ℹ duration_ms 645.973458
+✔ format writes two decimals and the symbol (0.091042ms)
+✔ parse reads at most two decimals (0.153667ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.607125ms)
+✔ an empty report is a zero total (0.607834ms)
+✔ mixed currencies are refused (0.198708ms)
+✔ flat shipping by region (0.713833ms)
+✔ sales tax by region, rounded to cents (0.641209ms)
+✔ a region with no rate is refused (0.169542ms)
+ℹ tests 29
+ℹ suites 0
+ℹ pass 24
+ℹ fail 5
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 641.954792
+✔ a region with no rate is refused (0.418875ms)
+
+✖ failing tests:
+
+test at test/invoice.test.ts:39:1
+✖ discountedLines are allocated proportionally with remainder handling (0.602584ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+  +   cents: 809,
+  -   cents: 810,
+      currency: 'USD'
+    }
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44499-1792920625170025000-0/test/invoice.test.ts:46:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { cents: 809, currency: 'USD' },
+    expected: { cents: 810, currency: 'USD' },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at test/invoice.test.ts:59:1
+✖ discountedLines with fixed discount (0.130291ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+  +   cents: 876,
+  -   cents: 877,
+      currency: 'USD'
+    }
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44499-1792920625170025000-0/test/invoice.test.ts:66:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { cents: 876, currency: 'USD' },
+    expected: { cents: 877, currency: 'USD' },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at test/invoice.test.ts:72:1
+✖ discountedLines with three lines (0.14ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+  +   cents: 764,
+  -   cents: 765,
+      currency: 'USD'
+    }
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44499-1792920625170025000-0/test/invoice.test.ts:85:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { cents: 764, currency: 'USD' },
+    expected: { cents: 765, currency: 'USD' },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+✖ failing tests:
+
+test at test/invoice.test.ts:39:1
+✖ discountedLines are allocated proportionally with remainder handling (0.583416ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+  +   cents: 809,
+  -   cents: 810,
+      currency: 'USD'
+    }
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44499-1792920625170056000-4/test/invoice.test.ts:46:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { cents: 809, currency: 'USD' },
+    expected: { cents: 810, currency: 'USD' },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at test/invoice.test.ts:52:1
+✖ discountedLines sum equals line totals minus discount (0.131875ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  
+  3508 !== 3509
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44499-1792920625170056000-4/test/invoice.test.ts:56:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 3508,
+    expected: 3509,
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at test/invoice.test.ts:59:1
+✖ discountedLines with fixed discount (0.129542ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+  +   cents: 876,
+  -   cents: 877,
+      currency: 'USD'
+    }
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44499-1792920625170056000-4/test/invoice.test.ts:66:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { cents: 876, currency: 'USD' },
+    expected: { cents: 877, currency: 'USD' },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at test/invoice.test.ts:72:1
+✖ discountedLines with three lines (0.12875ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+  +   cents: 764,
+  -   cents: 765,
+      currency: 'USD'
+    }
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44499-1792920625170056000-4/test/invoice.test.ts:85:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { cents: 764, currency: 'USD' },
+    expected: { cents: 765, currency: 'USD' },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at test/invoice.test.ts:92:1
+✖ discountedLines with tied remainders go to earlier lines (0.12375ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+  +   cents: 0,
+  -   cents: 1,
+      currency: 'USD'
+    }
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44499-1792920625170056000-4/test/invoice.test.ts:111:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { cents: 0, currency: 'USD' },
+    expected: { cents: 1, currency: 'USD' },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+✔ an invoice adds tax on the subtotal and flat shipping (1.388708ms)
+✔ tax is on the subtotal after the discount (0.107458ms)
+✔ an empty cart cannot be invoiced (0.162292ms)
+✔ discountedLines contains line totals after their share of discount (0.067458ms)
+✖ discountedLines are allocated proportionally with remainder handling (0.569292ms)
+✖ discountedLines sum equals line totals minus discount (0.1235ms)
+✖ discountedLines with fixed discount (0.1175ms)
+✖ one line per invoice, then the total, amounts without a symbol (0.437042ms)
+✖ discountedLines with three lines (0.123875ms)
+✔ an empty report is a zero total (0.537ms)
+✖ mixed currencies are refused (0.061375ms)
+✖ discountedLines with tied remainders go to earlier lines (0.124083ms)
+✔ flat shipping by region (0.724917ms)
+✔ sales tax by region, rounded to cents (0.647917ms)
+✔ a region with no rate is refused (0.16875ms)
+ℹ tests 29
+ℹ suites 0
+ℹ pass 18
+ℹ fail 11
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 653.159
+ℹ tests 29
+ℹ suites 0
+ℹ pass 29
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 653.26525
+
+✖ failing tests:
+
+test at test/invoice.test.ts:11:1
+✖ an invoice adds tax on the subtotal and flat shipping (0.889792ms)
+  RangeError [Error]: invoice INV-1: the cart is empty
+      at buildInvoice (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44499-1792920625170042000-2/src/invoice.ts:89:38)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44499-1792920625170042000-2/test/invoice.test.ts:12:15)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17)
+
+test at test/invoice.test.ts:21:1
+✖ tax is on the subtotal after the discount (0.078ms)
+  RangeError [Error]: invoice INV-2: the cart is empty
+      at buildInvoice (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44499-1792920625170042000-2/src/invoice.ts:89:38)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44499-1792920625170042000-2/test/invoice.test.ts:22:15)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3)
+
+test at test/invoice.test.ts:28:1
+✖ an empty cart cannot be invoiced (0.405666ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception (RangeError).
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44499-1792920625170042000-2/test/invoice.test.ts:29:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at test/invoice.test.ts:32:1
+✖ discountedLines contains line totals after their share of discount (0.053208ms)
+  RangeError [Error]: invoice INV-4: the cart is empty
+      at buildInvoice (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44499-1792920625170042000-2/src/invoice.ts:89:38)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44499-1792920625170042000-2/test/invoice.test.ts:33:15)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/invoice.test.ts:39:1
+✖ discountedLines are allocated proportionally with remainder handling (0.056917ms)
+  RangeError [Error]: invoice INV-5: the cart is empty
+      at buildInvoice (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44499-1792920625170042000-2/src/invoice.ts:89:38)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44499-1792920625170042000-2/test/invoice.test.ts:40:15)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/invoice.test.ts:52:1
+✖ discountedLines sum equals line totals minus discount (0.044667ms)
+  RangeError [Error]: invoice INV-6: the cart is empty
+      at buildInvoice (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44499-1792920625170042000-2/src/invoice.ts:89:38)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44499-1792920625170042000-2/test/invoice.test.ts:53:15)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/invoice.test.ts:59:1
+✖ discountedLines with fixed discount (0.0485ms)
+  RangeError [Error]: invoice INV-7: the cart is empty
+      at buildInvoice (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44499-1792920625170042000-2/src/invoice.ts:89:38)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44499-1792920625170042000-2/test/invoice.test.ts:60:15)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/invoice.test.ts:72:1
+✖ discountedLines with three lines (0.057458ms)
+  RangeError [Error]: invoice INV-8: the cart is empty
+      at buildInvoice (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44499-1792920625170042000-2/src/invoice.ts:89:38)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44499-1792920625170042000-2/test/invoice.test.ts:75:15)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/invoice.test.ts:92:1
+✖ discountedLines with tied remainders go to earlier lines (0.071125ms)
+  RangeError [Error]: invoice INV-9: the cart is empty
+      at buildInvoice (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44499-1792920625170042000-2/src/invoice.ts:89:38)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44499-1792920625170042000-2/test/invoice.test.ts:99:15)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at test/report.test.ts:10:1
+✖ one line per invoice, then the total, amounts without a symbol (0.437042ms)
+  RangeError [Error]: invoice INV-1: the cart is empty
+      at buildInvoice (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44499-1792920625170042000-2/src/invoice.ts:89:38)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44499-1792920625170042000-2/test/report.test.ts:11:13)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17)
+
+test at test/report.test.ts:20:1
+✖ mixed currencies are refused (0.061375ms)
+  RangeError [Error]: invoice INV-1: the cart is empty
+      at buildInvoice (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44499-1792920625170042000-2/src/invoice.ts:89:38)
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44499-1792920625170042000-2/test/report.test.ts:21:15)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+✔ money keeps whole cents and its currency (0.750458ms)
+✔ add and subtract stay in one currency (0.106ms)
+✔ multiply rounds halves away from zero (0.086667ms)
+✔ sum, compare and equals (0.091833ms)
+✔ format writes two decimals and the symbol (0.079375ms)
+✔ parse reads at most two decimals (0.142375ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.637125ms)
+✔ an empty report is a zero total (0.252291ms)
+✔ mixed currencies are refused (0.304ms)
+✔ flat shipping by region (0.689625ms)
+✔ sales tax by region, rounded to cents (12.378292ms)
+✔ a region with no rate is refused (13.313334ms)
+ℹ tests 29
+ℹ suites 0
+ℹ pass 24
+ℹ fail 5
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 648.176292
+
+✖ failing tests:
+
+test at test/invoice.test.ts:39:1
+✖ discountedLines are allocated proportionally with remainder handling (0.569292ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+  +   cents: 900,
+  -   cents: 810,
+      currency: 'USD'
+    }
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44499-1792920625170055000-3/test/invoice.test.ts:46:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { cents: 900, currency: 'USD' },
+    expected: { cents: 810, currency: 'USD' },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at test/invoice.test.ts:52:1
+✖ discountedLines sum equals line totals minus discount (0.1235ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  
+  3899 !== 3509
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44499-1792920625170055000-3/test/invoice.test.ts:56:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 3899,
+    expected: 3509,
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at test/invoice.test.ts:59:1
+✖ discountedLines with fixed discount (0.1175ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+  +   cents: 900,
+  -   cents: 877,
+      currency: 'USD'
+    }
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44499-1792920625170055000-3/test/invoice.test.ts:66:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { cents: 900, currency: 'USD' },
+    expected: { cents: 877, currency: 'USD' },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at test/invoice.test.ts:72:1
+✖ discountedLines with three lines (0.123875ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+  +   cents: 900,
+  -   cents: 765,
+      currency: 'USD'
+    }
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44499-1792920625170055000-3/test/invoice.test.ts:85:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { cents: 900, currency: 'USD' },
+    expected: { cents: 765, currency: 'USD' },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at test/invoice.test.ts:92:1
+✖ discountedLines with tied remainders go to earlier lines (0.124083ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+  +   cents: 1000,
+  -   cents: 950,
+      currency: 'USD'
+    }
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44499-1792920625170055000-3/test/invoice.test.ts:109:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { cents: 1000, currency: 'USD' },
+    expected: { cents: 950, currency: 'USD' },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

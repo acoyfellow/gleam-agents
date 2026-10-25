@@ -1,0 +1,281 @@
+✔ adding merges lines by SKU (0.741416ms)
+✔ carts are values (0.069041ms)
+✔ bad quantities and currencies are refused (0.179458ms)
+✔ parseCatalog reads SKU,Name,price lines (2.067958ms)
+✔ parseCatalog prices in the catalog's currency (0.086834ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.243291ms)
+✔ returning one line without discount or shipping (1.315625ms)
+✔ returning one line with discount but no shipping (0.105959ms)
+✔ returning all lines refunds the exact invoice total (0.071625ms)
+✔ returning all lines without discount refunds the exact invoice total (0.054291ms)
+✔ unknown sku throws RangeError naming it (0.179375ms)
+✔ a percent discount takes that share, rounded to cents (0.66725ms)
+✔ a fixed discount never takes more than the subtotal (0.071125ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.720041ms)
+✔ tax is on the subtotal after the discount (0.099958ms)
+✔ an empty cart cannot be invoiced (0.153625ms)
+✔ money keeps whole cents and its currency (0.759166ms)
+✔ add and subtract stay in one currency (0.0975ms)
+✔ multiply rounds halves away from zero (0.086042ms)
+✔ sum, compare and equals (0.093708ms)
+✔ format writes two decimals and the symbol (0.079916ms)
+✔ parse reads at most two decimals (0.151917ms)
+✔ one line per invoice, then the total, amounts without a symbol (1.059875ms)
+✔ an empty report is a zero total (0.058834ms)
+✔ mixed currencies are refused (0.207542ms)
+✔ flat shipping by region (0.674958ms)
+✔ sales tax by region, rounded to cents (0.620542ms)
+✔ a region with no rate is refused (0.162208ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 28
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 165.884584
+✔ adding merges lines by SKU (0.738583ms)
+✔ carts are values (0.064042ms)
+✔ bad quantities and currencies are refused (0.17425ms)
+✔ parseCatalog reads SKU,Name,price lines (0.750083ms)
+✔ parseCatalog prices in the catalog's currency (0.065875ms)
+✔ adding merges lines by SKU (0.761ms)
+✔ carts are values (0.066334ms)
+✔ bad quantities and currencies are refused (0.178917ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.2085ms)
+✔ parseCatalog reads SKU,Name,price lines (0.759458ms)
+✔ parseCatalog prices in the catalog's currency (0.065916ms)
+✔ parseCatalog refuses malformed lines and repeated SKUs (0.211ms)
+✖ returning one line without discount or shipping (1.628708ms)
+✖ returning one line with discount but no shipping (0.177333ms)
+✔ returning all lines refunds the exact invoice total (0.090333ms)
+✔ returning all lines without discount refunds the exact invoice total (0.059875ms)
+✖ unknown sku throws RangeError naming it (0.124625ms)
+✔ a percent discount takes that share, rounded to cents (0.636125ms)
+✔ a fixed discount never takes more than the subtotal (0.070875ms)
+✖ returning one line without discount or shipping (1.365125ms)
+✖ returning one line with discount but no shipping (0.179833ms)
+✖ returning all lines refunds the exact invoice total (0.129541ms)
+✖ returning all lines without discount refunds the exact invoice total (0.097084ms)
+✔ unknown sku throws RangeError naming it (0.210875ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.761916ms)
+✔ tax is on the subtotal after the discount (0.106416ms)
+✔ an empty cart cannot be invoiced (0.173458ms)
+✔ money keeps whole cents and its currency (0.767209ms)
+✔ add and subtract stay in one currency (1.223959ms)
+✔ multiply rounds halves away from zero (0.224542ms)
+✔ sum, compare and equals (0.139ms)
+✔ format writes two decimals and the symbol (0.103708ms)
+✔ parse reads at most two decimals (0.180208ms)
+✔ one line per invoice, then the total, amounts without a symbol (1.027125ms)
+✔ an empty report is a zero total (0.070708ms)
+✔ mixed currencies are refused (0.22475ms)
+✔ flat shipping by region (0.669583ms)
+✔ sales tax by region, rounded to cents (0.742291ms)
+✔ a region with no rate is refused (0.171792ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 25
+ℹ fail 3
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 242.506292
+
+✖ failing tests:
+
+test at test/credit.test.ts:12:1
+✖ returning one line without discount or shipping (1.628708ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+  +   cents: 2999,
+  -   cents: 900,
+      currency: 'USD'
+    }
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44455-1792920624527958000-0/test/credit.test.ts:21:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { cents: 2999, currency: 'USD' },
+    expected: { cents: 900, currency: 'USD' },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at test/credit.test.ts:24:1
+✖ returning one line with discount but no shipping (0.177333ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+  +   cents: 2895,
+  -   cents: 869,
+      currency: 'USD'
+    }
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44455-1792920624527958000-0/test/credit.test.ts:41:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { cents: 2895, currency: 'USD' },
+    expected: { cents: 869, currency: 'USD' },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at test/credit.test.ts:56:1
+✖ unknown sku throws RangeError naming it (0.124625ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44455-1792920624527958000-0/test/credit.test.ts:58:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+✔ a percent discount takes that share, rounded to cents (0.639792ms)
+✔ a fixed discount never takes more than the subtotal (0.07475ms)
+✔ an invoice adds tax on the subtotal and flat shipping (0.810542ms)
+✔ tax is on the subtotal after the discount (0.627ms)
+✔ an empty cart cannot be invoiced (0.161958ms)
+✔ money keeps whole cents and its currency (0.79325ms)
+✔ add and subtract stay in one currency (0.105958ms)
+✔ multiply rounds halves away from zero (0.089042ms)
+✔ sum, compare and equals (0.092667ms)
+✔ format writes two decimals and the symbol (0.074083ms)
+✔ parse reads at most two decimals (0.144542ms)
+✔ one line per invoice, then the total, amounts without a symbol (0.925125ms)
+✔ an empty report is a zero total (0.46ms)
+✔ mixed currencies are refused (0.215792ms)
+✔ flat shipping by region (0.711875ms)
+✔ sales tax by region, rounded to cents (0.64275ms)
+✔ a region with no rate is refused (0.163125ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 24
+ℹ fail 4
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 247.783334
+
+✖ failing tests:
+
+test at test/credit.test.ts:12:1
+✖ returning one line without discount or shipping (1.365125ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+  +   cents: 1499,
+  -   cents: 900,
+      currency: 'USD'
+    }
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44455-1792920624527961000-1/test/credit.test.ts:21:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { cents: 1499, currency: 'USD' },
+    expected: { cents: 900, currency: 'USD' },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at test/credit.test.ts:24:1
+✖ returning one line with discount but no shipping (0.179833ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+  +   cents: 1468,
+  -   cents: 869,
+      currency: 'USD'
+    }
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44455-1792920624527961000-1/test/credit.test.ts:41:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { cents: 1468, currency: 'USD' },
+    expected: { cents: 869, currency: 'USD' },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at test/credit.test.ts:44:1
+✖ returning all lines refunds the exact invoice total (0.129541ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+  +   cents: 3763,
+  -   cents: 4362,
+      currency: 'USD'
+    }
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44455-1792920624527961000-1/test/credit.test.ts:47:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { cents: 3763, currency: 'USD' },
+    expected: { cents: 4362, currency: 'USD' },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at test/credit.test.ts:50:1
+✖ returning all lines without discount refunds the exact invoice total (0.097084ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    {
+  +   cents: 4182,
+  -   cents: 4781,
+      currency: 'USD'
+    }
+  
+      at TestContext.<anonymous> (file:///private/var/folders/hb/wd2swkhx50s18xh_3fw0gprw0000gn/T/mutant-work/runner-materializations/44455-1792920624527961000-1/test/credit.test.ts:53:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { cents: 4182, currency: 'USD' },
+    expected: { cents: 4781, currency: 'USD' },
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }

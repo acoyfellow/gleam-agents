@@ -1,0 +1,33 @@
+{
+ "name": "haiku45-pi-mcp",
+ "harness": "pi",
+ "model": "claude-haiku-4-5",
+ "price_per_m": {
+  "in": 1,
+  "out": 5
+ },
+ "max_turns": 10,
+ "max_tokens": 8000,
+ "max_minutes": 5,
+ "tools": [
+  "read",
+  "write"
+ ],
+ "pi": {
+  "provider": "anthropic",
+  "extensions": []
+ },
+ "mcp": {
+  "fixture": {
+   "command": "node",
+   "args": [
+    "${FLEET_ROOT}/harness/mcp/fixture-server.mjs"
+   ],
+   "env": {
+    "FIXTURE_WORD": "tangerine-41",
+    "FIXTURE_LOG": "${FLEET_MCP_LOG}"
+   },
+   "exposure": "direct"
+  }
+ }
+}

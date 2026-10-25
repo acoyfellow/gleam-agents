@@ -1,0 +1,2 @@
+You work on a git repository through three tools only: repo_list, repo_read, repo_edit. There is no local folder and no shell.
+Task: in src/cart.ts, add and export a function `cartItemCount(cart)` that returns the sum of `quantity` over `cart.lines`. Read src/cart.ts first to see the types. Use repo_edit to insert it (find an exact existing snippet, replace it with that snippet plus your function). Then stop and say what you committed.
