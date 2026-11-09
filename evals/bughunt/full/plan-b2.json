@@ -1,0 +1,162 @@
+{
+  "name": "bughunt-full-b2",
+  "baseline": "gleam-agents fleet, opus-pi, checklist prompt",
+  "seats": [
+    {
+      "id": "rev-clankd-20",
+      "shape": "opus-pi",
+      "goal": "review-clankd-20",
+      "prompt_file": "../prompts/review.md",
+      "seed": "seeds/clankd-20",
+      "writable": [
+        "review.md"
+      ],
+      "test_command": "test -s review.md",
+      "grade_command": "test -s review.md"
+    },
+    {
+      "id": "rev-cloudflare-agent-126",
+      "shape": "opus-pi",
+      "goal": "review-cloudflare-agent-126",
+      "prompt_file": "../prompts/review.md",
+      "seed": "seeds/cloudflare-agent-126",
+      "writable": [
+        "review.md"
+      ],
+      "test_command": "test -s review.md",
+      "grade_command": "test -s review.md"
+    },
+    {
+      "id": "rev-cloudflare-agent-187",
+      "shape": "opus-pi",
+      "goal": "review-cloudflare-agent-187",
+      "prompt_file": "../prompts/review.md",
+      "seed": "seeds/cloudflare-agent-187",
+      "writable": [
+        "review.md"
+      ],
+      "test_command": "test -s review.md",
+      "grade_command": "test -s review.md"
+    },
+    {
+      "id": "rev-cloudflare-agent-272",
+      "shape": "opus-pi",
+      "goal": "review-cloudflare-agent-272",
+      "prompt_file": "../prompts/review.md",
+      "seed": "seeds/cloudflare-agent-272",
+      "writable": [
+        "review.md"
+      ],
+      "test_command": "test -s review.md",
+      "grade_command": "test -s review.md"
+    },
+    {
+      "id": "rev-cloudflare-agent-342",
+      "shape": "opus-pi",
+      "goal": "review-cloudflare-agent-342",
+      "prompt_file": "../prompts/review.md",
+      "seed": "seeds/cloudflare-agent-342",
+      "writable": [
+        "review.md"
+      ],
+      "test_command": "test -s review.md",
+      "grade_command": "test -s review.md"
+    },
+    {
+      "id": "rev-cloudflare-agent-409",
+      "shape": "opus-pi",
+      "goal": "review-cloudflare-agent-409",
+      "prompt_file": "../prompts/review.md",
+      "seed": "seeds/cloudflare-agent-409",
+      "writable": [
+        "review.md"
+      ],
+      "test_command": "test -s review.md",
+      "grade_command": "test -s review.md"
+    },
+    {
+      "id": "rev-cloudflare-agent-444",
+      "shape": "opus-pi",
+      "goal": "review-cloudflare-agent-444",
+      "prompt_file": "../prompts/review.md",
+      "seed": "seeds/cloudflare-agent-444",
+      "writable": [
+        "review.md"
+      ],
+      "test_command": "test -s review.md",
+      "grade_command": "test -s review.md"
+    },
+    {
+      "id": "rev-cloudflare-agent-466",
+      "shape": "opus-pi",
+      "goal": "review-cloudflare-agent-466",
+      "prompt_file": "../prompts/review.md",
+      "seed": "seeds/cloudflare-agent-466",
+      "writable": [
+        "review.md"
+      ],
+      "test_command": "test -s review.md",
+      "grade_command": "test -s review.md"
+    },
+    {
+      "id": "rev-cloudflare-agent-483",
+      "shape": "opus-pi",
+      "goal": "review-cloudflare-agent-483",
+      "prompt_file": "../prompts/review.md",
+      "seed": "seeds/cloudflare-agent-483",
+      "writable": [
+        "review.md"
+      ],
+      "test_command": "test -s review.md",
+      "grade_command": "test -s review.md"
+    },
+    {
+      "id": "rev-cloudflare-agent-544",
+      "shape": "opus-pi",
+      "goal": "review-cloudflare-agent-544",
+      "prompt_file": "../prompts/review.md",
+      "seed": "seeds/cloudflare-agent-544",
+      "writable": [
+        "review.md"
+      ],
+      "test_command": "test -s review.md",
+      "grade_command": "test -s review.md"
+    },
+    {
+      "id": "rev-cloudflare-agent-603",
+      "shape": "opus-pi",
+      "goal": "review-cloudflare-agent-603",
+      "prompt_file": "../prompts/review.md",
+      "seed": "seeds/cloudflare-agent-603",
+      "writable": [
+        "review.md"
+      ],
+      "test_command": "test -s review.md",
+      "grade_command": "test -s review.md"
+    },
+    {
+      "id": "rev-cloudflare-agent-714",
+      "shape": "opus-pi",
+      "goal": "review-cloudflare-agent-714",
+      "prompt_file": "../prompts/review.md",
+      "seed": "seeds/cloudflare-agent-714",
+      "writable": [
+        "review.md"
+      ],
+      "test_command": "test -s review.md",
+      "grade_command": "test -s review.md"
+    },
+    {
+      "id": "rev-cloudflare-agent-768",
+      "shape": "opus-pi",
+      "goal": "review-cloudflare-agent-768",
+      "prompt_file": "../prompts/review.md",
+      "seed": "seeds/cloudflare-agent-768",
+      "writable": [
+        "review.md"
+      ],
+      "test_command": "test -s review.md",
+      "grade_command": "test -s review.md"
+    }
+  ]
+}
