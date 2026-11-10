@@ -1,0 +1,42 @@
+{
+  "name": "bughunt-smoke-3",
+  "baseline": "gsa_claude posted reviews graded on same bugs: 0/5 ALARM on these 3 MRs",
+  "seats": [
+    {
+      "id": "rev-867",
+      "shape": "opus-pi",
+      "goal": "review-cloudflare-agent-867",
+      "prompt_file": "prompts/review.md",
+      "seed": "seeds/867",
+      "writable": [
+        "review.md"
+      ],
+      "test_command": "test -s review.md",
+      "grade_command": "python3 $FLEET_ROOT/evals/bughunt/grade_one.py cloudflare-agent-867"
+    },
+    {
+      "id": "rev-803",
+      "shape": "opus-pi",
+      "goal": "review-cloudflare-agent-803",
+      "prompt_file": "prompts/review.md",
+      "seed": "seeds/803",
+      "writable": [
+        "review.md"
+      ],
+      "test_command": "test -s review.md",
+      "grade_command": "python3 $FLEET_ROOT/evals/bughunt/grade_one.py cloudflare-agent-803"
+    },
+    {
+      "id": "rev-754",
+      "shape": "opus-pi",
+      "goal": "review-cloudflare-agent-754",
+      "prompt_file": "prompts/review.md",
+      "seed": "seeds/754",
+      "writable": [
+        "review.md"
+      ],
+      "test_command": "test -s review.md",
+      "grade_command": "python3 $FLEET_ROOT/evals/bughunt/grade_one.py cloudflare-agent-754"
+    }
+  ]
+}
