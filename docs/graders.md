@@ -13,7 +13,7 @@ mkdir -p test/accept && cp "$FLEET_ROOT"/bench/hard/accept/<task>.test.ts "$FLEE
 
 ## cf-build-bench gate
 
-[cf-build-bench](https://github.com/cloudflare/cf-build-bench) asks a model to build a Cloudflare Worker from an empty project. Its gate checks four things: it bundles, it typechecks, hidden tests pass in the Workers runtime, and it uses only allowed bindings. `fleet` hands the seat's `src/` to the gate:
+cf-build-bench asks a model to build a Cloudflare Worker from an empty project. Its gate checks four things: it bundles, it typechecks, hidden tests pass in the Workers runtime, and it uses only allowed bindings. `fleet` hands the seat's `src/` to the gate:
 
 ```sh
 cd "$CF_BUILD_BENCH" && npx tsx src/cli.ts gate --task kv-crud --candidate "$OLDPWD/src" --run-tests
