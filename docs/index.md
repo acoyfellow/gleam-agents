@@ -2,6 +2,10 @@
 
 Run N coding agents at once. Each agent has its own goal, its own shape (model, harness, tools, budget) and its own file scope. Real benchmarks grade the result. The core is Gleam on the BEAM: one process per agent, so a crash or a runaway loop stays in one place.
 
+## Case study: Bug Hunter
+
+[Bug Hunter](/bughunt) is a 111-bug benchmark for code reviewers. The fleet run scored 33 to 35 of 103 deduplicated bugs, more than double local gsa, at about one dollar per MR.
+
 ## The problem
 
 An eval of coding agents needs three things that most harnesses mix together:
